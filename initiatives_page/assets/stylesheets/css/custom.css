@@ -5,10 +5,11 @@
   border-width: thin;
   padding: 1rem;
   border-radius: 1rem;
-  /* aligns the image in center */
+  /* aligns the image and button in center */
   text-align: center;
 }
 
+/* keeps header text left-aligned */
 div.init-card h3 {
   text-align: left
 }
