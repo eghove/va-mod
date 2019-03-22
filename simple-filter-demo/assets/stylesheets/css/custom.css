@@ -1,0 +1,20 @@
+/* styling for the initiatives cards */
+.init-card {
+  border-style: solid;
+  border-color: gray;
+  border-width: thin;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* aligns the image and button in center */
+  text-align: center;
+}
+
+/* keeps header text left-aligned */
+div.init-card h3 {
+  text-align: left
+}
+
+/* keeps description text left-aligned */
+div.init-card p {
+  text-align: left
+}
