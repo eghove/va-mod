@@ -12,12 +12,9 @@ indivCardBuilder = (title, description, thumbnail, alt, link) => {
   cardImg.attr("alt", alt);
   let button = $('<a href=' + link + ' target="_blank" rel="noopener noreferrer"><button class="usa-button">Learn More</button></a>');
   // assemble the card
-  cardDiv.append(cardImg);
-  cardDiv.append(cardTitle);
-  cardDiv.append(cardDescription);
-  cardDiv.append(button);
+  let indivCard = cardDiv.append(cardImg, cardTitle, cardDescription, button);
   
-  $(".tester").append(cardDiv);
+  $(".tester").append(indivCard);
 }
 
 // funtion that builds the rows when given the number of rows to build
