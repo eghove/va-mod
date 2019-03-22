@@ -173,5 +173,5 @@ const cards = [
   }
 ]
 
-// export the data object
-export const cards;
+// export cards
+// module.exports = cards;
