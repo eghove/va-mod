@@ -28,7 +28,7 @@ indivRow = () => {
 // funtion that builds all of the rows when given the number of rows to build
 rowBuilder = (num_rows) => {
   if (num_rows > 0) {
-    for (let i = 1; i < num_rows + 1; i++) {
+    for (let i = 0; i < num_rows; i++) {
       // invoke the indivRow function for each pass through the loop
       let mainDiv = indivRow();
       mainDiv.attr("data-row", i);
@@ -48,14 +48,13 @@ indivCol = () => {
 colBuilder = () => {
     for (let i = 0; i < 3; i++) {
       let mainDiv = indivCol();
-      mainDiv.attr("data-col", i);
-      mainDiv.addClass("tester");
+      maindDiv = mainDiv.addClass("tester");
       $(".card-row").append(mainDiv);
     }
 }
 
 // function that builds the grid
-gridBuilder = (rows, cols) => {
+gridBuilder = (rows) => {
   rowBuilder(rows);
   colBuilder();
 }
@@ -64,28 +63,25 @@ gridBuilder = (rows, cols) => {
 cardDeckBuilder = (num_of_cards) => {
   // determine how many rows of three are needed
   let num_rows = Math.ceil(num_of_cards/3);
-  gridBuilder(num_rows, 3);
+  gridBuilder(num_rows);
   
   
 }
 
-
-
-
+populateCardHolder = () => {
+  cardHolder = [];
+  for (let i = 0; i < cards.length; i++) {
+    cardHolder.push(indivCardBuilder(cards[i].title, cards[i].description, cards[i].thumbnail.src, cards[i].thumbnail.alt_text, cards[i].link))
+  }
+}
 // MAIN PROCESSES
-// tester to insure load
-// console.log("card_builder.js loaded");
-// console.log(cards[0].description)
-
-// indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link);
-
-// rowBuilder(10);
-// colBuilder(3);
 
 cardDeckBuilder(17);
 indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link);
 
-cardHolder.push(indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link));
+populateCardHolder();
 
 console.log(cardHolder);
 $(".tester").append(cardHolder[0]);
+
+
