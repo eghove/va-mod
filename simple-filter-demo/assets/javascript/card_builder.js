@@ -40,11 +40,27 @@ colBuilder = (num_cols) => {
     for (let i = 1; i < num_cols + 1; i++) {
       let mainDiv = $('<div class="usa-width-one-third usa-media_block">');
       mainDiv.attr("id", i);
+      mainDiv.addClass("tester");
       $(".card-row").append(mainDiv);
     }
-
   }
 }
+
+// function that builds the grid
+gridBuilder = (rows, cols) => {
+  rowBuilder(rows);
+  colBuilder(cols);
+}
+
+// takes in the number of cards to build the deck
+cardDeckBuilder = (num_of_cards) => {
+  // determine how many rows of three are needed
+  let num_rows = Math.ceil(num_of_cards/3);
+  gridBuilder(num_rows, 3);
+  
+  
+}
+
 
 
 
@@ -55,6 +71,8 @@ colBuilder = (num_cols) => {
 
 // indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link);
 
-rowBuilder(10);
-colBuilder(3);
-// indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link);
+// rowBuilder(10);
+// colBuilder(3);
+
+cardDeckBuilder(17);
+indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link);
