@@ -48,63 +48,6 @@ indivCardBuilder = (title, description, thumbnail, alt, link) => {
   // $(".tester").append(indivCard);
 }
 
-// function that builds an individual row
-indivRow = () => {
-  let mainDiv = $('<div class="usa-grid usa-graphic_list-row">');
-  mainDiv = mainDiv.addClass("card-row");
-  return mainDiv;
-}
-
-// funtion that builds all of the rows when given the number of rows to build
-rowBuilder = (num_rows) => {
-  let divHolder;
-  if (num_rows > 0) {
-    for (let i = 0; i < num_rows; i++) {
-      // invoke the indivRow function for each pass through the loop
-      let mainDiv = indivRow();
-      mainDiv = mainDiv.attr("data-row", i);
-      divHolder += mainDiv
-      // return mainDiv;
-      // $("#card-section").append(mainDiv);
-
-    }
-    return divHolder;
-  }
-}
-
-// function that builds an individual colum
-indivCol = () => {
-  let mainDiv = $('<div class="usa-width-one-third usa-media_block">');
-  mainDiv = mainDiv.addClass("card-holder");
-  return mainDiv;
-}
-
-// function that builds the columns
-colBuilder = () => {
-  for (let i = 0; i < 3; i++) {
-    let mainDiv = indivCol();
-    mainDiv = mainDiv.attr("data-col", i);
-    $(".card-row").append(mainDiv);
-  }
-}
-
-// function that builds the grid
-gridBuilder = (rows) => {
-  let grid = $("#card-section");
-  let row = rowBuilder(rows);
-  let columns = colBuilder();
-  grid.append(row);
-}
-
-// takes in the number of cards to build the deck
-cardDeckBuilder = (num_of_cards) => {
-  // determine how many rows of three are needed
-  let num_rows = Math.ceil(num_of_cards / 3);
-  gridBuilder(num_rows);
-
-
-}
-
 populateCardHolder = () => {
   cardHolder = [];
   for (let i = 0; i < cards.length; i++) {
@@ -112,7 +55,7 @@ populateCardHolder = () => {
   }
 }
 // function that displays up to three cards per row when given the value of the card
-function displayRowOfCards (card1, card2, card3) {
+function rowOfCards (card1, card2, card3) {
   // Build a row
   let row =  $('<div class="usa-grid usa-graphic_list-row card-row">');
   
@@ -127,12 +70,21 @@ function displayRowOfCards (card1, card2, card3) {
   // if there's a value for card3, do this:
   if (card3) {
     row.append(indivCardBuilder(card3.title, card3.description, card3.thumbnail.src, card3.thumbnail.alt_text, card3.link),)
-  }
-  
+  };
   // append everything to card section
   $("#card-section").append(row);
-}
+};
 
+// function that loops through displayItems in chunks of three using an array
+function buildCardRows (array) {
+  // size of the chunk, in this case 3
+  let chunk = 3;
+  // loop through the array in chunks
+  for (let i = 0; i < array.length; i +=chunk) {
+    let tempArray = array.slice(i, i+chunk);
+    rowOfCards(tempArray[0], tempArray[1], tempArray[2])
+  }
+}
 // ============MAIN PROCESSES===================
 
 // testers
@@ -147,5 +99,5 @@ function displayRowOfCards (card1, card2, card3) {
 // tagSearch("Test 1");
 
 
-display(cards[0], cards[1], cards[2]);
-display(cards[3])
+tagSearch("Test 1");
+buildCardRows(displayItems);
