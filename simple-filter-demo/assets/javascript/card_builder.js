@@ -99,5 +99,5 @@ function buildCardRows (array) {
 // tagSearch("Test 1");
 
 
-tagSearch("Test 1");
+tagSearch("VA Leaders");
 buildCardRows(displayItems);

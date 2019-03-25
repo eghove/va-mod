@@ -18,3 +18,7 @@ div.init-card h3 {
 div.init-card p {
   text-align: left
 }
+
+.card-row {
+  margin-bottom: 5rem;
+}
