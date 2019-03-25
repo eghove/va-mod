@@ -7,3 +7,8 @@
 .card-row {
   margin-bottom: 5rem;
 }
+
+/* trying to insure enough spacing between the larger current episode text and the past episode start */
+#current-episode-div {
+  padding-bottom: 5rem;
+}
