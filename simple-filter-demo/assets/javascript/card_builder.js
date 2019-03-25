@@ -1,7 +1,11 @@
+// ============GLOBAL VARIABLES============
 let cardHolder = [];
 
 
-// FUNCTIONS
+// ============FUNCTIONS===================
+// ===LOGIC FUNCTIONS======================
+
+// ===DISPLAY FUNCTIONS====================
 // function that builds individual cards
 indivCardBuilder = (title, description, thumbnail, alt, link) => {
   // card pieces
@@ -81,7 +85,7 @@ populateCardHolder = () => {
     cardHolder.push(indivCardBuilder(cards[i].title, cards[i].description, cards[i].thumbnail.src, cards[i].thumbnail.alt_text, cards[i].link))
   }
 }
-// MAIN PROCESSES
+// ============MAIN PROCESSES===================
 
 cardDeckBuilder(17);
 indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link);
