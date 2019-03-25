@@ -1,15 +1,40 @@
 // ============GLOBAL VARIABLES============
+
+// display items holds
+let displayItems = [];
+
+// cardHolder holds the pieces of the display that will be rendered.
 let cardHolder = [];
 
 
 // ============FUNCTIONS===================
+
 // ===LOGIC FUNCTIONS======================
 
+// function the takes in a 'tag' parameter and returns a new array of initiatives featuring that tag
+function tagSearch(tag) {
+  // reset/clear out displayItems
+  displayItems = [];
+  let query = String(tag);
+  // loop through everything in card_object.js to find the requisite tags
+  // outerloop
+  for (let i = 0; i < cards.length; i++) {
+    // inner loop
+    for (let j = 0; j < cards[i].tags.length; j++) {
+      if (query === cards[i].tags[j]) {
+        displayItems.push(cards[i]);
+      }
+    }
+  }
+  // console.log(displayItems);
+}
+
 // ===DISPLAY FUNCTIONS====================
+
 // function that builds individual cards
 indivCardBuilder = (title, description, thumbnail, alt, link) => {
   // card pieces
-  
+
   let cardDiv = $('<div class="usa-media_block-body init-card">');
   let cardTitle = $("<h3>").text(title);
   let cardDescription = $("<p>").text(description);
@@ -39,7 +64,7 @@ rowBuilder = (num_rows) => {
       mainDiv = mainDiv.attr("data-row", i);
       // return mainDiv;
       // $("#card-section").append(mainDiv);
-      
+
     }
     return divHolder;
   }
@@ -54,12 +79,12 @@ indivCol = () => {
 
 // function that builds the columns
 colBuilder = () => {
-    for (let i = 0; i < 3; i++) {
-      let mainDiv = indivCol();
-      mainDiv = mainDiv.addClass("tester");
-      return mainDiv;
-      // $(".card-row").append(mainDiv);
-    }
+  for (let i = 0; i < 3; i++) {
+    let mainDiv = indivCol();
+    mainDiv = mainDiv.addClass("tester");
+    return mainDiv;
+    // $(".card-row").append(mainDiv);
+  }
 }
 
 // function that builds the grid
@@ -73,10 +98,10 @@ gridBuilder = (rows) => {
 // takes in the number of cards to build the deck
 cardDeckBuilder = (num_of_cards) => {
   // determine how many rows of three are needed
-  let num_rows = Math.ceil(num_of_cards/3);
+  let num_rows = Math.ceil(num_of_cards / 3);
   gridBuilder(num_rows);
-  
-  
+
+
 }
 
 populateCardHolder = () => {
@@ -87,6 +112,7 @@ populateCardHolder = () => {
 }
 // ============MAIN PROCESSES===================
 
+// testers
 cardDeckBuilder(17);
 indivCardBuilder(cards[0].title, cards[0].description, cards[0].thumbnail.src, cards[0].thumbnail.alt_text, cards[0].link);
 
@@ -94,5 +120,7 @@ populateCardHolder();
 
 console.log(cardHolder);
 $(".tester").append(cardHolder[0]);
+
+tagSearch("Test 1");
 
 

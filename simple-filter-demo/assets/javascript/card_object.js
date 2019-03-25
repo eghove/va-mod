@@ -22,7 +22,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["VA Leaders", "Test 1"]
   },
   // CARD
   {
@@ -33,7 +33,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["VA Leaders", "Test 1"]
   },
   // ROW 2
   // CARD
