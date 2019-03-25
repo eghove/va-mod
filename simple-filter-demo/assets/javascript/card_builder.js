@@ -27,13 +27,17 @@ indivRow = () => {
 
 // funtion that builds all of the rows when given the number of rows to build
 rowBuilder = (num_rows) => {
+  let divHolder;
   if (num_rows > 0) {
     for (let i = 0; i < num_rows; i++) {
       // invoke the indivRow function for each pass through the loop
       let mainDiv = indivRow();
-      mainDiv.attr("data-row", i);
-      $("#card-section").append(mainDiv);
+      mainDiv = mainDiv.attr("data-row", i);
+      // return mainDiv;
+      // $("#card-section").append(mainDiv);
+      
     }
+    return divHolder;
   }
 }
 
@@ -48,15 +52,18 @@ indivCol = () => {
 colBuilder = () => {
     for (let i = 0; i < 3; i++) {
       let mainDiv = indivCol();
-      maindDiv = mainDiv.addClass("tester");
-      $(".card-row").append(mainDiv);
+      mainDiv = mainDiv.addClass("tester");
+      return mainDiv;
+      // $(".card-row").append(mainDiv);
     }
 }
 
 // function that builds the grid
 gridBuilder = (rows) => {
-  rowBuilder(rows);
-  colBuilder();
+  let grid = $("#card-section");
+  let row = rowBuilder(rows);
+  let columns = colBuilder();
+  grid.append(row);
 }
 
 // takes in the number of cards to build the deck
