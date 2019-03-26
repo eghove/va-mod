@@ -19,6 +19,24 @@ div.init-card p {
   text-align: left
 }
 
+/* Spacing between rendered card rows */
 .card-row {
   margin-bottom: 5rem;
+}
+
+/* Stylying for the tag-button bar */
+.tag-buttons {
+  margin-top: 5rem;
+  background-color:  #0071bc;
+  display: inline-block;
+  border-radius: 1rem;
+  max-width: 75rem;
+  padding: 1rem;
+  
+  
+}
+
+.tag-button-container {
+  text-align: center;
+  
 }
