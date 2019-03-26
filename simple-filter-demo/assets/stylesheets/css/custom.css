@@ -1,0 +1,43 @@
+/* styling for the initiatives cards */
+.init-card {
+  border-style: solid;
+  border-color: gray;
+  border-width: thin;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* aligns the image and button in center */
+  text-align: center;
+}
+
+/* keeps header text left-aligned */
+div.init-card h3 {
+  text-align: left
+}
+
+/* keeps description text left-aligned */
+div.init-card p {
+  text-align: left
+}
+
+/* Spacing between rendered card rows */
+.card-row {
+  margin-bottom: 2rem;
+}
+
+/* Stylying for the tag-button bar */
+.tag-buttons {
+  
+  background-color:  #0071bc;
+  display: inline-block;
+  border-radius: 1rem;
+  max-width: 75rem;
+  padding: 1rem;
+  
+  
+}
+
+.tag-button-container {
+  text-align: center;
+  margin-top: 5rem;
+  
+}
