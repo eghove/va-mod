@@ -11,7 +11,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["Test 1"]
   },
   // CARD
   {
@@ -22,7 +22,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders", "Test 1"]
+    tags: ["Test 2", "Test 1"]
   },
   // CARD
   {
@@ -33,7 +33,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders", "Test 1"]
+    tags: ["Test 2", "Test 1"]
   },
   // ROW 2
   // CARD
@@ -45,7 +45,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: []
   },
   // CARD
   {
@@ -56,7 +56,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["Test 2"]
   },
   // CARD
   {
@@ -67,7 +67,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["Test 1"]
   },
   // ROW 3
   // CARD
@@ -79,7 +79,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["Test 1", "Test 2"]
   },
   // CARD
   {
@@ -90,7 +90,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: []
   },
   // CARD
   {
@@ -101,7 +101,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: []
   },
   // ROW 4
   // CARD
@@ -113,7 +113,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["Test 2"]
   },
   // CARD
   {
@@ -124,7 +124,7 @@ const cards = [
       alt_text: "Alt text for placeholder image."
     },
     link: "https://www.google.com",
-    tags: ["VA Leaders"]
+    tags: ["Test 1"]
   },
   // CARD
   {
