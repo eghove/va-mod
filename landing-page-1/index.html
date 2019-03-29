@@ -1,5 +1,5 @@
 <!-- PROJECT HISTORY:
-  -Template started by Eric H. on 03/20/2019
+  -Demo landing page started on 2019-03-29 by Eric H.
 -->
 
 <!DOCTYPE html>
@@ -8,7 +8,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>MOD Weekly</title>
+  <title>VA Modernization: Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- USDWS stylesheet link -->
   <link rel="stylesheet" href="assets/stylesheets/css/uswds.css">
@@ -20,7 +20,7 @@
 <body>
 
 
-
+  <!-- SKIP NAV -->
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
   <!-- The US Government Website Banner -->
@@ -61,266 +61,115 @@
       </div>
     </div>
   </section>
+  <!-- End US Government Website Banner -->
 
 
 
-
-  <header class="usa-header usa-header-extended" role="banner">
-    <div class="usa-navbar">
-      <div class="usa-logo" id="extended-logo">
-        <em class="usa-logo-text">
-          <a href="/" title="Home" aria-label="Home">
-            VA Modernization
-          </a>
-        </em>
-      </div>
-      <button class="usa-menu-btn">Menu</button>
-    </div>
-
-    <!-- Nav/Search Bar -->
-    <nav role="navigation" class="usa-nav">
-      <div class="usa-nav-inner">
-        <button class="usa-nav-close">
-          <img src="assets/img/close.svg" alt="close">
-        </button>
-        <div class="usa-nav-secondary">
-
-          <form class="usa-search usa-search-small  js-search-form">
-            <div role="search">
-              <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
-              <input id="extended-search-field-small" type="search" name="search">
-              <button type="submit">
-                <span class="usa-sr-only">Search</span>
-              </button>
-            </div>
-          </form>
-
-
-          <ul class="usa-unstyled-list usa-nav-secondary-links">
-
-            <li class="js-search-button-container">
-              <button class="usa-header-search-button js-search-button">Search</button>
-            </li>
-
-
-            <li>
-              <a href="">
-                About
-              </a>
-            </li>
-
-            <li>
-              <a href="">
-                Initiatives
-              </a>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </nav>
-  </header>
-  <div class="usa-overlay"></div>
-
-
-
-
-
-
-
-  <div class="usa-overlay"></div>
-
-
-
-  <!-- Aside -->
-  <main class="usa-grid usa-section usa-content usa-layout-docs" id="main-content">
-    <aside class="usa-width-one-fourth usa-layout-docs-sidenav sidebar">
-
-
-      <nav>
-        <ul class="usa-sidenav-list sidebar">
-
-
-          <li>
-            <a href="">
+  <!-- START OF HEADER, includes NAVBAR -->
+  <header class="usa-header usa-header-basic" role="banner">
+    <div class="usa-nav-container">
+      <div class="usa-navbar">
+        <div class="usa-logo" id="basic-logo">
+          <em class="usa-logo-text">
+            <a href="/" title="Home" aria-label="Home">
               VA Modernization
             </a>
+          </em>
+        </div>
+        <button class="usa-menu-btn">Menu</button>
+      </div>
 
-          </li>
+      <nav role="navigation" class="usa-nav">
 
+        <button class="usa-nav-close">
+          <img src="/assets/img/close.svg" alt="close">
+        </button>
+        <ul class="usa-nav-primary usa-accordion">
           <li>
-            <a href="" class="usa-current">
-              MOD Weekly
-            </a>
-
-            <ul class="usa-sidenav-sub_list">
-
-
+            <!-- "About Us" button -->
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false"
+              aria-controls="basic-nav-section-one">
+              <span>About Us</span>
+            </button>
+            <!-- "About Us" sub-menu -->
+            <ul id="basic-nav-section-one" class="usa-nav-submenu">
               <li>
-                <a href="#section-heading-current-episode">
-                  Current Episode
-                </a>
-
+                <a href="#">What We Do</a>
               </li>
-
               <li>
-                <a href="#section-heading-past-episodes">
-                  Past Episodes
-                </a>
+                <a href="#">Who We Are</a>
               </li>
-
-              <!-- <ul class="usa-sidenav-sub_list">
-
-
-                  <li>
-                    <a href="">
-                      Grandchild link
-                    </a>
-
-                  </li>
-
-                  <li>
-                    <a href="">
-                      Grandchild link
-                    </a>
-
-                  </li>
-
-                  <li>
-                    <a href="" class="usa-current">
-                      Grandchild link
-                    </a>
-
-                  </li>
-
-                  <li>
-                    <a href="">
-                      Grandchild link
-                    </a>
-
-                  </li>
-
-
-                </ul>
-
-              </li> -->
-
+              <li>
+                <a href="#">How You Can Help</a>
+              </li>
             </ul>
-
           </li>
-
           <li>
-            <a href="">
-              Initiatives
-            </a>
-
+            <!-- "Our Work" button -->
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false"
+              aria-controls="basic-nav-section-two">
+              <span>Our Work</span>
+            </button>
+            <!-- "Our Work" sub-menu -->
+            <ul id="basic-nav-section-two" class="usa-nav-submenu">
+              <li>
+                <a href="#">Customer Experience</a>
+              </li>
+              <li>
+                <a href="#">Business Innovation</a>
+              </li>
+              <li>
+                <a href="#">Collaboration</a>
+              </li>
+            </ul>
           </li>
-
-
+          <li>
+            <!-- "Our Partners" button -->
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false"
+              aria-controls="basic-nav-section-three">
+              <span>Our Partners</span>
+            </button>
+            <!-- "Our Partners" sub-menu -->
+            <ul id="basic-nav-section-three" class="usa-nav-submenu">
+              <li>
+                <a href="#">Elected Officials</a>
+              </li>
+              <li>
+                <a href="#">VSOs</a>
+              </li>
+              <li>
+                <a href="#">Corporate Leaders</a>
+              </li>
+              <li>
+                <a href="#">VA Leaders</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Link to Resources -->
+          <li>
+            <a class="usa-nav-link" href="javascript:void(0)">
+              <span>Resources</span>
+            </a>
+          </li>
         </ul>
       </nav>
-
-    </aside>
-
-    <div class="usa-width-three-fourths usa-layout-docs-main_content">
-      <h1>MOD Weekly</h1>
-
-      <p class="usa-font-lead">A brief video summarizing the week’s biggest news items related to Modernization or other
-        VA objectives.
-      </p>
-
-      <h2 id="section-heading-current-episode">Current Episode</h2>
-      <div >
-        <!-- 2019-03-22 Episode -->
-        <div class="usa-width-one-third">
-          <p id="current-episode-div">VA announces it’s on track to eliminate the hepatitis C virus in all Veterans willing and able to be
-            treated, VA providers will offer Veterans a newly-approved nasal spray for treatment-resistant depression,
-            and VA joins forces with DOD once again — this time to host a conference to address suicide in the military
-            and Veteran communities. Captions available in English and Spanish.
-          </p>
-        </div>
-        <div class="usa-width-two-thirds card-row">
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/O8bmBnEQxrg" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-      <br />
-      <br />
-
-
-
-      <h2 id="section-heading-past-episodes">Past Episodes</h2>
-
-      <!-- 2019-03-15 Episode -->
-      <div>
-        <div class="usa-width-one-fourth">
-          <iframe width="170" height="100" src="https://www.youtube.com/embed/ZOIZbm1cuGw" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
-        <div class="usa-width-three-fourths card-row">
-          <h4>March 15, 2019</h4>
-          <p>The president's budget request includes more funds for VA's support of Veterans; Secretary Wilkie comments
-            on the proposed budget; and VHA is going smoke-free this year. Note: We now offer Spanish language captions.
-          </p>
-        </div>
-
-      </div>
-
-
-      <!-- 2019-03-08 -->
-      <div>
-        <div class="usa-width-one-fourth">
-          <iframe width="170" height="100" src="https://www.youtube.com/embed/_ABIxrLgbrk" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
-        <div class="usa-width-three-fourths card-row">
-          <h4>March 8, 2019</h4>
-          <p>Secretary Wilkie responds to a presidential action supporting the transition of Veterans into the Merchant
-            Marine; by executive order, President Trump establishes the PREVENTS initiative; and 18 facilities are
-            selected to start a "high reliability" journey.
-          </p>
-        </div>
-
-      </div>
-
-
-      <!-- 2019-03-01 -->
-      <div>
-        <div class="usa-width-one-fourth">
-          <iframe width="170" height="100" src="https://www.youtube.com/embed/HHlDTScVB6E" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
-        <div class="usa-width-three-fourths card-row">
-          <h4>March 1, 2019</h4>
-          <p>Priority for Purple Heart recipients, Sec Wilkie on the Hill, and Congressional support for Modernization.
-          </p>
-        </div>
-      </div>
-
-      <!-- 2019-02-22 -->
-      <div>
-        <div class="usa-width-one-fourth">
-          <iframe width="170" height="100" src="https://www.youtube.com/embed/0KQHa4lOySU" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
-        <div class="usa-width-three-fourths card-row">
-          <h4>February 22, 2019</h4>
-          <p>MODWeekly is brought to you by the VA's Office of Modernization. That's the office charged with helping VA
-            transform into a modern, high-performing organization that simplifies operations and improves delivery of
-            services to Veterans.
-          </p>
-        </div>
-      </div>
-
     </div>
-  </main>
+  </header>
+  <!-- END OF HEADER, includes NAVBAR -->
 
-  <!-- FOOTER -->
+
+  <div class="usa-overlay"></div>
+  <div class="usa-overlay"></div>
+
+
+  <!-- START OF MAIN -->
+  <main id="main-content">
+
+  </main>
+  <!-- END OF MAIN -->
+
+
+  <!-- START OF FOOTER -->
   <footer class="usa-footer usa-footer-slim" role="contentinfo">
     <div class="usa-grid usa-footer-return-to-top">
       <a href="#main-content">Return to top</a>
@@ -367,6 +216,7 @@
       </div>
     </div>
   </footer>
+  <!-- START OF FOOTER -->
 
   <!-- USDWS JavaScript link -->
   <script src="assets/javascript/uswds.min.js"></script>
