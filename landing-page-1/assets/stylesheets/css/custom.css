@@ -1,19 +1,6 @@
-.sidebar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
 
-.card-row {
-  margin-bottom: 5rem;
-}
 
-/* trying to insure enough spacing between the larger current episode text and the past episode start */
-#current-episode-div {
-  padding-bottom: 5rem;
-}
-
-/* SOCIAL MEDIA STYLING */
+/* SOCIAL MEDIA HEADER STYLING */
 .social-media-header {
   float: right;
   margin-top: 1rem;
@@ -31,6 +18,47 @@
 }
 
 
-.usa-nav {
-  width: 80% !important
+/* OVERRIDING SETTINGS IN USWDS.CSS */
+@media screen and (min-width: 951px) {
+  /* makes sure the nav is big enough to float the social media icons right, but leave the menu unchanged at small screen-sizes */
+  .usa-nav {
+    width: 80% !important
+  }
+  
+  /* styling the submenu  */
+  .usa-nav-submenu {
+    background-color: steelblue !important;
+    opacity: .75 !important;
+  }
+
+  /* styling the navlink */
+  .usa-nav-submenu a:hover {
+    background-color: steelblue !important;
+  } 
+
+  /* styles the menu button when clicked */
+ .usa-nav-primary button[aria-expanded=true] {
+   background-color: steelblue !important;
+ }
+
+ /* the styling of the menu text when clicked */
+ .usa-nav-primary button[aria-expanded=true] span {
+  border-bottom: 0.4rem solid #ffffff !important;
+  padding-bottom: 0.6rem !important;
+  color: #ffffff !important;
 }
+
+ /* styles the text of the menu button when hovered over */
+ .usa-nav-primary button:hover {
+  color:  steelblue !important;
+}
+
+/* styles the span when it's hovered over */
+.usa-nav-primary button[aria-expanded=false] span:hover {
+  border-bottom: 0.4rem solid steelblue !important;
+  padding-bottom: 0.6rem !important;
+}
+
+  
+}
+
