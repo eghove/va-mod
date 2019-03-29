@@ -13,8 +13,19 @@
   display:inline-block
 }
 
+/* setting the size of the icons */
 .social-media-header li span {
   font-size: 18px;
+}
+
+/* coloring all of the icons */
+.social-media-header li span a i {
+  color: dimgray;
+}
+
+/* coloring all of the icons on hovr*/
+.social-media-header li span a i:hover {
+  color: steelblue
 }
 
 
@@ -53,11 +64,12 @@
   color:  steelblue !important;
 }
 
-/* styles the span when it's hovered over */
+/* styles the span when it is hovered over */
 .usa-nav-primary button[aria-expanded=false] span:hover {
   border-bottom: 0.4rem solid steelblue !important;
   padding-bottom: 0.6rem !important;
 }
+
 
   
 }
