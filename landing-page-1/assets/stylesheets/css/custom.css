@@ -12,3 +12,25 @@
 #current-episode-div {
   padding-bottom: 5rem;
 }
+
+/* SOCIAL MEDIA STYLING */
+.social-media-header {
+  float: right;
+  margin-top: 1rem;
+  list-style:none;
+}
+
+.social-media-header li {
+  margin:0 5px;
+  /* position:relative; */
+  display:inline-block
+}
+
+.social-media-header li span {
+  font-size: 18px;
+}
+
+
+.usa-nav {
+  width: 80% !important
+}
