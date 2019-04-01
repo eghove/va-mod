@@ -28,6 +28,55 @@
   color: steelblue
 }
 
+/* for the half cards */
+.half-card {
+  background-image: url("http://via.placeholder.com/250?text=image");
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+}
+
+.half-card h3 {
+  text-align: center;
+}
+
+.half-card p {
+  margin: 0rem 4rem;
+  text-align: justify
+}
+
+.half-card button {
+  margin-top: 5rem;
+}
+
+.third-card {
+  text-align: center;
+}
+
+.third-card img {
+  width: 100%
+}
+
+.third-card p {
+  text-align: justify;
+}
+
+.usa-section h2 {
+  text-align: center;
+}
+
+.partner-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.partner-card {
+  background-image: url("http://via.placeholder.com/250?text=image");
+  border: black solid 1px;
+  width: 100%;
+  height: 30vh;
+  text-align: center
+}
 
 /* OVERRIDING SETTINGS IN USWDS.CSS */
 @media screen and (min-width: 951px) {
@@ -70,7 +119,22 @@
   padding-bottom: 0.6rem !important;
 }
 
+/* Overriding the hero/jumbotron */
+.usa-hero {
+  padding-top: 10rem !important;
+  padding-bottom: 3rem;
+  /* margin-top: -5rem !important; */
+  background-image: url("http://via.placeholder.com/500x500?text=Jumbotron+takes+up+three+quarters+view");
+  background-position: center;
+  background-size: cover;
+  height: 66vh;
+}
 
+/* overriding usa-section */
+.usa-section {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important
+}
   
 }
 
