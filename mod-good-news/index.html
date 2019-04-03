@@ -41,6 +41,7 @@
       js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+  
 
 
   <div class="container">
@@ -86,7 +87,7 @@
       </div>
     </div>
 
-    <main id="content">
+    <main id="page_content">
       <div class="row">
         <div class="col-md-12">
           <div class="card" style="width: 100%">
@@ -94,14 +95,15 @@
             <div class="card-body">
               <h5 class="card-title">Graphic Title</h5>
               <p class="card-text">Graphic description</p>
+              <!-- Facebook share button code -->
+              <div class="fb-share-button" data-href="https://www.facebook.com"
+                data-layout="button_count">Test
+            </div>
               <!-- Twitter Share -->
               <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Test"
                 data-url="https://www.va.gov" data-show-count="false">Tweet</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <!-- Facebook share button code -->
-              <a class="fb-share-button" data-href="https://www.facebook.com"
-                data-layout="button_count">
-            </a>
+              
 
 
             </div>
@@ -111,6 +113,7 @@
 
     </main>
   </div>
+
 
 </body>
 
