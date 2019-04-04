@@ -7,7 +7,7 @@ const shareData = [
   // NEWER STUFF ON TOP
   // graphic object
   {
-    preview_image: `/assets/img/test.jpg`,
+    preview_image: "/va-mod/mod-good-news/assets/img/test.jpg",
     title_text: "The New VA.gov is STILL Working!",
     descpription_text: "FedScoop loves us!",
     faceBook_link: `${host}assets/img/test.jpg`,
@@ -16,7 +16,7 @@ const shareData = [
   },
 
   {
-    preview_image: `/assets/img/test.jpg`,
+    preview_image: "/va-mod/mod-good-news/assets/img/test.jpg",
     title_text: "The New VA.gov is Working!",
     descpription_text: "FedScoop STILL loves us!",
     faceBook_link: `${host}assets/img/test.jpg`,
