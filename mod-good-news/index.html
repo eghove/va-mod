@@ -2,25 +2,29 @@
 <html>
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>VA Modernization Good News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Reset.csss  -->
-  <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" href="assets/css/reset.css">
   <!-- Bootstrap 4.3.1 CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- custom CSS (when ready) -->
+  <link rel="stylesheet" href="assets/css/custom.css">
 
   <!-- jQuery 3.3.1 CDN -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+
   <!-- Popper JS CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
+
   <!-- Bootstrap JS CDN -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
@@ -28,20 +32,14 @@
 
   <!-- custom JS -->
   <script src="assets/js/main.js"></script>
+
+
+
 </head>
 
 <body>
 
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>(function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-  
+
 
 
   <div class="container">
@@ -87,34 +85,45 @@
       </div>
     </div>
 
-    <main id="page_content">
-      <div class="row">
+    <div id="page_content">
+      <div class="row  share-card">
         <div class="col-md-12">
           <div class="card" style="width: 100%">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
             <div class="card-body">
               <h5 class="card-title">Graphic Title</h5>
               <p class="card-text">Graphic description</p>
-              <!-- Facebook share button code -->
-              <div class="fb-share-button" data-href="https://www.facebook.com"
-                data-layout="button_count">Test
-            </div>
+              <!-- Facebook Share -->
+              <iframe
+                src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Feghove.github.io&layout=button&size=small&width=59&height=20&appId"
+                width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowTransparency="true" allow="encrypted-media">
+              </iframe>
               <!-- Twitter Share -->
               <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Test"
-                data-url="https://www.va.gov" data-show-count="false">Tweet</a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              
-
-
+                data-url="https://eghove.github.io" data-show-count="false">Tweet
+              </a>
+              <!-- LinkedIn Sharing -->
+              <script type="IN/Share" data-url="https://www.linkedin.com"></script>
             </div>
           </div>
         </div>
       </div>
 
-    </main>
+
+
+    </div>
+
   </div>
 
 
+
+
+  <!-- SOCIAL MEDIA JS -->
+  <!-- Twitter -->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <!-- LinkedIn -->
+  <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
 </body>
 
 </html>
