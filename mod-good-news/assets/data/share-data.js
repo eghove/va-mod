@@ -9,8 +9,8 @@ const shareData = [
   // graphic object 2
   {
     preview_image: "/va-mod/mod-good-news/assets/img/closeToTelehearingFBTI.png",
-    title_text: `The VA is close to piloting tele-hearing capability",
-    descpription_text: "Once the new tele-hearing system launches, Veterans will be able to enter a "virtual hearing room" from a computer at home.`,
+    title_text: "The VA is close to piloting tele-hearing capability",
+    descpription_text: `Once the new tele-hearing system launches, Veterans will be able to enter a "virtual hearing room" from a computer at home.`,
     faceBook_link: `${host}/va-mod/mod-good-news/assets/img/closeToTelehearingFBTI.png`,
     twitter_link: `${host}/va-mod/mod-good-news/assets/img/closeToTelehearingFBTI.png`,
     linkedIn_link: `${host}/va-mod/mod-good-news/assets/img/closeToTelehearingFBTI.png`,
