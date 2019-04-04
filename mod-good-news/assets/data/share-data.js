@@ -1,5 +1,5 @@
 // hosting site for images
-const host = "https://github.io/eghove/va-mod/mod-good-news/"
+const host = "https://eghove.github.io/va-mod/mod-good-news/"
 
 // the data object that will hold what VA MOD is sharing
 
