@@ -23,6 +23,7 @@ $(document).ready(function () {
     previewImg = previewImg.addClass("card-img-top");
     // add attributes to the image, including the link
     previewImg = previewImg.attr("src", prevImage);
+ 
 
     // build the card-body
     let cardBody = $("<div>");
@@ -58,7 +59,7 @@ $(document).ready(function () {
     });
 
     // build the twitter share
-    let twitterHelper = `<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="${titleText}"
+    let twitterHelper = `<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="${titleText} "
     data-url="${twitterLink}" data-show-count="false">Tweet
   </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> `
     let twitter = $(twitterHelper)
@@ -76,24 +77,25 @@ $(document).ready(function () {
     cardBody = cardBody.append(cardTitle, cardText, fbook, twitter, linkedIn);
 
     // append the preview image, card-body to the card
-    card = card.append(previewImg, cardBody);
+    card = card.append(previewImg, "<hr>", cardBody);
     // append the card to the column
     col = col.append(card);
     // append the colum to the row
     row = row.append(col);
 
     // append the row to the hook
-    hook.prepend(row);
+    hook.append(row);
 
 
 
   }
 
- buildShare(shareData[0].preview_image, shareData[0].title_text, shareData[0].descpription_text, shareData[0].faceBook_link, shareData[0].twitter_link, shareData[0].linkedIn_link);
+// loop through all elements in shareData
 
+for (let i=0; i < shareData.length; i++) {
+  buildShare(shareData[i].preview_image, shareData[i].title_text, shareData[i].descpription_text, shareData[i].faceBook_link, shareData[i].twitter_link, shareData[i].linkedIn_link);
 
-
-
-
+}
+ 
 });
 
