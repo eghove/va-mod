@@ -1,0 +1,25 @@
+
+.share-card {
+  margin-bottom: 5rem;
+}
+
+/* custom fix to make the LinkedIn Widget in-line with the rest, may be a better way to do this */
+.IN-widget {
+  float: left;
+  margin-right: 0.25rem !important;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-color: steelblue
+}
+
+.card {
+  padding: 2rem;
+}
