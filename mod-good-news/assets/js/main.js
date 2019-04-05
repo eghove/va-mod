@@ -1,4 +1,4 @@
-$(document).ready(function () {
+
   // console.log( shareData[0].preview_image );
 
   function buildShare(prevImage, titleText, descText, fbookLink, twitterLink, linkedInLink) {
@@ -107,7 +107,6 @@ $(document).ready(function () {
 for (let i=0; i < shareData.length; i++) {
   buildShare(shareData[i].preview_image, shareData[i].title_text, shareData[i].descpription_text, shareData[i].faceBook_link, shareData[i].twitter_link, shareData[i].linkedIn_link);
 
-}
- 
-});
+};
+
 
