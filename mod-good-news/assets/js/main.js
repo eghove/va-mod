@@ -61,14 +61,17 @@ $(document).ready(function () {
     
   
     // build the twitter share
-    let twitterHelper = `<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text=""
-    data-url="" data-show-count="false">Tweet
-  </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`;
+    let twitterHelper = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text=""'+
+    'data-url="" data-show-count="false">Tweet' + 
+ '</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';
+
+
+
     let twitter = $(twitterHelper);
 
 
     // build the linkedIn share
-    let linkedInHelper = `<script type="IN/Share" data-url=""></script>`;
+    let linkedInHelper = '<script type="IN/Share" data-url=""></script>';
     let linkedIn = $(linkedInHelper);
 
 
