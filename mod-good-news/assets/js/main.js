@@ -10,7 +10,7 @@
     // build the column
     let col = $("<div>");
     // add classes to the column
-    col = col.addClass("col-md-12");
+    col = col.addClass("col-md-10 offset-md-1");
 
     // build the card holder
     let card = $("<div>");
@@ -46,6 +46,8 @@
 
     // build the facebook share
     let fbook = $("<iframe>");
+    // give fbook a class
+    fbook = fbook.addClass("fbook");
     // set attributes for facebook share button
     fbook = fbook.attr({
       src: "https://www.facebook.com/plugins/share_button.php?href=" + fbookLink + "&layout=button&size=small&width=59&height=20&appId",
