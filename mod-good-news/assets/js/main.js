@@ -68,16 +68,19 @@ $(document).ready(function () {
 
 
     // build the linkedIn share
-    let linkedInHelper = `<script type="IN/Share" data-url="${linkedInLink}"></script>`;
+    let linkedInHelper = `<script type="IN/Share" data-url=""></script>`;
     let linkedIn = $(linkedInHelper);
 
 
     // ASSEMBLY
     var hook = $("#page-content");
 
-    // setting the twitter attributed here instead of inline with backticks
+    // setting the twitter attributes here instead of inline with backticks
     twitter = twitter.attr("data-text", titleText);
     twitter = twitter.attr("data-url", twitterLink)
+
+    // setting the linkedIn attributes here instead of inline with backticks
+    linkedIn = linkedIn.attr("data-url", linkedInLink)
 
     // append pieces of the card to the card body
     cardBody = cardBody.append(cardTitle, cardText, fbook, twitter, linkedIn);
