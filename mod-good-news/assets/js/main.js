@@ -58,20 +58,26 @@ $(document).ready(function () {
       allow: "encrypted-media"
     });
 
+    
+  
     // build the twitter share
-    let twitterHelper = `<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="${titleText} "
-    data-url="${twitterLink}" data-show-count="false">Tweet
-  </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
-    let twitter = $(twitterHelper)
+    let twitterHelper = `<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text=""
+    data-url="" data-show-count="false">Tweet
+  </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`;
+    let twitter = $(twitterHelper);
 
 
     // build the linkedIn share
-    let linkedInHelper = `<script type="IN/Share" data-url="${linkedInLink}"></script>`
-    let linkedIn = $(linkedInHelper)
+    let linkedInHelper = `<script type="IN/Share" data-url="${linkedInLink}"></script>`;
+    let linkedIn = $(linkedInHelper);
 
 
     // ASSEMBLY
     var hook = $("#page-content");
+
+    // setting the twitter attributed here instead of inline with backticks
+    twitter = twitter.attr("data-text", titleText);
+    twitter = twitter.attr("data-url", twitterLink)
 
     // append pieces of the card to the card body
     cardBody = cardBody.append(cardTitle, cardText, fbook, twitter, linkedIn);
