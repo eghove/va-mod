@@ -1,7 +1,5 @@
 # 2019-04-08 FEZ REPORT
 
-## Contents
-
 
 ## Videos
 
