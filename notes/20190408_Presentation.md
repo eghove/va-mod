@@ -1,4 +1,4 @@
-# 2019-04-08 FEZ REPORT
+# Modernization Website Products Preview
 
 ## Contents
 1. [Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#videos)
@@ -73,3 +73,14 @@ This video unavailable?
 
 ![VA.gov](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/test.jpg "VA.gov")
 <hr><br><br>
+
+![VAlor](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VAlor.png "VAlor story")
+<hr><br><br>
+
+![GI Bill](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-GIBill.HL.png "GI Bill Home Loans")
+<hr><br><br>
+
+![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line")
+<hr><br><br>
+
+
