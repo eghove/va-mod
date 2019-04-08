@@ -36,6 +36,13 @@
 
 [![What is VA Modernization? ](http://img.youtube.com/vi/iPFEr6sWgmY/0.jpg)](https://www.youtube.com/watch?v=iPFEr6sWgmY&?rel=0&amp;showinfo=0)
 
+#### TVHS Germ-Zapping Robots (revised for Mod)
+
+[![TVHS Germ-Zapping Robots](http://img.youtube.com/vi/756pMw181ZI/0.jpg)](https://www.youtube.com/watch?v=756pMw181ZI&?rel=0&amp;showinfo=0)
+
+#### TVHS: More to the Story
+
+[![TVHS: More to the Story](http://img.youtube.com/vi/MTLiiR_TZbE/0.jpg)](https://www.youtube.com/watch?v=MTLiiR_TZbE&?rel=0&amp;showinfo=0)
 
 
 ### Graphics to Share on Social Media
