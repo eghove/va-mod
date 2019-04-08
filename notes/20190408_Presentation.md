@@ -105,10 +105,6 @@ Presentation Date: 2019-04-08
 [![The Graduate](http://img.youtube.com/vi/1NJmasYDPUE/0.jpg)](https://www.youtube.com/watch?v=1NJmasYDPUE&?rel=0&amp;showinfo=0)
 <br><br>
 
-## Forever GI Bill - R. Worley Interview
-[![Forever GI Bill - R. Worley Interview](http://img.youtube.com/vi/FEE9ds4ZneM/0.jpg)](https://www.youtube.com/watch?v=FEE9ds4ZneM&?rel=0&amp;showinfo=0)
-<br><br>
-
 
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
