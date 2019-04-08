@@ -11,10 +11,9 @@ Presentation Date: 2019-04-08
 
 ### VA APIs (new)
 
-[![VA APIs](http://img.youtube.com/vi/lDFmwYrosiA/0.jpg)](https://www.youtube.com/watch?v=lDFmwYrosiA?rel=0&amp;showinfo=0)
-This video unavailable?
-<br><br>
+[![VA APIs](http://img.youtube.com/vi/34xbmaKDm5E/0.jpg)](https://www.youtube.com/watch?v=34xbmaKDm5E&?rel=0&amp;showinfo=0)
 
+<br><br>
 
 
 ### VA IT Modernization (new)
