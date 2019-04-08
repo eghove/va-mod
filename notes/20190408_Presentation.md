@@ -44,5 +44,12 @@
 
 [![TVHS: More to the Story](http://img.youtube.com/vi/MTLiiR_TZbE/0.jpg)](https://www.youtube.com/watch?v=MTLiiR_TZbE&?rel=0&amp;showinfo=0)
 
+#### MODCast 107: VA vs. Non-VA Healthcare
+
+[![MODCast 107: VA vs. Non-VA Healthcare](http://img.youtube.com/vi/HZBKdC0I4eY/0.jpg)](https://www.youtube.com/watch?v=HZBKdC0I4eY&?rel=0&amp;showinfo=0)
+
+#### Veteran experience testimonial
+[![eteran experience testimonial](http://img.youtube.com/vi/ePJAWd_HzIg/0.jpg)](https://www.youtube.com/watch?v=ePJAWd_HzIg&?rel=0&amp;showinfo=0)
+
 
 ### Graphics to Share on Social Media
