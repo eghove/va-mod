@@ -1,7 +1,8 @@
 # 2019-04-08 FEZ REPORT
 
 ## Contents
-[Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#videos)
+1. [Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#videos)
+1. [Social Media Graphics](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#social-media-graphics)
 
 ## Videos
 
