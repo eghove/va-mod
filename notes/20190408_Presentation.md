@@ -123,7 +123,7 @@ Presentation Date: 2019-04-08
 <hr><br><br>
 
 ## VA Modernization News Site
-[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br>
+[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br><br>
 [Prototype of the VA Modernization Web Site used to share social media items](https://eghove.github.io/va-mod/mod-good-news/)
 
 
