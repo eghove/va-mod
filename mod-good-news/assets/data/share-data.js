@@ -5,7 +5,7 @@ const host = 'https://eghove.github.io'
 
 const shareData = [
   // NEWER STUFF ON TOP
-  https://github.com/eghove/va-mod/blob/20190408-gn-content-update/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png
+  
   // graphic object 2
   {
     preview_image: "/va-mod/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png",
