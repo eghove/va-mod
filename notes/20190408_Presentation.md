@@ -1,8 +1,9 @@
 # 2019-04-08 FEZ REPORT
 
-## Content
+## Contents
 
-### Videos
+
+## Videos
 
 #### VA APIs (new)
 
@@ -52,4 +53,4 @@
 [![eteran experience testimonial](http://img.youtube.com/vi/ePJAWd_HzIg/0.jpg)](https://www.youtube.com/watch?v=ePJAWd_HzIg&?rel=0&amp;showinfo=0)
 
 
-### Graphics to Share on Social Media
+## Social Media Graphics
