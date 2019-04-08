@@ -113,7 +113,7 @@ Presentation Date: 2019-04-08
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
-![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/closeToTelehearingFBTI.png "Telehearing")
+![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing")
 <hr><br><br>
 
 ![VA.gov](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/test.jpg "VA.gov")
