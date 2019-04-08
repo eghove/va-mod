@@ -6,6 +6,6 @@
 
 VA APIs (new)
 
-[![VA APIs](http://img.youtube.com/vi/lDFmwYrosiA/0.jpg)](https://www.youtube.com/watch?v=lDFmwYrosiA){:target="_blank"}
+[![VA APIs](http://img.youtube.com/vi/lDFmwYrosiA/0.jpg)](https://www.youtube.com/watch?v=lDFmwYrosiA)
 
 #### Graphics to Share on Social Media
