@@ -19,4 +19,14 @@
 [![MISSION Critical 1 ](http://img.youtube.com/vi/jZX8drq9szo/0.jpg)](https://www.youtube.com/watch?v=jZX8drq9szo&?rel=0&amp;showinfo=0)
 
 
+#### MISSION: Critical 2 
+
+[![MISSION Critical 2 ](http://img.youtube.com/vi/WQAMMS4_5DM/0.jpg)](https://www.youtube.com/watch?v=WQAMMS4_5DM&?rel=0&amp;showinfo=0)
+
+
+#### Secretary Wilkie: Senate Testimony - Modernization
+
+[![Secretary Wilkie: Senate Testimony - Modernization ](http://img.youtube.com/vi/0bbNL50BeNY/0.jpg)](https://www.youtube.com/watch?v=0bbNL50BeNY&?rel=0&amp;showinfo=0)
+
+
 ### Graphics to Share on Social Media
