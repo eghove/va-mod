@@ -4,6 +4,7 @@ Presentation Date: 2019-04-08
 ## Contents
 1. [Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#videos)
 1. [Social Media Graphics](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#social-media-graphics)
+1. [VA Modernization News Site](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#va-modernization-news-site)
 
 ## Videos 
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
@@ -84,4 +85,7 @@ This video unavailable?
 ![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line")
 <hr><br><br>
 
+## VA Modernization News Site
+[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br>
+[Prototype of the VA Modernization Web Site used to share social media items](https://eghove.github.io/va-mod/mod-good-news/)
 
