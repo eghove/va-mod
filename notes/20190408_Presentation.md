@@ -62,8 +62,13 @@ Presentation Date: 2019-04-08
 <br><br>
 
 ### Veteran experience testimonial
-[![eteran experience testimonial](http://img.youtube.com/vi/ePJAWd_HzIg/0.jpg)](https://www.youtube.com/watch?v=ePJAWd_HzIg&?rel=0&amp;showinfo=0)
+[![Veteran experience testimonial](http://img.youtube.com/vi/ePJAWd_HzIg/0.jpg)](https://www.youtube.com/watch?v=ePJAWd_HzIg&?rel=0&amp;showinfo=0)
 <br><br>
+
+### Forever GI Bill Explainer
+[![orever GI Bill Explainer](http://img.youtube.com/vi/FX5-Da5EST0/0.jpg)](https://www.youtube.com/watch?v=FX5-Da5EST0&?rel=0&amp;showinfo=0)
+<br><br>
+
 
 
 ## Social Media Graphics
