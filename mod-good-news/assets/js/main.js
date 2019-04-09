@@ -1,7 +1,7 @@
 
-  // console.log( shareData[0].preview_image );
+ 
 
-  function buildShare(prevImage, titleText, descText, fbookLink, twitterLink, linkedInLink) {
+  function buildShare(prevImage, titleText, descText, fbookLink, twitterLink, linkedInLink, srcLink) {
     // build the row
     let row = $("<div>");
     // add the classes to the row
@@ -66,15 +66,30 @@
     let twitterHelper = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text=""'+
     'data-url="" data-show-count="false">Tweet' + 
  '</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';
-
-
-
     let twitter = $(twitterHelper);
 
 
     // build the linkedIn share
     let linkedInHelper = '<script type="IN/Share" data-url=""></script>';
     let linkedIn = $(linkedInHelper);
+
+    
+    // build the article source button
+    let srcButton = $("<a>");
+    // add the styling class
+    srcButton = srcButton.addClass("btn btn-success btn-sm");
+    
+    // set the button attributes
+    srcButton = srcButton.attr({
+        href: srcLink,
+        role: "button",
+        target: "_blank",
+        rel: "noopener noreferrer"
+      });
+
+    // add the text to the button
+    srcButton = srcButton.text("Read more!");
+
 
 
     // ASSEMBLY
@@ -88,7 +103,7 @@
     linkedIn = linkedIn.attr("data-url", linkedInLink)
 
     // append pieces of the card to the card body
-    cardBody = cardBody.append(cardTitle, cardText, fbook, twitter, linkedIn);
+    cardBody = cardBody.append(cardTitle, cardText, fbook, twitter, linkedIn, "<br/><br/>", srcButton);
 
     // append the preview image, card-body to the card
     card = card.append(previewImg, "<hr>", cardBody);
@@ -107,7 +122,7 @@
 // loop through all elements in shareData
 
 for (let i=0; i < shareData.length; i++) {
-  buildShare(shareData[i].preview_image, shareData[i].title_text, shareData[i].descpription_text, shareData[i].faceBook_link, shareData[i].twitter_link, shareData[i].linkedIn_link);
+  buildShare(shareData[i].preview_image, shareData[i].title_text, shareData[i].descpription_text, shareData[i].faceBook_link, shareData[i].twitter_link, shareData[i].linkedIn_link, shareData[i].article_src);
 
 };
 

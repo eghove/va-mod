@@ -14,6 +14,7 @@ const shareData = [
     faceBook_link: host + "/va-mod/mod-good-news/assets/img/20190408-TeleHearing.png",
     twitter_link: host + "/va-mod/mod-good-news/assets/img/20190408-TeleHearing.png",
     linkedIn_link: host + "/va-mod/mod-good-news/assets/img/20190408-TeleHearing.png",
+    article_src: 'https://www.fedscoop.com/veterans-appeals-telehearing-technology-modernization/'
   },
 
   // graphic object 1
@@ -24,6 +25,7 @@ const shareData = [
     faceBook_link: host + "/va-mod/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png",
     twitter_link: host + "/va-mod/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png",
     linkedIn_link: host + "/va-mod/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png",
+    article_src: 'https://www.fedscoop.com/va-celebrates-early-success-metrics-va-gov-relaunch/'
   },
 
 
