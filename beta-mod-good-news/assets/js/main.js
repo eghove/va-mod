@@ -90,6 +90,21 @@
     // add the text to the button
     srcButton = srcButton.text("Read more!");
 
+    // build the Share by Email object
+    let emailShare = $("<a>");
+    function emailStringBuilder(articleSrc) {
+      let base = "mailto:";
+      let subject = "?subject=Check out this artcle about VA!";
+      let body = "&body=I found this article about VA to be interesting:%0D%0A";
+      let article = "" + articleSrc + "%0DLet me know what you think!";
+      return base + subject + body + article;
+    }
+    emailShare = emailShare.attr("href", emailStringBuilder(srcLink));
+    emailShare = emailShare.text("Share Article by Email!");
+    emailShare = emailShare.addClass("btn btn-secondary btn-sm email");
+
+    // <a href="mailto:eghove@gmail.com?subject=Check out this article about VA!&body=I found this article about VA to be interesting">www.va.gov</a>
+
 
 
     // ASSEMBLY
@@ -103,7 +118,7 @@
     linkedIn = linkedIn.attr("data-url", linkedInLink)
 
     // append pieces of the card to the card body
-    cardBody = cardBody.append(cardTitle, cardText, fbook, twitter, linkedIn, "<br/><br/>", srcButton);
+    cardBody = cardBody.append(cardTitle, cardText, fbook, twitter, linkedIn, "<br/><br/>", srcButton, emailShare);
 
     // append the preview image, card-body to the card
     card = card.append(previewImg, "<hr>", cardBody);
