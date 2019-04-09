@@ -1,0 +1,42 @@
+
+.share-card {
+  margin-bottom: 2rem;
+}
+
+/* custom fix to make the LinkedIn Widget in-line with the rest, may be a better way to do this */
+.IN-widget {
+  float: left;
+  margin-right: 0.25rem !important;
+}
+
+.fbook {
+  margin-right: 0.25rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-color:#003F72;
+  font-family: 'Noto Serif', serif;
+}
+
+.card {
+  padding: 2rem;
+}
+
+.jumbotron {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 4rem;
+  background-color: #0083BE;;
+  color: white
+}
+
+hr {
+  background-color: #f3cf45;
+  height: 2px;
+}
