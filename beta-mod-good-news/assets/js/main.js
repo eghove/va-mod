@@ -95,7 +95,7 @@
     // function that builds the url encoded string
     function emailStringBuilder(articleSrc) {
       let base = "mailto:";
-      let subject = "?subject=Check out this artcle about VA!";
+      let subject = "?subject=Check out this article about VA!";
       let body = "&body=I found this article about VA to be interesting:%0D%0A";
       let article = "" + articleSrc + "%0DLet me know what you think!";
       return base + subject + body + article;
