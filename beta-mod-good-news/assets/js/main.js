@@ -92,6 +92,7 @@
 
     // build the Share by Email object
     let emailShare = $("<a>");
+    // function that builds the url encoded string
     function emailStringBuilder(articleSrc) {
       let base = "mailto:";
       let subject = "?subject=Check out this artcle about VA!";
@@ -102,8 +103,6 @@
     emailShare = emailShare.attr("href", emailStringBuilder(srcLink));
     emailShare = emailShare.text("Share Article by Email!");
     emailShare = emailShare.addClass("btn btn-secondary btn-sm email");
-
-    // <a href="mailto:eghove@gmail.com?subject=Check out this article about VA!&body=I found this article about VA to be interesting">www.va.gov</a>
 
 
 
