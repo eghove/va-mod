@@ -116,6 +116,16 @@ Last Updated: 2019-04-11
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
+![VA and Walmart Partnership](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Walmart.png)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Wounded Warrior Project Quote](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-WWP1.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
 ![White House Hotline](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-WHH2.jpg)
 <br>
 (Added 2019-04-11) `DRAFT`
