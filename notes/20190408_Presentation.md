@@ -4,9 +4,7 @@ Last Updated: 2019-04-11
 
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
-  * [Draft]
-  * [Revised]
-  * [Final]
+  1.  Test.
 1. [Social Media Graphics](#social-media-graphics)
   * [Draft]
   * [Revised]
