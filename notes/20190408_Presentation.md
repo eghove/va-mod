@@ -4,13 +4,13 @@ Last Updated: 2019-04-11
 
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
-    1.  [Draft](#mod-generated-videos-drafts)
+    1.  [Draft](#mod-generated-videos-draft)
     1.  [Revised](#mod-generated-videos-revised)
-    1.  [Final]
+    1.  [Final](#mod-generated-videos-final)
 1. [Social Media Graphics](#social-media-graphics)
-    1.  [Draft]
-    1.  [Revised]
-    1.  [Final]
+    1.  [Draft](#social-media-graphics-draft)
+    1.  [Revised](#social-media-graphics-revised)
+    1.  [Final](#social-media-graphics-final)
 1. [VA Modernization News Site](#va-modernization-news-site)
 1. [Other VA Generated Videos](#other-va-generated-videos)
 
@@ -104,13 +104,17 @@ Last Updated: 2019-04-11
 [![VA Modernization: Germ-Zapping Robots](http://img.youtube.com/vi/uHBU04IlQOM/0.jpg)](https://www.youtube.com/watch?v=uHBU04IlQOM&?rel=0&amp;showinfo=0)
 <br><br>
 
-
+### MOD Generated Videos FINAL
+[Back to Contents](#contents)
 
 
 
 
 
 ## Social Media Graphics
+[Back to Contents](#contents)
+
+### Social Media Graphics DRAFT
 [Back to Contents](#contents)
 
 ![VA and Walmart Partnership](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Walmart.png)
@@ -188,10 +192,6 @@ Last Updated: 2019-04-11
 (Added 2019-04-11) `DRAFT`
 <hr><br><br>
 
-
-![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing") `REVISED`
-<hr><br><br>
-
 ![VA.gov](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png "VA.gov") `DRAFT`
 <hr><br><br>
 
@@ -204,7 +204,14 @@ Last Updated: 2019-04-11
 ![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line") `DRAFT`
 <hr><br><br>
 
+### Social Media Graphics REVISED
+[Back to Contents](#contents)
 
+![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing") `REVISED`
+<hr><br><br>
+
+### Social Media Graphics FINAL
+[Back to Contents](#contents)
 
 ## VA Modernization News Site
 [Back to Contents](#contents)<br><br>
