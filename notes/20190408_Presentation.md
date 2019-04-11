@@ -117,6 +117,14 @@ Last Updated: 2019-04-11
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
 
+![Cusp with Logo Final(saved as PDF, won't display inline but link works](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Cusp-with-logo-final.pdf)
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Baltimore VA Doctors](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-BaltimoreVADocs.png)
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
 
 ![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing") `REVISED`
 <hr><br><br>
