@@ -85,9 +85,7 @@ Last Updated: 2019-04-11
 [![MODCast 107: VA vs. Non-VA Healthcare](http://img.youtube.com/vi/HZBKdC0I4eY/0.jpg)](https://www.youtube.com/watch?v=HZBKdC0I4eY&?rel=0&amp;showinfo=0)
 <br><br>
 
-### Veteran experience testimonial
-[![Veteran experience testimonial](http://img.youtube.com/vi/ePJAWd_HzIg/0.jpg)](https://www.youtube.com/watch?v=ePJAWd_HzIg&?rel=0&amp;showinfo=0)
-<br><br>
+
 
 
 
@@ -190,9 +188,15 @@ Last Updated: 2019-04-11
 ![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line") `DRAFT`
 <hr><br><br>
 
+
+
 ## VA Modernization News Site
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br><br>
 [Prototype of the VA Modernization Web Site used to share social media items](https://eghove.github.io/va-mod/mod-good-news/)
+
+
+
+
 
 ## Other VA Generated Videos
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br><br>
@@ -223,6 +227,10 @@ Last Updated: 2019-04-11
 
 ### The Graduate
 [![The Graduate](http://img.youtube.com/vi/1NJmasYDPUE/0.jpg)](https://www.youtube.com/watch?v=1NJmasYDPUE&?rel=0&amp;showinfo=0)
+<br><br>
+
+### Veteran experience testimonial
+[![Veteran experience testimonial](http://img.youtube.com/vi/ePJAWd_HzIg/0.jpg)](https://www.youtube.com/watch?v=ePJAWd_HzIg&?rel=0&amp;showinfo=0)
 <br><br>
 
 
