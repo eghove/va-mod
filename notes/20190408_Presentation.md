@@ -112,23 +112,105 @@ Last Updated: 2019-04-11
 [![The Graduate](http://img.youtube.com/vi/1NJmasYDPUE/0.jpg)](https://www.youtube.com/watch?v=1NJmasYDPUE&?rel=0&amp;showinfo=0)
 <br><br>
 
+### Introduction to VA Telehealth Services (added 2019-04-11)
+[![Introduction to VA Telehealth Services](http://img.youtube.com/vi/N5oe5pB7V2g/0.jpg)](https://www.youtube.com/watch?v=N5oe5pB7V2g&?rel=0&amp;showinfo=0)
+<br><br>
+
+
+
 
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
-![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing")
+![VA and Walmart Partnership](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Walmart.png)
+<br>
+(Added 2019-04-11) `DRAFT`
 <hr><br><br>
 
-![VA.gov](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png "VA.gov")
+![Wounded Warrior Project Quote](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-WWP1.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
 <hr><br><br>
 
-![VAlor](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VAlor.png "VAlor story")
+![White House Hotline](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-WHH2.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
 <hr><br><br>
 
-![GI Bill](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-GIBill.HL.png "GI Bill Home Loans")
+![VA and Tech for Suicide Awareness](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-VA_and_Tech%20Companies.png)
+<br>
+(Added 2019-04-11) `DRAFT`
 <hr><br><br>
 
-![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line")
+![VA.gov Satisfaction](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-VA-gov.png)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Va and National MSS](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-VA-and-National-Multiple-Sclerosis-Society.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+
+![Ulos Kennamer GI Bill](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Ulos-Kennamer-GIBillHL.png)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Rally Point and VA](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-RallyPoint-and-VA.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Perry](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Perry.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![No Longer Cusp 2](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-NoLongerCusp2.png)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![No Longer Cusp 1](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-NoLongerCusp.png)<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Hospice Veteran Partnership](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Hospice-Veteran-Partnership.jpg)<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Cusp Robot Assisted Surgery 2](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-CuspRobotAssistedSurgery2.jpg)<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Cusp Robot Assisted Surgery 1](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-CuspRobotAssistedSurgery.jpg)<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Cusp with Logo Final(saved as PDF, won't display inline but link works](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Cusp-with-logo-final.pdf)
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Baltimore VA Doctors](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-BaltimoreVADocs.png)
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+
+![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing") `REVISED`
+<hr><br><br>
+
+![VA.gov](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png "VA.gov") `DRAFT`
+<hr><br><br>
+
+![VAlor](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VAlor.png "VAlor story") `DRAFT`
+<hr><br><br>
+
+![GI Bill](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-GIBill.HL.png "GI Bill Home Loans") `DRAFT`
+<hr><br><br>
+
+![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line") `DRAFT`
 <hr><br><br>
 
 ## VA Modernization News Site
