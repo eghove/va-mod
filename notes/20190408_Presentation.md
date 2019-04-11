@@ -11,6 +11,12 @@ Last Updated: 2019-04-11
 ## MOD Generated Videos
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
+### VA Modernization: #1 Clinical Priority `DRAFT` (added 2019-04-11)
+
+[![VA Modernization: #1 Clinical Priority](http://img.youtube.com/vi/1bdI6K7RGbU/0.jpg)](https://www.youtube.com/watch?v=1bdI6K7RGbU&?rel=0&amp;showinfo=0)
+
+<br><br>
+
 ### VA's Benefits Intake API `DRAFT` (added 2019-04-11)
 
 [![VA's Benefits Intake API](http://img.youtube.com/vi/-FS4lJ78ngU/0.jpg)](https://www.youtube.com/watch?v=-FS4lJ78ngU&?rel=0&amp;showinfo=0)
