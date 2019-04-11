@@ -116,6 +116,16 @@ Last Updated: 2019-04-11
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
+![White House Hotline](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-WHH2.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![VA and Tech for Suicide Awareness](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-VA_and_Tech%20Companies.png)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
 ![VA.gov Satisfaction](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-VA-gov.png)
 <br>
 (Added 2019-04-11) `DRAFT`
