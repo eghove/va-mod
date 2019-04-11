@@ -4,9 +4,9 @@ Last Updated: 2019-04-11
 
 ## Contents
 1. [MOD Generated Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#mod-generated-videos)
-1. [Other VA Generated Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#other-va-generated-videos)
 1. [Social Media Graphics](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#social-media-graphics)
 1. [VA Modernization News Site](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#va-modernization-news-site)
+1. [Other VA Generated Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#other-va-generated-videos)
 
 ## MOD Generated Videos
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
@@ -89,35 +89,7 @@ Last Updated: 2019-04-11
 [![Veteran experience testimonial](http://img.youtube.com/vi/ePJAWd_HzIg/0.jpg)](https://www.youtube.com/watch?v=ePJAWd_HzIg&?rel=0&amp;showinfo=0)
 <br><br>
 
-## Other VA Generated Videos
 
-### Introduction to VA Telehealth Services (added 2019-04-11)
-[![Introduction to VA Telehealth Services](http://img.youtube.com/vi/N5oe5pB7V2g/0.jpg)](https://www.youtube.com/watch?v=N5oe5pB7V2g&?rel=0&amp;showinfo=0)
-<br><br>
-
-### Forever GI Bill Explainer
-[![Forever GI Bill Explainer](http://img.youtube.com/vi/FX5-Da5EST0/0.jpg)](https://www.youtube.com/watch?v=FX5-Da5EST0&?rel=0&amp;showinfo=0)
-<br><br>
-
-### Forever GI Bill: Priority Enrollment
-[![Forever GI Bill:Priority Enrollment](http://img.youtube.com/vi/oYe57GCm1tA/0.jpg)](https://www.youtube.com/watch?v=oYe57GCm1tA&?rel=0&amp;showinfo=0)
-<br><br>
-
-### Forever Heroes
-[![Forever Heroes](http://img.youtube.com/vi/QVNctuImGIo/0.jpg)](https://www.youtube.com/watch?v=QVNctuImGIo&?rel=0&amp;showinfo=0)
-<br><br>
-
-### Forever Lineage
-[![Forever Lineage](http://img.youtube.com/vi/aw2M9-XwsXw/0.jpg)](https://www.youtube.com/watch?v=aw2M9-XwsXw&?rel=0&amp;showinfo=0)
-<br><br>
-
-### Forever Careers
-[![Forever Careers](http://img.youtube.com/vi/0D-JfZvI1zI/0.jpg)](https://www.youtube.com/watch?v=0D-JfZvI1zI&?rel=0&amp;showinfo=0)
-<br><br>
-
-### The Graduate
-[![The Graduate](http://img.youtube.com/vi/1NJmasYDPUE/0.jpg)](https://www.youtube.com/watch?v=1NJmasYDPUE&?rel=0&amp;showinfo=0)
-<br><br>
 
 
 
@@ -221,6 +193,37 @@ Last Updated: 2019-04-11
 ## VA Modernization News Site
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br><br>
 [Prototype of the VA Modernization Web Site used to share social media items](https://eghove.github.io/va-mod/mod-good-news/)
+
+## Other VA Generated Videos
+[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br><br>
+
+### Introduction to VA Telehealth Services (added 2019-04-11)
+[![Introduction to VA Telehealth Services](http://img.youtube.com/vi/N5oe5pB7V2g/0.jpg)](https://www.youtube.com/watch?v=N5oe5pB7V2g&?rel=0&amp;showinfo=0)
+<br><br>
+
+### Forever GI Bill Explainer
+[![Forever GI Bill Explainer](http://img.youtube.com/vi/FX5-Da5EST0/0.jpg)](https://www.youtube.com/watch?v=FX5-Da5EST0&?rel=0&amp;showinfo=0)
+<br><br>
+
+### Forever GI Bill: Priority Enrollment
+[![Forever GI Bill:Priority Enrollment](http://img.youtube.com/vi/oYe57GCm1tA/0.jpg)](https://www.youtube.com/watch?v=oYe57GCm1tA&?rel=0&amp;showinfo=0)
+<br><br>
+
+### Forever Heroes
+[![Forever Heroes](http://img.youtube.com/vi/QVNctuImGIo/0.jpg)](https://www.youtube.com/watch?v=QVNctuImGIo&?rel=0&amp;showinfo=0)
+<br><br>
+
+### Forever Lineage
+[![Forever Lineage](http://img.youtube.com/vi/aw2M9-XwsXw/0.jpg)](https://www.youtube.com/watch?v=aw2M9-XwsXw&?rel=0&amp;showinfo=0)
+<br><br>
+
+### Forever Careers
+[![Forever Careers](http://img.youtube.com/vi/0D-JfZvI1zI/0.jpg)](https://www.youtube.com/watch?v=0D-JfZvI1zI&?rel=0&amp;showinfo=0)
+<br><br>
+
+### The Graduate
+[![The Graduate](http://img.youtube.com/vi/1NJmasYDPUE/0.jpg)](https://www.youtube.com/watch?v=1NJmasYDPUE&?rel=0&amp;showinfo=0)
+<br><br>
 
 
 
