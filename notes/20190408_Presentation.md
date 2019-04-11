@@ -4,12 +4,12 @@ Last Updated: 2019-04-11
 
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
-1. [Social Media Graphics](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#social-media-graphics)
-1. [VA Modernization News Site](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#va-modernization-news-site)
-1. [Other VA Generated Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#other-va-generated-videos)
+1. [Social Media Graphics](#social-media-graphics)
+1. [VA Modernization News Site](#va-modernization-news-site)
+1. [Other VA Generated Videos](#other-va-generated-videos)
 
 ## MOD Generated Videos
-[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
+[Back to Contents](#contents)
 
 ### VA Modernization: #1 Clinical Priority `DRAFT` (added 2019-04-11)
 
@@ -101,7 +101,7 @@ Last Updated: 2019-04-11
 
 
 ## Social Media Graphics
-[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
+[Back to Contents](#contents)
 
 ![VA and Walmart Partnership](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Walmart.png)
 <br>
@@ -197,7 +197,7 @@ Last Updated: 2019-04-11
 
 
 ## VA Modernization News Site
-[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br><br>
+[Back to Contents](#contents)<br><br>
 [Prototype of the VA Modernization Web Site used to share social media items](https://eghove.github.io/va-mod/mod-good-news/)
 
 
@@ -205,7 +205,7 @@ Last Updated: 2019-04-11
 
 
 ## Other VA Generated Videos
-[Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)<br><br>
+[Back to Contents](#contents)<br><br>
 
 ### Introduction to VA Telehealth Services (added 2019-04-11)
 [![Introduction to VA Telehealth Services](http://img.youtube.com/vi/N5oe5pB7V2g/0.jpg)](https://www.youtube.com/watch?v=N5oe5pB7V2g&?rel=0&amp;showinfo=0)
