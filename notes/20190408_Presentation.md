@@ -5,7 +5,7 @@ Last Updated: 2019-04-11
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
     1.  [Draft](#mod-generated-videos-drafts)
-    1.  [Revised] (#mod-generated-videos-revised)
+    1.  [Revised](#mod-generated-videos-revised)
     1.  [Final]
 1. [Social Media Graphics](#social-media-graphics)
     1.  [Draft]
@@ -17,82 +17,81 @@ Last Updated: 2019-04-11
 ## MOD Generated Videos
 [Back to Contents](#contents)
 
-## MOD Generated Videos DRAFT
+### MOD Generated Videos DRAFT
 [Back to Contents](#contents)
 
-### VA Modernization: #1 Clinical Priority `DRAFT` (added 2019-04-11)
+#### VA Modernization: #1 Clinical Priority `DRAFT` (added 2019-04-11)
 
 [![VA Modernization: #1 Clinical Priority](http://img.youtube.com/vi/1bdI6K7RGbU/0.jpg)](https://www.youtube.com/watch?v=1bdI6K7RGbU&?rel=0&amp;showinfo=0)
 
 <br><br>
 
-### VA's Benefits Intake API `DRAFT` (added 2019-04-11)
+#### VA's Benefits Intake API `DRAFT` (added 2019-04-11)
 
 [![VA's Benefits Intake API](http://img.youtube.com/vi/-FS4lJ78ngU/0.jpg)](https://www.youtube.com/watch?v=-FS4lJ78ngU&?rel=0&amp;showinfo=0)
 
 <br><br>
 
-### VA APIs `DRAFT` (added 2019-04-10)
+#### VA APIs `DRAFT` (added 2019-04-10)
 
 [![VA APIs](http://img.youtube.com/vi/34xbmaKDm5E/0.jpg)](https://www.youtube.com/watch?v=34xbmaKDm5E&?rel=0&amp;showinfo=0)
 
 <br><br>
 
-### VA Telehealth `DRAFT` (added 2019-04-09)
+#### VA Telehealth `DRAFT` (added 2019-04-09)
 
 [![VA Telehealth](http://img.youtube.com/vi/tiYyteXZ0SE/0.jpg)](https://www.youtube.com/watch?v=tiYyteXZ0SE&?rel=0&amp;showinfo=0)
 <br><br>
 
 
-### VA Trust `DRAFT` (added 2019-04-09)
+#### VA Trust `DRAFT` (added 2019-04-09)
 [![VA Trust](http://img.youtube.com/vi/LnmWP3j4_80/0.jpg)](https://www.youtube.com/watch?v=LnmWP3j4_80&?rel=0&amp;showinfo=0)
 <br><br>
 
 
-### VA VEO: Customer Service `DRAFT` (added 2019-04-08)
+#### VA VEO: Customer Service `DRAFT` (added 2019-04-08)
 [![VA VEO: Customer Service](http://img.youtube.com/vi/VrsL9eRsbEA/0.jpg)](https://www.youtube.com/watch?v=VrsL9eRsbEA&?rel=0&amp;showinfo=0)
 <br><br>
 
 
 
-### VA IT Modernization `DRAFT` (added 2019-04-08)
+#### VA IT Modernization `DRAFT` (added 2019-04-08)
 
 [![VA IT Modernization](http://img.youtube.com/vi/nqBFt0EjJTg/0.jpg)](https://www.youtube.com/watch?v=nqBFt0EjJTg&?rel=0&amp;showinfo=0)
 <br><br>
 
-### MISSION: Critical 1 `DRAFT` (added 2019-04-08)
+#### MISSION: Critical 1 `DRAFT` (added 2019-04-08)
 
 [![MISSION Critical 1 ](http://img.youtube.com/vi/jZX8drq9szo/0.jpg)](https://www.youtube.com/watch?v=jZX8drq9szo&?rel=0&amp;showinfo=0)
 <br><br>
 
-### MISSION: Critical 2 `DRAFT` (added 2019-04-08)
+#### MISSION: Critical 2 `DRAFT` (added 2019-04-08)
 
 [![MISSION Critical 2 ](http://img.youtube.com/vi/WQAMMS4_5DM/0.jpg)](https://www.youtube.com/watch?v=WQAMMS4_5DM&?rel=0&amp;showinfo=0)
 <br><br>
 
-### Secretary Wilkie: Senate Testimony - Modernization `DRAFT` (added 2019-04-08)
+#### Secretary Wilkie: Senate Testimony - Modernization `DRAFT` (added 2019-04-08)
 
 [![Secretary Wilkie: Senate Testimony - Modernization ](http://img.youtube.com/vi/0bbNL50BeNY/0.jpg)](https://www.youtube.com/watch?v=0bbNL50BeNY&?rel=0&amp;showinfo=0)
 <br><br>
 
-### VA: 21st Century Healthcare Administration `DRAFT` (added 2019-04-08)
+#### VA: 21st Century Healthcare Administration `DRAFT` (added 2019-04-08)
 
 [![VA: 21st Century Healthcare Administration ](http://img.youtube.com/vi/4pqPqNpyAXY/0.jpg)](https://www.youtube.com/watch?v=4pqPqNpyAXY&?rel=0&amp;showinfo=0)
 <br><br>
 
-### What is VA Modernization? `DRAFT` (added 2019-04-08)
+#### What is VA Modernization? `DRAFT` (added 2019-04-08)
 
 [![What is VA Modernization? ](http://img.youtube.com/vi/iPFEr6sWgmY/0.jpg)](https://www.youtube.com/watch?v=iPFEr6sWgmY&?rel=0&amp;showinfo=0)
 <br><br>
 
 
-
-### TVHS: More to the Story `DRAFT` (added 2019-04-08)
+#### TVHS: More to the Story `DRAFT` (added 2019-04-08)
 
 [![TVHS: More to the Story](http://img.youtube.com/vi/MTLiiR_TZbE/0.jpg)](https://www.youtube.com/watch?v=MTLiiR_TZbE&?rel=0&amp;showinfo=0)
 <br><br>
 
-### MODCast 107: VA vs. Non-VA Healthcare `DRAFT` (added 2019-04-08)
+#### MODCast 107: VA vs. Non-VA Healthcare `DRAFT` (added 2019-04-08)
 
 [![MODCast 107: VA vs. Non-VA Healthcare](http://img.youtube.com/vi/HZBKdC0I4eY/0.jpg)](https://www.youtube.com/watch?v=HZBKdC0I4eY&?rel=0&amp;showinfo=0)
 <br><br>
@@ -100,7 +99,7 @@ Last Updated: 2019-04-11
 ### MOD Generated Videos REVISED
 [Back to Contents](#contents)
 
-### VA Modernization: Germ-Zapping Robots `REVISED` (revised version added 2019-04-11)
+#### VA Modernization: Germ-Zapping Robots `REVISED` (revised version added 2019-04-11)
 
 [![VA Modernization: Germ-Zapping Robots](http://img.youtube.com/vi/uHBU04IlQOM/0.jpg)](https://www.youtube.com/watch?v=uHBU04IlQOM&?rel=0&amp;showinfo=0)
 <br><br>
