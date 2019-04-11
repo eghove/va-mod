@@ -116,6 +116,13 @@ Last Updated: 2019-04-11
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
+![Cusp Robot Assisted Surgery 2](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-CuspRobotAssistedSurgery2.jpg)<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Cusp Robot Assisted Surgery 1](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-CuspRobotAssistedSurgery.jpg)<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
 
 ![Cusp with Logo Final(saved as PDF, won't display inline but link works](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Cusp-with-logo-final.pdf)
 (Added 2019-04-11) `DRAFT`
