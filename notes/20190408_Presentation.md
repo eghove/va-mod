@@ -4,13 +4,13 @@ Last Updated: 2019-04-11
 
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
-  1. [Draft]
-  1. [Revised]
-  1. [Final]
+  * [Draft]
+  * [Revised]
+  * [Final]
 1. [Social Media Graphics](#social-media-graphics)
-  1. [Draft]
-  1. [Revised]
-  1. [Final]
+  * [Draft]
+  * [Revised]
+  * [Final]
 1. [VA Modernization News Site](#va-modernization-news-site)
 1. [Other VA Generated Videos](#other-va-generated-videos)
 
