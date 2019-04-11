@@ -5,7 +5,7 @@ Last Updated: 2019-04-11
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
     1.  [Draft](#mod-generated-videos-drafts)
-    1.  [Revised]
+    1.  [Revised] (#mod-generated-videos-revised)
     1.  [Final]
 1. [Social Media Graphics](#social-media-graphics)
     1.  [Draft]
@@ -17,7 +17,7 @@ Last Updated: 2019-04-11
 ## MOD Generated Videos
 [Back to Contents](#contents)
 
-### MOD Generated Videos DRAFTS
+## MOD Generated Videos DRAFT
 [Back to Contents](#contents)
 
 ### VA Modernization: #1 Clinical Priority `DRAFT` (added 2019-04-11)
@@ -85,10 +85,7 @@ Last Updated: 2019-04-11
 [![What is VA Modernization? ](http://img.youtube.com/vi/iPFEr6sWgmY/0.jpg)](https://www.youtube.com/watch?v=iPFEr6sWgmY&?rel=0&amp;showinfo=0)
 <br><br>
 
-### VA Modernization: Germ-Zapping Robots `REVISED` (revised version added 2019-04-11)
 
-[![VA Modernization: Germ-Zapping Robots](http://img.youtube.com/vi/uHBU04IlQOM/0.jpg)](https://www.youtube.com/watch?v=uHBU04IlQOM&?rel=0&amp;showinfo=0)
-<br><br>
 
 ### TVHS: More to the Story `DRAFT` (added 2019-04-08)
 
@@ -100,8 +97,13 @@ Last Updated: 2019-04-11
 [![MODCast 107: VA vs. Non-VA Healthcare](http://img.youtube.com/vi/HZBKdC0I4eY/0.jpg)](https://www.youtube.com/watch?v=HZBKdC0I4eY&?rel=0&amp;showinfo=0)
 <br><br>
 
+### MOD Generated Videos REVISED
+[Back to Contents](#contents)
 
+### VA Modernization: Germ-Zapping Robots `REVISED` (revised version added 2019-04-11)
 
+[![VA Modernization: Germ-Zapping Robots](http://img.youtube.com/vi/uHBU04IlQOM/0.jpg)](https://www.youtube.com/watch?v=uHBU04IlQOM&?rel=0&amp;showinfo=0)
+<br><br>
 
 
 
