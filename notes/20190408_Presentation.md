@@ -116,6 +116,17 @@ Last Updated: 2019-04-11
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
+
+![Ulos Kennamer GI Bill](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Ulos-Kennamer-GIBillHL.png)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
+![Rally Point and VA](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-RallyPoint-and-VA.jpg)
+<br>
+(Added 2019-04-11) `DRAFT`
+<hr><br><br>
+
 ![Perry](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Perry.jpg)
 <br>
 (Added 2019-04-11) `DRAFT`
