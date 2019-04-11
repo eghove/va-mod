@@ -116,19 +116,21 @@ Last Updated: 2019-04-11
 ## Social Media Graphics
 [Back to Contents](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#contents)
 
-![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing")
+
+
+![Telehearing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-TeleHearing.png "Telehearing") `REVISED`
 <hr><br><br>
 
-![VA.gov](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png "VA.gov")
+![VA.gov](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VA.govFedscoopFBTLI.v2.png "VA.gov") `DRAFT`
 <hr><br><br>
 
-![VAlor](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VAlor.png "VAlor story")
+![VAlor](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-VAlor.png "VAlor story") `DRAFT`
 <hr><br><br>
 
-![GI Bill](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-GIBill.HL.png "GI Bill Home Loans")
+![GI Bill](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190408-GIBill.HL.png "GI Bill Home Loans") `DRAFT`
 <hr><br><br>
 
-![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line")
+![Crisis Line](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190407-CrisisLine.png "Crisis Line") `DRAFT`
 <hr><br><br>
 
 ## VA Modernization News Site
