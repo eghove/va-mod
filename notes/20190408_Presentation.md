@@ -3,7 +3,7 @@ Creation Date: 2019-04-08 <br />
 Last Updated: 2019-04-11
 
 ## Contents
-1. [MOD Generated Videos](https://#mod-generated-videos)
+1. [MOD Generated Videos](#mod-generated-videos)
 1. [Social Media Graphics](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#social-media-graphics)
 1. [VA Modernization News Site](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#va-modernization-news-site)
 1. [Other VA Generated Videos](https://github.com/eghove/va-mod/blob/master/notes/20190408_Presentation.md#other-va-generated-videos)
