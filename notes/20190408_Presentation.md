@@ -4,15 +4,20 @@ Last Updated: 2019-04-11
 
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
-  1.  Test.
+    1.  [Draft](#mod-generated-videos-drafts)
+    1.  [Revised]
+    1.  [Final]
 1. [Social Media Graphics](#social-media-graphics)
-  * [Draft]
-  * [Revised]
-  * [Final]
+    1.  [Draft]
+    1.  [Revised]
+    1.  [Final]
 1. [VA Modernization News Site](#va-modernization-news-site)
 1. [Other VA Generated Videos](#other-va-generated-videos)
 
 ## MOD Generated Videos
+[Back to Contents](#contents)
+
+### MOD Generated Videos DRAFTS
 [Back to Contents](#contents)
 
 ### VA Modernization: #1 Clinical Priority `DRAFT` (added 2019-04-11)
