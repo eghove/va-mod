@@ -123,7 +123,7 @@ Last Updated: 2019-04-12
 ### Social Media Graphics DRAFT
 [Back to Contents](#contents)
 
-![NCA Modernizing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190412-Graphics/20190412-NCA-Modernizing.jpg)
+![Modernizing NCA](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190412-Graphics/20190412-Modernizing-NCA.jpg)
 <br>
 (Added 2019-04-12) `DRAFT`
 <hr><br><br>
