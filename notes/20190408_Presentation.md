@@ -123,6 +123,16 @@ Last Updated: 2019-04-12
 ### Social Media Graphics DRAFT
 [Back to Contents](#contents)
 
+![NCA Modernizing](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190412-Graphics/20190412-NCA-Modernizing.jpg)
+<br>
+(Added 2019-04-12) `DRAFT`
+<hr><br><br>
+
+![NCA: No Veteran Ever Dies](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190412-Graphics/20190412-No-Veteran-Ever-Dies.jpg)
+<br>
+(Added 2019-04-12) `DRAFT`
+<hr><br><br>
+
 ![VA and Walmart Partnership](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190411-Graphics/20190411-Walmart.png)
 <br>
 (Added 2019-04-11) `DRAFT`
