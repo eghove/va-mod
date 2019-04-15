@@ -123,6 +123,31 @@ Last Updated: 2019-04-15
 ### Social Media Graphics DRAFT
 [Back to Contents](#contents)
 
+![Identification API](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/IdentificationAPI.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
+![Health API](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/HealthAPI.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
+![Facilities API](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/FacilitiesAPI.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
+![Benefits API](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/BenefitsAPI.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
+![APIs1](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/APIs1.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
 ![EHRM 3](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/EHRM3.png)
 <br>
 (Added 2019-04-15) `DRAFT`
