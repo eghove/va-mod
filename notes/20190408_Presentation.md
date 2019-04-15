@@ -123,6 +123,11 @@ Last Updated: 2019-04-15
 ### Social Media Graphics DRAFT
 [Back to Contents](#contents)
 
+![Patients](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/20190415-patients.jpg)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
 ![Identification API](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/IdentificationAPI.png)
 <br>
 (Added 2019-04-15) `DRAFT`
