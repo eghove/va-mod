@@ -1,6 +1,6 @@
 # Modernization Website Content Preview
 Creation Date: 2019-04-08 <br />
-Last Updated: 2019-04-12
+Last Updated: 2019-04-15
 
 ## Contents
 1. [MOD Generated Videos](#mod-generated-videos)
@@ -122,6 +122,21 @@ Last Updated: 2019-04-12
 
 ### Social Media Graphics DRAFT
 [Back to Contents](#contents)
+
+![EHRM 3](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/EHRM3.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
+![EHRM 2](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/EHRM2.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
+
+![EHRM 1](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190415-Graphics/EHRM1.png)
+<br>
+(Added 2019-04-15) `DRAFT`
+<hr><br><br>
 
 ![Modernizing NCA](https://github.com/eghove/va-mod/blob/master/mod-good-news/assets/img/20190412-Graphics/20190412-Modernizing-NCA.jpg)
 <br>
