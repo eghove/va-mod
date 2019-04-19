@@ -51,6 +51,11 @@
       width: 100%;
       position: absolute;
     }
+
+    /* Anchor */
+    .anchor {
+      padding-top: 90px !important;
+    }
   </style>
 
 
@@ -59,23 +64,51 @@
 
 <body>
   <div class="container">
-    <ul class="nav sticky-top">
-      <li class="nav-item">
-        <a class="nav-link active" href="#top">Top</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#mod-video">MOD Videos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#social-media">Social Media Images</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#other-videos">Other Videos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Micro-blogs</a>
-      </li>
-    </ul>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#top">Top<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#mod-videos">MOD Videos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#social-media">Social Media Images</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#other-videos">Other Videos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Micro-blogs</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Filter
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- TOP -->
     <div class="row" name="top">
@@ -86,15 +119,14 @@
           moreof the Secretary's priorities and/or one or more VA Modernization initiatives.
         </p>
         <p>
-          Content last updated: 2019-04-18
+          Content last updated: 2019-04-19
         </p>
       </div>
     </div>
 
-    <a name="mod-video"></a>
     <div class="row">
       <div class="col-md-8">
-        <h2>MOD Video products</h2>
+        <h2><a class="anchor" name="mod-videos">MOD Video products</a></h2>
         <p>
           The following are examples of VA Office of Modernization video products. Each is designed to support one or
           moreof the Secretary's priorities and/or one or more VA Modernization initiatives.
@@ -112,7 +144,8 @@
             allowfullscreen></iframe>
         </div>
         <p>
-          The Veterans Appeals Improvement and Modernization Act of 2017 became law on August 23, 2017 (Pub L. 115-55). It is also known as the Appeals Modernization Act (AMA). You can read the law in full on Congress.gov.
+          The Veterans Appeals Improvement and Modernization Act of 2017 became law on August 23, 2017 (Pub L. 115-55).
+          It is also known as the Appeals Modernization Act (AMA). You can read the law in full on Congress.gov.
         </p>
       </div>
     </div>
@@ -481,12 +514,12 @@
       </div>
     </div>
 
+
+
     <!-- SOCIAL MEDIA IMAGES -->
     <div class="row">
       <div class="col-md-8">
-        <a name="social-media">
-          <h2>Social Media Images</h2>
-        </a>
+        <h2><a class="anchor" name="social-media">Social Media Images</a></h2>
         <p>
           The following are examples of images we will offer for sharing via social media.
         </p>
@@ -787,12 +820,11 @@
       </div>
     </div>
 
+    
     <!-- OTHER VIDEOS -->
     <div class="row">
       <div class="col-md-8">
-        <a name="other-videos">
-          <h2>Other video products</h2>
-        </a>
+        <h2><a class="anchor" name="other-videos">Other video products</a></h2>
         <p>
           The following are examples of other video products created by the Office of Modernization and others. These
           videos
