@@ -51,8 +51,112 @@ const data = [
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Telehealth-Tech.jpg",
+    tags: ["telehealth"]
+  },
+  // end 2019-04-18 images
+
+  // start 2019-04-17 images
+  {
+    src: "./assets/img/20190417-Graphics/20190417-Access-Standards-without-va-logo.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-Access-Standards.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-Customer-service.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-GIS.jpg",
     tags: ["nca"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-Legacy.jpg",
+    tags: ["nca"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-Mission-Act.jpg",
+    tags: ["mission-act"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-Urgent-care.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-VA-Community-Care.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-Veterans-at-the-Center.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-community-provider.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/20190417-facilities.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/HRO1a.png",
+    tags: ["hro"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/HRO2a.png",
+    tags: ["hro"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/HRO3a.png",
+    tags: ["hro"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/Lighthouse1a.png",
+    tags: ["apis"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/Lighthouse2a.png",
+    tags: ["apis"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/Lighthouse3a.png",
+    tags: ["apis"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/Lighthouse4a.png",
+    tags: ["apis"]
+  },
+
+  {
+    src: "./assets/img/20190417-Graphics/Telehealth1a.png",
+    tags: ["telehealth"]
   }
+  // end 2019-04-17 images
+
+
+
+
+
+
 ]
 
 
