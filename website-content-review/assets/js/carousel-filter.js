@@ -1,13 +1,9 @@
-// test 
-console.log("carousel-filter.js loaded");
-
-
-
+// GLOBAL VARIABLES
 let hook = $("#tester");
 
-// functions
+// FUNCTIONS
 
-// function that buildds the carousel item, takes in the src for the carousel image and a boolean as to whether it is the first slide
+// function that builds the carousel item, takes in the src for the carousel image and a boolean as to whether it is the first slide
 function cSlide(img, firstSlide) {
   // build the carousel item, call it cItem
   var cItem = $("<div>");

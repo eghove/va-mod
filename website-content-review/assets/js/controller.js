@@ -1,8 +1,6 @@
-// main processes
+// MAIN PROCESSES
 $(".filter-choice").on("click", function () {
   let filter = $(this).attr("data-value");
-
-  console.log(filter);
 
   if (filter === "content") {
     showAll();

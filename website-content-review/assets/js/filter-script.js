@@ -1,7 +1,4 @@
-// test
-console.log("filter-script.js is loaded");
-
-// functions
+// FUNCTIONS
 
 // hides all content
 function hideAll() {
