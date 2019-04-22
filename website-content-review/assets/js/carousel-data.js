@@ -2,7 +2,66 @@
 
 const data = [
 
-  // beging 2019-04-22 images
+  // begin 2019-04-22 images
+  {
+    src: "./assets/img/20190422-Graphics/20190422_Legacy_NCA.jpg",
+    tags: ["nca"]
+  },
+  
+  {
+    src: "./assets/img/20190422-Graphics/20190422-Business-Transformation.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-disabilities-rating-update.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-Extraction-Information.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-Forever-Gi-Bill-Quote.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-ForeverGiBillNG.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-HomeLoanGuaranty-NicholeArmyVet.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-Paper-Extraction.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-purple-heart-priority.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-Rating-schedule-VASRD.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/20190422-Telehealth.jpg",
+    tags: ["telehealth"]
+  },
+
+
+
+
+  // chris
   {
     src: "./assets/img/20190422-Graphics/c-TelehealthExpanding.png",
     tags: ["telehealth"]
