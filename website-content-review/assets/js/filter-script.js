@@ -1,7 +1,4 @@
-// test
-console.log("filter-script.js is loaded");
-
-// functions
+// FUNCTIONS
 
 // hides all content
 function hideAll() {
@@ -18,18 +15,4 @@ function showSelect(filter) {
   $("." + filter + "").show();
 }
 
-// main processes
-$(".filter-choice").on("click", function () {
-  let filter = $(this).attr("data-value");
 
-  console.log(filter);
-
-  if (filter === "content") {
-    showAll();
-  } else {
-    hideAll()
-    showSelect(filter);
-  }
-
-}
-)
