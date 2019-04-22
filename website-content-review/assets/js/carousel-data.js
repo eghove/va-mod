@@ -2,6 +2,54 @@
 
 const data = [
 
+  // beging 2019-04-22 images
+  {
+    src: "./assets/img/20190422-Graphics/c-TelehealthExpanding.png",
+    tags: ["telehealth"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-TelehealthMentalHealth.png",
+    tags: ["telehealth"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-TelehealthOneMillion.png",
+    tags: ["telehealth"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-TelehealthRural.png",
+    tags: ["telehealth"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-VA.govDigitalContactUpdates.png",
+    tags: ["vagov"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-VA.govFewerMissedAppointments.png",
+    tags: ["vagov"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-VA.govMonthlyScheduling.png",
+    tags: ["vagov"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-VA.govPersonalizedHomePage.png",
+    tags: ["vagov"]
+  },
+
+  {
+    src: "./assets/img/20190422-Graphics/c-VA.govResults.png",
+    tags: ["vagov"]
+  },
+
+
+
   // 2019-04-18 images
   {
     src: "./assets/img/20190418-Graphics/20190418-4EverGIBIll.png",
