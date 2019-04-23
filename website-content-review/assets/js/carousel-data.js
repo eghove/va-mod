@@ -1,6 +1,43 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-04-23 images
+  {
+    src: "./assets/img/20190423-Graphics/20190423-CBCM-post.jpg",
+    tags: ["cbcm"]
+  },
+
+  {
+    src: "./assets/img/20190423-Graphics/20190423-Forever-GI-BillPH.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190423-Graphics/20190423-recruit-graduates.jpg",
+    tags: ["none"]
+  },
+
+
+  {
+    src: "./assets/img/20190423-Graphics/20190423-VA_AI_Precision_Oncology_SocialMedia_EN.jpg",
+    tags: ["ai"]
+  },
+
+  {
+    src: "./assets/img/20190423-Graphics/20190423-VA_Buy_vs_Build_SocialMedia_EN.jpg",
+    tags: ["buyvsbuild"]
+  },
+
+  {
+    src: "./assets/img/20190423-Graphics/20190423-VA_FMBT_SocialMedia_EN.jpg",
+    tags: ["fmbt"]
+  },
+
+  {
+    src: "./assets/img/20190423-Graphics/20190423-VA-Appeals.jpg",
+    tags: ["appeals"]
+  },
+  // end 2019-04-23 images
 
   // begin 2019-04-22 images
   {
