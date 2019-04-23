@@ -37,6 +37,11 @@ const data = [
     src: "./assets/img/20190423-Graphics/20190423-VA-Appeals.jpg",
     tags: ["appeals"]
   },
+
+  {
+    src: "./assets/img/20190423-Graphics/20190423-Sample-VANorthTexas.jpg",
+    tags: ["vha"]
+  },
   // end 2019-04-23 images
 
   // begin 2019-04-22 images
