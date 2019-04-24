@@ -1,6 +1,88 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-04-24 images
+  {
+    src: "./assets/img/20190424-Graphics/20190424-AMA-3.jpg",
+    tags: ["appeals"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-AMA.jpg",
+    tags: ["appeals"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Appeals-reform.jpg",
+    tags: ["appeals"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-BDD.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Centralized-Intake-of-Claims-Material-Quotes.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Education-technologies.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Forever-GI-Bill-Quote-STEM.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-GI-Bill-quote.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Home-loan-Juan-Palacios.jpg",
+    tags: ["gibill", "home-loan"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Housing-Stipend.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Pension-1.jpg",
+    tags: ["vba"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Suicide-health-priority.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Update-Students.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-VA_Interoperability_SocialMedia_EN.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190424-Graphics/20190424-WARTAC-Warrior-Training-Advancement-Course.jpg",
+    tags: ["other"]
+  },
+  
+  {
+    src: "./assets/img/20190424-Graphics/20190424-Wilkie-National-Cemeteries.jpg",
+    tags: ["nca"]
+  },
+  // end 2019-04-24 images
+
   // begin 2019-04-23 images
   {
     src: "./assets/img/20190423-Graphics/20190423-CBCM-post.jpg",
