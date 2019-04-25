@@ -3,6 +3,11 @@
 const data = [
   // begin 2019-04-24 images
   {
+    src: "./assets/img/20190424-Graphics/APIs1a.png",
+    tags: ["apis", "suraf"]
+  },
+
+  {
     src: "./assets/img/20190424-Graphics/20190424-AMA-3.jpg",
     tags: ["appeals"]
   },
@@ -76,7 +81,7 @@ const data = [
     src: "./assets/img/20190424-Graphics/20190424-WARTAC-Warrior-Training-Advancement-Course.jpg",
     tags: ["other"]
   },
-  
+
   {
     src: "./assets/img/20190424-Graphics/20190424-Wilkie-National-Cemeteries.jpg",
     tags: ["nca"]
@@ -131,7 +136,7 @@ const data = [
     src: "./assets/img/20190422-Graphics/20190422_Legacy_NCA.jpg",
     tags: ["nca"]
   },
-  
+
   {
     src: "./assets/img/20190422-Graphics/20190422-Business-Transformation.jpg",
     tags: ["other"]
@@ -348,17 +353,17 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/HRO1a.png",
-    tags: ["hro"]
+    tags: ["hro", "suraf"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/HRO2a.png",
-    tags: ["hro"]
+    tags: ["hro", "suraf"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/HRO3a.png",
-    tags: ["hro"]
+    tags: ["hro", "suraf"]
   },
 
   {
@@ -509,7 +514,7 @@ const data = [
 
   {
     src: "./assets/img/20190411-Graphics/20190411-WWP1.jpg",
-    tags: ["partners"] 
+    tags: ["partners"]
   },
 
   {
