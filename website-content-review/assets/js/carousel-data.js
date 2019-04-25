@@ -1,6 +1,29 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-04-25 images
+  {
+    src: "./assets/img/20190425-Graphics/AppleHealthImage.png",
+    tags: ["suraf"]
+  },
+
+  {
+    src: "./assets/img/20190425-Graphics/EHRMImage_1.png",
+    tags: ["suraf"]
+  },
+
+  {
+    src: "./assets/img/20190425-Graphics/EHRMImage_2.png",
+    tags: ["suraf"]
+  },
+
+  {
+    src: "./assets/img/20190425-Graphics/VHAModernizationPlan.png",
+    tags: ["suraf"]
+  },
+  // end 2019-04-25 images
+
+
   // begin 2019-04-24 images
   {
     src: "./assets/img/20190424-Graphics/APIs1a.png",
