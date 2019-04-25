@@ -61,11 +61,6 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Forever-GI-Bill-Quote-STEM.jpg",
-    tags: ["gibill"]
-  },
-
-  {
     src: "./assets/img/20190424-Graphics/20190424-GI-Bill-quote.jpg",
     tags: ["gibill"]
   },
