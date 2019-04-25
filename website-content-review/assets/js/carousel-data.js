@@ -3,22 +3,22 @@
 const data = [
   // begin 2019-04-25 images
   {
-    src: "./assets/img/20190425-Graphics/AppleHealthImage.png",
+    src: "./assets/img/20190425-Graphics/AppleHealthImage.PNG",
     tags: ["suraf"]
   },
 
   {
-    src: "./assets/img/20190425-Graphics/EHRMImage_1.png",
+    src: "./assets/img/20190425-Graphics/EHRMImage_1.PNG",
     tags: ["suraf"]
   },
 
   {
-    src: "./assets/img/20190425-Graphics/EHRMImage_2.png",
+    src: "./assets/img/20190425-Graphics/EHRMImage_2.PNG",
     tags: ["suraf"]
   },
 
   {
-    src: "./assets/img/20190425-Graphics/VHAModernizationPlan.png",
+    src: "./assets/img/20190425-Graphics/VHAModernizationPlan.PNG",
     tags: ["suraf"]
   },
   // end 2019-04-25 images
