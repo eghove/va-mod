@@ -1,0 +1,42 @@
+body {
+  background-color: #122847;
+  color: white
+}
+
+.nav {
+  background-color: white;
+}
+
+.row {
+  margin-bottom: 3rem;
+}
+
+/* Video responsive styling  */
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Anchor */
+.anchor {
+  padding-top: 90px !important;
+}
+
+/* fixing the carousel bounce */
+.carousel-item {
+  height: 75vh
+}
+
+.carousel-item img {
+  max-height: 75vh;
+}
