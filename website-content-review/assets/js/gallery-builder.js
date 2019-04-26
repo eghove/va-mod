@@ -1,13 +1,19 @@
 
 
+
 // GLOBAL VARIABLE
 const galleryHook = $("#galleryHook");
 
 // FUNCTIONS
 
-function galleryItem(src) {
+function galleryItem(src, tagArray) {
   let colDiv = $('<div>');
   colDiv = colDiv.addClass("col-md-4");
+  // add the tags we need to filter
+  colDiv = colDiv.addClass("content");
+  for (let j=0; j<tagArray.length; j++){
+   colDiv = colDiv.addClass(tagArray[j]);
+  }
 
   // make the card linkable
   let linkHolder = $('<a>');
@@ -16,6 +22,7 @@ function galleryItem(src) {
     target: "_blank",
     rel: "noopener noreferrer"
   });
+  
 
   let card = $('<div>');
   card = card.addClass("card mb-4 shadow-sm");
@@ -48,5 +55,5 @@ function galleryItem(src) {
 // MAIN PROCESSES
 // put all images in the carousel-data.js onto the page
 for (let i = 0; i < data.length; i++) {
-  galleryItem(data[i].src)
+  galleryItem(data[i].src, data[i].tags)
 };
