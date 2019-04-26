@@ -40,3 +40,8 @@ body {
 .carousel-item img {
   max-height: 75vh;
 }
+
+/* setting the card-body for the accordions */
+.card-body {
+  color: black;
+}
