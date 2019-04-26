@@ -120,7 +120,7 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-VA_Interoperability_SocialMedia_EN.jpg",
-    tags: ["other"]
+    tags: ["suraf"]
   },
 
   {
@@ -249,7 +249,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/c-TelehealthOneMillion.png",
-    tags: ["telehealth"]
+    tags: ["telehealth", "suraf"]
   },
 
   {
@@ -399,7 +399,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/HRO1a.png",
-    tags: ["hro", "suraf"]
+    tags: ["hro"]
   },
 
   {
@@ -409,7 +409,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/HRO3a.png",
-    tags: ["hro", "suraf"]
+    tags: ["hro"]
   },
 
   {
