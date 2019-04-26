@@ -32,6 +32,72 @@ const data = [
     tags: ["suraf"]
   },
 
+  // still more
+  {
+    src: "./assets/img/20190426-Graphics/20190426-CICM.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Colmery-Act.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-educaction-3.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Education-call-center-2.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Life-Insurance-Quote.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Life-Insurance.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Life-InsuranceQuoteMarine-Vet.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Mobile-app-test-5.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-NCC-Quotes.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-NCC.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Pension-Burial-Claims-decreased.jpg",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Pension-James-2.png",
+    tags: ["none"]
+  },
+
+  {
+    src: "./assets/img/20190426-Graphics/20190426-Suicide-prevention.jpg",
+    tags: ["none"]
+  },
+
   // end 2019-04-26 images
 
   // begin 2019-04-25 images
