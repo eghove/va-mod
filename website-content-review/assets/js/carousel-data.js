@@ -27,6 +27,11 @@ const data = [
     tags: ["ai"]
   },
 
+  {
+    src: "./assets/img/20190426-Graphics/JAMAWaitTimes1.png",
+    tags: ["suraf"]
+  },
+
   // end 2019-04-26 images
 
   // begin 2019-04-25 images
