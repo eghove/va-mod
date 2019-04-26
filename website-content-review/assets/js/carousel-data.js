@@ -97,7 +97,6 @@ const data = [
     src: "./assets/img/20190426-Graphics/20190426-Suicide-prevention.jpg",
     tags: ["none"]
   },
-
   // end 2019-04-26 images
 
   // begin 2019-04-25 images
