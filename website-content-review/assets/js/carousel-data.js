@@ -1,6 +1,73 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-04-29 images
+  {
+    src: "./assets/img/20190429-Graphics/20190429-BDDQuote2.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-Forever-GI-Bill-Quote-STEM.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-homelessness.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-housed-homeless-vets.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-Jason-VocRehab.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-NCCQuote2.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-Opioid-safety.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-Outreach-Special-Events2.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-OutreachQuote1.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-OutreachWorldwide3.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-VHA_Apple_Health_SocialMedia_EN.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-VREQuote1.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190429-Graphics/20190429-VREQuote2.jpg",
+    tags: ["other"]
+  },
+  // end 2019-04-29 images
+
   // begin 2019-04-26 images
   {
     src: "./assets/img/20190426-Graphics/AI1.png",
