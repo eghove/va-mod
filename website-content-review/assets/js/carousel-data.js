@@ -32,6 +32,200 @@ const data = [
     tags: ["other"]
   },
 
+  {
+    src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide1.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide2.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide3.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide4.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide1.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide2.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide3.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide4.PNG",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide1.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide2.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide3.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide4.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide5.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide6.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide7.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide8.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide9.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide10.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide11.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide12.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Forever_GI_Bill_slideshow_ENGLISH/Slide13.PNG",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide1.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide2.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide3.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide4.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide5.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide6.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide7.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide8.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide9.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide10.png",
+    tags: ["other"]
+  },
+  
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide11.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide12.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide13.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide14.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide15.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide16.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide17.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide18.png",
+    tags: ["other"]
+  },
   // end 2019-04-30 images
 
   // begin 2019-04-29 images
