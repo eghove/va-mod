@@ -1,6 +1,39 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-04-30 images
+  {
+    src: "./assets/img/20190430-Graphics/20190430-Housing-Stipend.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/20190430-LEAF-Program.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-3D-printers.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-infertility-2.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-infertility.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190430-Graphics/20190430-Whole-health-2.jpg",
+    tags: ["other"]
+  },
+
+  // end 2019-04-30 images
+
   // begin 2019-04-29 images
   {
     src: "./assets/img/20190429-Graphics/20190429-BDDQuote2.jpg",
