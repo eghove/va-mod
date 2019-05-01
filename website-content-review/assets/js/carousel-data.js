@@ -1,6 +1,72 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-01 images
+  {
+    src: "./assets/img/20190501-Graphics/20190501-AI1.jpg",
+    tags: ["ai"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-AI3.jpg",
+    tags: ["ai"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-AI4.jpg",
+    tags: ["ai"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-AI5.jpg",
+    tags: ["ai"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-AI6.png",
+    tags: ["ai"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-AMA-first-50-days.jpg",
+    tags: ["ama"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-Housing-Stipend.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Cogsmart.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Mental-Telehealth.jpg",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-Veteran-trust-2.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-Vsignals-4.png",
+    tags: ["other"]
+  },
+
+  {
+    src: "./assets/img/20190501-Graphics/20190501-Vtrust-quote-2.png",
+    tags: ["other"]
+  },
+
+
+  // end 2019-05-01 images
+  
+
+
   // begin 2019-04-30 images
   {
     src: "./assets/img/20190430-Graphics/20190430-Housing-Stipend.jpg",
