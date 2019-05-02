@@ -11,6 +11,11 @@
   }
 }
 
+.filter {
+  overflow: scroll;
+  max-height: 25vh;
+}
+
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
