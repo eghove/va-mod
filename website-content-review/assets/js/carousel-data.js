@@ -49,17 +49,17 @@ const data = [
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Veteran-trust-2.png",
-    tags: ["other"]
+    tags: ["vsignals"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Vsignals-4.png",
-    tags: ["other"]
+    tags: ["vsignals"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Vtrust-quote-2.png",
-    tags: ["other"]
+    tags: ["vsignals"]
   },
 
 
@@ -455,7 +455,7 @@ const data = [
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Suicide-prevention.jpg",
-    tags: ["none"]
+    tags: ["prevention"]
   },
   // end 2019-04-26 images
 
@@ -540,7 +540,7 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Suicide-health-priority.jpg",
-    tags: ["vha"]
+    tags: ["vha", "prevention"]
   },
 
   {
@@ -555,7 +555,7 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-WARTAC-Warrior-Training-Advancement-Course.jpg",
-    tags: ["other"]
+    tags: ["wartac"]
   },
 
   {
@@ -610,7 +610,7 @@ const data = [
   // begin 2019-04-22 images
   {
     src: "./assets/img/20190422-Graphics/20190422_Legacy_NCA.jpg",
-    tags: ["nca"]
+    tags: ["nca","vetlegacy"]
   },
 
   {
@@ -620,7 +620,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-disabilities-rating-update.jpg",
-    tags: ["other"]
+    tags: ["rating"]
   },
 
   {
@@ -655,7 +655,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Rating-schedule-VASRD.jpg",
-    tags: ["other"]
+    tags: ["rating"]
   },
 
   {
@@ -732,7 +732,7 @@ const data = [
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Legacy1.jpg",
-    tags: ["nca"]
+    tags: ["nca","vetlegacy"]
   },
 
   {
@@ -794,7 +794,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Legacy.jpg",
-    tags: ["nca"]
+    tags: ["nca","vetlegacy"]
   },
 
   {
@@ -985,7 +985,7 @@ const data = [
 
   {
     src: "./assets/img/20190411-Graphics/20190411-WHH2.jpg",
-    tags: ["other"]
+    tags: ["hotline"]
   },
 
   {
