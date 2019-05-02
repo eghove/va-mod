@@ -779,7 +779,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Access-to-Care.jpg",
-    tags: ["vha"]
+    tags: ["vha", "accesstocare"]
   },
 
   {
@@ -824,7 +824,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-facilities.jpg",
-    tags: ["vha"]
+    tags: ["vha", "accesstocare"]
   },
 
   {
