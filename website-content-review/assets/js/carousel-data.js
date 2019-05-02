@@ -297,7 +297,7 @@ const data = [
   // begin 2019-04-29 images
   {
     src: "./assets/img/20190429-Graphics/20190429-BDDQuote2.jpg",
-    tags: ["other"]
+    tags: ["predischarge"]
   },
 
   {
@@ -322,27 +322,27 @@ const data = [
 
   {
     src: "./assets/img/20190429-Graphics/20190429-NCCQuote2.jpg",
-    tags: ["other"]
+    tags: ["ncc"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-Opioid-safety.jpg",
-    tags: ["other"]
+    tags: ["opioid"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-Outreach-Special-Events2.jpg",
-    tags: ["other"]
+    tags: ["outreach"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-OutreachQuote1.jpg",
-    tags: ["other"]
+    tags: ["outreach"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-OutreachWorldwide3.jpg",
-    tags: ["other"]
+    tags: ["outreach"]
   },
 
   {
@@ -430,27 +430,27 @@ const data = [
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Mobile-app-test-5.jpg",
-    tags: ["none"]
+    tags: ["nca"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-NCC-Quotes.jpg",
-    tags: ["none"]
+    tags: ["ncc"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-NCC.jpg",
-    tags: ["none"]
+    tags: ["ncc"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Pension-Burial-Claims-decreased.jpg",
-    tags: ["none"]
+    tags: ["pension"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Pension-James-2.png",
-    tags: ["none"]
+    tags: ["pension"]
   },
 
   {
@@ -505,7 +505,7 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-BDD.jpg",
-    tags: ["other"]
+    tags: ["predischarge"]
   },
 
   {
@@ -535,7 +535,7 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Pension-1.jpg",
-    tags: ["vba"]
+    tags: ["pension"]
   },
 
   {
@@ -577,7 +577,7 @@ const data = [
 
   {
     src: "./assets/img/20190423-Graphics/20190423-recruit-graduates.jpg",
-    tags: ["none"]
+    tags: ["mission"]
   },
 
 
@@ -625,7 +625,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Extraction-Information.jpg",
-    tags: ["other"]
+    tags: ["paper"]
   },
 
   {
@@ -645,7 +645,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Paper-Extraction.jpg",
-    tags: ["other"]
+    tags: ["paper"]
   },
 
   {
@@ -747,17 +747,17 @@ const data = [
 
   {
     src: "./assets/img/20190418-Graphics/20190418-No-Veteran-Ever-Dies-2.jpg",
-    tags: ["nca"]
+    tags: ["nca", "novet"]
   },
 
   {
     src: "./assets/img/20190418-Graphics/20190418-No-Veteran-Ever-Dies1.jpg",
-    tags: ["nca"]
+    tags: ["nca", "novet"]
   },
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Randy-Reeves.jpg",
-    tags: ["nca"]
+    tags: ["novet"]
   },
 
   {
@@ -799,12 +799,12 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Mission-Act.jpg",
-    tags: ["mission-act"]
+    tags: ["mission"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Urgent-care.jpg",
-    tags: ["vha"]
+    tags: ["vha", "mission"]
   },
 
   {
@@ -923,7 +923,7 @@ const data = [
 
   {
     src: "./assets/img/20190412-Graphics/20190412-No-Veteran-Ever-Dies.jpg",
-    tags: ["nca"]
+    tags: ["nca", "novet"]
   },
   // end 2019-04-12 images
 
@@ -1002,7 +1002,7 @@ const data = [
   // begin prior to 2019-04-11 images
   {
     src: "./assets/img/20190407-CrisisLine.png",
-    tags: ["other"]
+    tags: ["mod"]
   },
 
   {
