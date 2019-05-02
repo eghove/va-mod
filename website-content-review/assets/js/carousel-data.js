@@ -34,17 +34,17 @@ const data = [
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Housing-Stipend.jpg",
-    tags: ["other"]
+    tags: ["gibill"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Cogsmart.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Mental-Telehealth.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
@@ -70,27 +70,27 @@ const data = [
   // begin 2019-04-30 images
   {
     src: "./assets/img/20190430-Graphics/20190430-Housing-Stipend.jpg",
-    tags: ["other"]
+    tags: ["gibill"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-LEAF-Program.png",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-3D-printers.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-infertility-2.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-infertility.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
@@ -100,22 +100,22 @@ const data = [
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide1.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide2.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide3.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide4.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
@@ -307,12 +307,12 @@ const data = [
 
   {
     src: "./assets/img/20190429-Graphics/20190429-homelessness.jpg",
-    tags: ["other"]
+    tags: ["homeless"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-housed-homeless-vets.jpg",
-    tags: ["other"]
+    tags: ["homeless"]
   },
 
   {
@@ -347,7 +347,7 @@ const data = [
 
   {
     src: "./assets/img/20190429-Graphics/20190429-VHA_Apple_Health_SocialMedia_EN.jpg",
-    tags: ["other"]
+    tags: ["apple"]
   },
 
   {
@@ -395,37 +395,37 @@ const data = [
   // still more
   {
     src: "./assets/img/20190426-Graphics/20190426-CICM.jpg",
-    tags: ["none"]
+    tags: ["intake"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Colmery-Act.jpg",
-    tags: ["none"]
+    tags: ["gibill"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-educaction-3.jpg",
-    tags: ["none"]
+    tags: ["education"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Education-call-center-2.jpg",
-    tags: ["none"]
+    tags: ["education"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-Insurance-Quote.jpg",
-    tags: ["none"]
+    tags: ["life"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-Insurance.jpg",
-    tags: ["none"]
+    tags: ["life"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-InsuranceQuoteMarine-Vet.jpg",
-    tags: ["none"]
+    tags: ["life"]
   },
 
   {
@@ -462,17 +462,17 @@ const data = [
   // begin 2019-04-25 images
   {
     src: "./assets/img/20190425-Graphics/AppleHealthImage.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "apple"]
   },
 
   {
     src: "./assets/img/20190425-Graphics/EHRMImage_1.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "ehrm"]
   },
 
   {
     src: "./assets/img/20190425-Graphics/EHRMImage_2.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "ehrm"]
   },
 
   {
@@ -490,17 +490,17 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-AMA-3.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-AMA.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Appeals-reform.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
@@ -510,7 +510,7 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Centralized-Intake-of-Claims-Material-Quotes.jpg",
-    tags: ["other"]
+    tags: ["intake"]
   },
 
   {
@@ -520,12 +520,12 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-GI-Bill-quote.jpg",
-    tags: ["gibill"]
+    tags: ["education"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Home-loan-Juan-Palacios.jpg",
-    tags: ["gibill", "home-loan"]
+    tags: ["loan"]
   },
 
   {
@@ -550,7 +550,7 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-VA_Interoperability_SocialMedia_EN.jpg",
-    tags: ["suraf"]
+    tags: ["suraf", "interop"]
   },
 
   {
@@ -588,7 +588,7 @@ const data = [
 
   {
     src: "./assets/img/20190423-Graphics/20190423-VA_Buy_vs_Build_SocialMedia_EN.jpg",
-    tags: ["buyvsbuild"]
+    tags: ["buyvbuild"]
   },
 
   {
@@ -598,7 +598,7 @@ const data = [
 
   {
     src: "./assets/img/20190423-Graphics/20190423-VA-Appeals.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
@@ -615,7 +615,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Business-Transformation.jpg",
-    tags: ["other"]
+    tags: ["customer"]
   },
 
   {
@@ -640,7 +640,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-HomeLoanGuaranty-NicholeArmyVet.jpg",
-    tags: ["gibill"]
+    tags: ["loan"]
   },
 
   {
@@ -650,7 +650,7 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-purple-heart-priority.jpg",
-    tags: ["other"]
+    tags: ["autoest"]
   },
 
   {
@@ -784,12 +784,12 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Customer-service.jpg",
-    tags: ["vha"]
+    tags: ["customer"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/20190417-GIS.jpg",
-    tags: ["nca"]
+    tags: ["nca", "gps"]
   },
 
   {
@@ -854,7 +854,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/Lighthouse3a.png",
-    tags: ["apis"]
+    tags: ["apis", "interop"]
   },
 
   {
@@ -1012,7 +1012,7 @@ const data = [
 
   {
     src: "./assets/img/20190408-TeleHearing.png",
-    tags: ["telehearing"]
+    tags: ["ama"]
   },
 
   {
