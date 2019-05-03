@@ -4,6 +4,16 @@
 
 <head>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138585898-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138585898-2');
+  </script>
+
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,196 +50,198 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-              <li class="nav-item">
-                  <a class="nav-link" href="./index.html">
-                    Back to Main
-                  </a>
-              </li>
-            
-  
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Filter
-              </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
 
-              <div class="dropdown-menu filter" aria-labelledby="navbarDropdown">
-                <!-- ALL CONTENT -->
-                <a class="dropdown-item filter-choice" data-value="content">All</a>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">
+            Back to Main
+          </a>
+        </li>
 
-                <!-- ACCESS TO CARE -->
-                <a class="dropdown-item filter-choice" data-value="accesstocare">Access to Care</a>
 
-                <!-- AI -->
-                <a class="dropdown-item filter-choice" data-value="ai">AI</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Filter
+          </a>
 
-                <!-- APIs -->
-                <a class="dropdown-item filter-choice" data-value="apis">APIs</a>
+          <div class="dropdown-menu filter" aria-labelledby="navbarDropdown">
+            <!-- ALL CONTENT -->
+            <a class="dropdown-item filter-choice" data-value="content">All</a>
 
-                <!-- APPEALS MODERNIZATION -->
-                <a class="dropdown-item filter-choice" data-value="ama">Appeals Modernization</a>
+            <!-- ACCESS TO CARE -->
+            <a class="dropdown-item filter-choice" data-value="accesstocare">Access to Care</a>
 
-                <!-- APPLE HEALTH -->
-                <a class="dropdown-item filter-choice" data-value="apple">Apple Health</a>
+            <!-- AI -->
+            <a class="dropdown-item filter-choice" data-value="ai">AI</a>
 
-                <!-- AUTO ESTABLISHMENT OF CLAIMS -->
-                <a class="dropdown-item filter-choice" data-value="autoest">Auto Establishment of Claims</a>
+            <!-- APIs -->
+            <a class="dropdown-item filter-choice" data-value="apis">APIs</a>
 
-                <!-- BUSINESS TRANSFORMATION -->
-                <a class="dropdown-item filter-choice" data-value="bt">Business Transformation</a>
+            <!-- APPEALS MODERNIZATION -->
+            <a class="dropdown-item filter-choice" data-value="ama">Appeals Modernization</a>
 
-                <!-- BUY V BUILD -->
-                <a class="dropdown-item filter-choice" data-value="buyvbuild">Buy vs Build</a>
+            <!-- APPLE HEALTH -->
+            <a class="dropdown-item filter-choice" data-value="apple">Apple Health</a>
 
-                <!-- CBCM -->
-                <a class="dropdown-item filter-choice" data-value="cbcm">CBCM</a>
+            <!-- AUTO ESTABLISHMENT OF CLAIMS -->
+            <a class="dropdown-item filter-choice" data-value="autoest">Auto Establishment of Claims</a>
 
-                <!-- Centralized Intake of Claims Materials -->
-                <a class="dropdown-item filter-choice" data-value="intake">Centralized Intake of Claims Materials</a>
+            <!-- BUSINESS TRANSFORMATION -->
+            <a class="dropdown-item filter-choice" data-value="bt">Business Transformation</a>
 
-                <!-- Customer Service -->
-                <a class="dropdown-item filter-choice" data-value="customer">Customer Service</a>
+            <!-- BUY V BUILD -->
+            <a class="dropdown-item filter-choice" data-value="buyvbuild">Buy vs Build</a>
 
-                <!-- eBenefits -->
-                <a class="dropdown-item filter-choice" data-value="ebenefits">eBenefits</a>
+            <!-- CBCM -->
+            <a class="dropdown-item filter-choice" data-value="cbcm">CBCM</a>
 
-                <!-- Education -->
-                <a class="dropdown-item filter-choice" data-value="education">Education</a>
+            <!-- Centralized Intake of Claims Materials -->
+            <a class="dropdown-item filter-choice" data-value="intake">Centralized Intake of Claims Materials</a>
 
-                <!-- EHRM -->
-                <a class="dropdown-item filter-choice" data-value="ehrm">EHRM</a>
+            <!-- Customer Service -->
+            <a class="dropdown-item filter-choice" data-value="customer">Customer Service</a>
 
-                <!-- FMBT -->
-                <a class="dropdown-item filter-choice" data-value="fmbt">FMBT</a>
+            <!-- eBenefits -->
+            <a class="dropdown-item filter-choice" data-value="ebenefits">eBenefits</a>
 
-                <!-- FOREVER GI BILL -->
-                <a class="dropdown-item filter-choice" data-value="gibill">GI Bill</a>
+            <!-- Education -->
+            <a class="dropdown-item filter-choice" data-value="education">Education</a>
 
-                <!-- GPS/GIS -->
-                <a class="dropdown-item filter-choice" data-value="gps">GPS/GIS</a>
+            <!-- EHRM -->
+            <a class="dropdown-item filter-choice" data-value="ehrm">EHRM</a>
 
-                <!-- Healthcare Technologies -->
-                <a class="dropdown-item filter-choice" data-value="healthcare">Healthcare Technologies</a>
+            <!-- FMBT -->
+            <a class="dropdown-item filter-choice" data-value="fmbt">FMBT</a>
 
-                <!-- High Reliability Organization -->
-                <a class="dropdown-item filter-choice" data-value="hro">High Reliability Organization</a>
+            <!-- FOREVER GI BILL -->
+            <a class="dropdown-item filter-choice" data-value="gibill">GI Bill</a>
 
-                <!-- Home Loan -->
-                <a class="dropdown-item filter-choice" data-value="loan">Home Loan</a>
+            <!-- GPS/GIS -->
+            <a class="dropdown-item filter-choice" data-value="gps">GPS/GIS</a>
 
-                <!-- Homelessness -->
-                <a class="dropdown-item filter-choice" data-value="homeless">Homelessness</a>
+            <!-- Healthcare Technologies -->
+            <a class="dropdown-item filter-choice" data-value="healthcare">Healthcare Technologies</a>
 
-                <!-- HR Modernization -->
-                <a class="dropdown-item disabled filter-choice" data-value="hrmod">HR Modernization</a>
+            <!-- High Reliability Organization -->
+            <a class="dropdown-item filter-choice" data-value="hro">High Reliability Organization</a>
 
-                <!-- Interoperability -->
-                <a class="dropdown-item filter-choice" data-value="interop">Interoperability</a>
+            <!-- Home Loan -->
+            <a class="dropdown-item filter-choice" data-value="loan">Home Loan</a>
 
-                <!-- Life Insurance -->
-                <a class="dropdown-item filter-choice" data-value="life">Life Insurance</a>
+            <!-- Homelessness -->
+            <a class="dropdown-item filter-choice" data-value="homeless">Homelessness</a>
 
-                <!-- Mental Health Joint Action Plan -->
-                <a class="dropdown-item disabled filter-choice" data-value="mhjap">Mental Health Joint Action Plan</a>
+            <!-- HR Modernization -->
+            <a class="dropdown-item disabled filter-choice" data-value="hrmod">HR Modernization</a>
 
-                <!-- MISSION Act -->
-                <a class="dropdown-item filter-choice" data-value="mission">MISSION Act</a>
+            <!-- Interoperability -->
+            <a class="dropdown-item filter-choice" data-value="interop">Interoperability</a>
 
-                <!-- Modernization -->
-                <a class="dropdown-item filter-choice" data-value="mod">Modernization (General)</a>
+            <!-- Life Insurance -->
+            <a class="dropdown-item filter-choice" data-value="life">Life Insurance</a>
 
-                <!-- National Work Queue -->
-                <a class="dropdown-item disabled filter-choice" data-value="nwq">National Work Queue</a>
+            <!-- Mental Health Joint Action Plan -->
+            <a class="dropdown-item disabled filter-choice" data-value="mhjap">Mental Health Joint Action Plan</a>
 
-                <!-- NCA Modernization -->
-                <a class="dropdown-item filter-choice" data-value="nca">NCA</a>
+            <!-- MISSION Act -->
+            <a class="dropdown-item filter-choice" data-value="mission">MISSION Act</a>
 
-                <!-- NCC -->
-                <a class="dropdown-item filter-choice" data-value="ncc">NCC</a>
+            <!-- Modernization -->
+            <a class="dropdown-item filter-choice" data-value="mod">Modernization (General)</a>
 
-                <!-- No Veteran Ever Dies Campaign -->
-                <a class="dropdown-item filter-choice" data-value="novet">No Veteran Ever Dies Campaign</a>
+            <!-- National Work Queue -->
+            <a class="dropdown-item disabled filter-choice" data-value="nwq">National Work Queue</a>
 
-                <!-- Opioid Safety -->
-                <a class="dropdown-item filter-choice" data-value="opioid">Opioid Safety</a>
+            <!-- NCA Modernization -->
+            <a class="dropdown-item filter-choice" data-value="nca">NCA</a>
 
-                <!-- Outreach -->
-                <a class="dropdown-item filter-choice" data-value="outreach">Outreach</a>
+            <!-- NCC -->
+            <a class="dropdown-item filter-choice" data-value="ncc">NCC</a>
 
-                <!-- Paper Extraction -->
-                <a class="dropdown-item filter-choice" data-value="paper">Paper Extraction</a>
+            <!-- No Veteran Ever Dies Campaign -->
+            <a class="dropdown-item filter-choice" data-value="novet">No Veteran Ever Dies Campaign</a>
 
-                <!-- Partnerships -->
-                <a class="dropdown-item filter-choice" data-value="partners">Partnerships</a>
+            <!-- Opioid Safety -->
+            <a class="dropdown-item filter-choice" data-value="opioid">Opioid Safety</a>
 
-                <!-- Pension -->
-                <a class="dropdown-item filter-choice" data-value="pension">Pension</a>
+            <!-- Outreach -->
+            <a class="dropdown-item filter-choice" data-value="outreach">Outreach</a>
 
-                <!-- Pre-Discharge Redesign -->
-                <a class="dropdown-item filter-choice" data-value="predischarge">Pre-Discharge Redesign</a>
+            <!-- Paper Extraction -->
+            <a class="dropdown-item filter-choice" data-value="paper">Paper Extraction</a>
 
-                <!-- Rating Disabilities Reg Updates -->
-                <a class="dropdown-item filter-choice" data-value="rating">Rating Disabilities Reg Updates</a>
+            <!-- Partnerships -->
+            <a class="dropdown-item filter-choice" data-value="partners">Partnerships</a>
 
-                <!-- Reorganization -->
-                <a class="dropdown-item disabled filter-choice" data-value="reorg">Reorganization</a>
+            <!-- Pension -->
+            <a class="dropdown-item filter-choice" data-value="pension">Pension</a>
 
-                <!-- Suicide Prevention -->
-                <a class="dropdown-item filter-choice" data-value="prevention">Suicide Prevention</a>
+            <!-- Pre-Discharge Redesign -->
+            <a class="dropdown-item filter-choice" data-value="predischarge">Pre-Discharge Redesign</a>
 
-                <!-- Supply Chain Modernization -->
-                <a class="dropdown-item disabled filter-choice" data-value="supply">Supply Chain Modernization</a>
+            <!-- Rating Disabilities Reg Updates -->
+            <a class="dropdown-item filter-choice" data-value="rating">Rating Disabilities Reg Updates</a>
 
-                <!-- Telehealth -->
-                <a class="dropdown-item filter-choice" data-value="telehealth">Telehealth</a>
+            <!-- Reorganization -->
+            <a class="dropdown-item disabled filter-choice" data-value="reorg">Reorganization</a>
 
-                <!-- VA.gov -->
-                <a class="dropdown-item filter-choice" data-value="vagov">VA.gov</a>
+            <!-- Suicide Prevention -->
+            <a class="dropdown-item filter-choice" data-value="prevention">Suicide Prevention</a>
 
-                <!-- VBA Modernization -->
-                <a class="dropdown-item disabled filter-choice" data-value="vbamod">VBA Modernization</a>
+            <!-- Supply Chain Modernization -->
+            <a class="dropdown-item disabled filter-choice" data-value="supply">Supply Chain Modernization</a>
 
-                <!-- Veterans Legacy Program -->
-                <a class="dropdown-item filter-choice" data-value="vetlegacy">Veterans Legacy Program</a>
+            <!-- Telehealth -->
+            <a class="dropdown-item filter-choice" data-value="telehealth">Telehealth</a>
 
-                <!-- VHA -->
-                <a class="dropdown-item filter-choice" data-value="vha">VHA</a>
+            <!-- VA.gov -->
+            <a class="dropdown-item filter-choice" data-value="vagov">VA.gov</a>
 
-                <!-- Voc Rehab -->
-                <a class="dropdown-item filter-choice" data-value="vocrehab">Voc Rehab</a>
+            <!-- VBA Modernization -->
+            <a class="dropdown-item disabled filter-choice" data-value="vbamod">VBA Modernization</a>
 
-                <!-- VSignals -->
-                <a class="dropdown-item filter-choice" data-value="vsignals">VSignals</a>
+            <!-- Veterans Legacy Program -->
+            <a class="dropdown-item filter-choice" data-value="vetlegacy">Veterans Legacy Program</a>
 
-                <!-- WARTAC -->
-                <a class="dropdown-item filter-choice" data-value="wartac">WARTAC</a>
+            <!-- VHA -->
+            <a class="dropdown-item filter-choice" data-value="vha">VHA</a>
 
-                <!-- WHITE HOUSE HOTLINE -->
-                <a class="dropdown-item filter-choice" data-value="hotline">White House Hotline</a>
+            <!-- Voc Rehab -->
+            <a class="dropdown-item filter-choice" data-value="vocrehab">Voc Rehab</a>
 
-                <!-- THE MOCKUP PRESENTATION FILTER -->
-                <a class="dropdown-item filter-choice" data-value="suraf">Mockup Presentation</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+            <!-- VSignals -->
+            <a class="dropdown-item filter-choice" data-value="vsignals">VSignals</a>
+
+            <!-- WARTAC -->
+            <a class="dropdown-item filter-choice" data-value="wartac">WARTAC</a>
+
+            <!-- WHITE HOUSE HOTLINE -->
+            <a class="dropdown-item filter-choice" data-value="hotline">White House Hotline</a>
+
+            <!-- THE MOCKUP PRESENTATION FILTER -->
+            <a class="dropdown-item filter-choice" data-value="suraf">Mockup Presentation</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <main role="main">
     <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">MOD Images Gallery</h1>
-        <p class="lead text-muted text-left">The following are examples of images we will offer for sharing via social media. Since these are thumbnails, the underlying image may have different dimensions.</p>
-        <p class="lead text-muted text-left">Please use the filter options above. If you are unable to select an item, it means no images ascribed to that category have been uploaded.</p>
+        <p class="lead text-muted text-left">The following are examples of images we will offer for sharing via social
+          media. Since these are thumbnails, the underlying image may have different dimensions.</p>
+        <p class="lead text-muted text-left">Please use the filter options above. If you are unable to select an item,
+          it means no images ascribed to that category have been uploaded.</p>
 
       </div>
     </section>
@@ -239,7 +251,7 @@
     <div class="album py-5">
       <div class="container">
         <div class="row" id="galleryHook">
-        
+
 
           <!-- end the row -->
         </div>
