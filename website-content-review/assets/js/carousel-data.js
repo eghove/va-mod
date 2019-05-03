@@ -61,17 +61,8 @@ const data = [
     src: "./assets/img/20190501-Graphics/20190501-Vtrust-quote-2.png",
     tags: ["vsignals"]
   },
-
-
   // end 2019-05-01 images
   
-
-
-  // begin 2019-04-30 images
-  {
-    src: "./assets/img/20190430-Graphics/20190430-Housing-Stipend.jpg",
-    tags: ["gibill"]
-  },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-LEAF-Program.png",
@@ -526,11 +517,6 @@ const data = [
   {
     src: "./assets/img/20190424-Graphics/20190424-Home-loan-Juan-Palacios.jpg",
     tags: ["loan"]
-  },
-
-  {
-    src: "./assets/img/20190424-Graphics/20190424-Housing-Stipend.jpg",
-    tags: ["gibill"]
   },
 
   {
