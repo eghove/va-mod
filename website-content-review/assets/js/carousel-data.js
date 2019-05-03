@@ -95,7 +95,7 @@ const data = [
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Whole-health-2.jpg",
-    tags: ["other"]
+    tags: ["vha"]
   },
 
   {
@@ -120,22 +120,22 @@ const data = [
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide1.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide2.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide3.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide4.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
@@ -205,92 +205,92 @@ const data = [
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide1.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide2.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide3.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide4.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide5.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide6.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide7.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide8.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide9.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide10.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
   
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide11.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide12.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide13.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide14.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide15.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide16.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide17.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide18.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
   // end 2019-04-30 images
 
@@ -317,7 +317,7 @@ const data = [
 
   {
     src: "./assets/img/20190429-Graphics/20190429-Jason-VocRehab.jpg",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
@@ -352,12 +352,12 @@ const data = [
 
   {
     src: "./assets/img/20190429-Graphics/20190429-VREQuote1.jpg",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-VREQuote2.jpg",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
   // end 2019-04-29 images
 
@@ -389,7 +389,7 @@ const data = [
 
   {
     src: "./assets/img/20190426-Graphics/JAMAWaitTimes1.png",
-    tags: ["suraf"]
+    tags: ["suraf", "vha"]
   },
 
   // still more
@@ -477,7 +477,7 @@ const data = [
 
   {
     src: "./assets/img/20190425-Graphics/VHAModernizationPlan.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "vha"]
   },
   // end 2019-04-25 images
 
@@ -727,7 +727,7 @@ const data = [
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Hands-of-Veterans.jpg",
-    tags: ["none"],
+    tags: ["vha"],
   },
 
   {
@@ -814,7 +814,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Veterans-at-the-Center.jpg",
-    tags: ["none"]
+    tags: ["vha"]
   },
 
   {
@@ -970,7 +970,7 @@ const data = [
 
   {
     src: "./assets/img/20190411-Graphics/20190411-VA-and-National-Multiple-Sclerosis-Society.jpg",
-    tags: ["partners"]
+    tags: ["partners", "vha"]
   },
 
   {
@@ -990,7 +990,7 @@ const data = [
 
   {
     src: "./assets/img/20190411-Graphics/20190411-WWP1.jpg",
-    tags: ["partners"]
+    tags: ["partners", "vha"]
   },
 
   {
@@ -1022,7 +1022,7 @@ const data = [
 
   {
     src: "./assets/img/20190408-VAlor.png",
-    tags: ["other"]
+    tags: ["vha"]
   }
   // end prior to 2019-04-11 images
 ]
