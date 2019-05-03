@@ -4,6 +4,16 @@
 
 <head>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138585898-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138585898-2');
+  </script>
+
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,39 +50,199 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            
-  
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Filter
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item filter-choice" data-value="content">All</a>
-                <a class="dropdown-item filter-choice" data-value="apis">APIs</a>
-                <a class="dropdown-item filter-choice" data-value="telehealth">Telehealth</a>
-                <a class="dropdown-item filter-choice" data-value="gibill">GI Bill</a>
-                <a class="dropdown-item filter-choice" data-value="nca">NCA</a>
-                <a class="dropdown-item filter-choice" data-value="suraf">Mockup Presentation</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">
+            Back to Main
+          </a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Filter
+          </a>
+
+          <div class="dropdown-menu filter" aria-labelledby="navbarDropdown">
+            <!-- ALL CONTENT -->
+            <a class="dropdown-item filter-choice" data-value="content">All</a>
+
+            <!-- ACCESS TO CARE -->
+            <a class="dropdown-item filter-choice" data-value="accesstocare">Access to Care</a>
+
+            <!-- AI -->
+            <a class="dropdown-item filter-choice" data-value="ai">AI</a>
+
+            <!-- APIs -->
+            <a class="dropdown-item filter-choice" data-value="apis">APIs</a>
+
+            <!-- APPEALS MODERNIZATION -->
+            <a class="dropdown-item filter-choice" data-value="ama">Appeals Modernization</a>
+
+            <!-- APPLE HEALTH -->
+            <a class="dropdown-item filter-choice" data-value="apple">Apple Health</a>
+
+            <!-- AUTO ESTABLISHMENT OF CLAIMS -->
+            <a class="dropdown-item filter-choice" data-value="autoest">Auto Establishment of Claims</a>
+
+            <!-- BUSINESS TRANSFORMATION -->
+            <a class="dropdown-item filter-choice" data-value="bt">Business Transformation</a>
+
+            <!-- BUY V BUILD -->
+            <a class="dropdown-item filter-choice" data-value="buyvbuild">Buy vs Build</a>
+
+            <!-- CBCM -->
+            <a class="dropdown-item filter-choice" data-value="cbcm">CBCM</a>
+
+            <!-- Centralized Intake of Claims Materials -->
+            <a class="dropdown-item filter-choice" data-value="intake">Centralized Intake of Claims Materials</a>
+
+            <!-- Customer Service -->
+            <a class="dropdown-item filter-choice" data-value="customer">Customer Service</a>
+
+            <!-- eBenefits -->
+            <a class="dropdown-item filter-choice" data-value="ebenefits">eBenefits</a>
+
+            <!-- Education -->
+            <a class="dropdown-item filter-choice" data-value="education">Education</a>
+
+            <!-- EHRM -->
+            <a class="dropdown-item filter-choice" data-value="ehrm">EHRM</a>
+
+            <!-- FMBT -->
+            <a class="dropdown-item filter-choice" data-value="fmbt">FMBT</a>
+
+            <!-- FOREVER GI BILL -->
+            <a class="dropdown-item filter-choice" data-value="gibill">GI Bill</a>
+
+            <!-- GPS/GIS -->
+            <a class="dropdown-item filter-choice" data-value="gps">GPS/GIS</a>
+
+            <!-- Healthcare Technologies -->
+            <a class="dropdown-item filter-choice" data-value="healthcare">Healthcare Technologies</a>
+
+            <!-- High Reliability Organization -->
+            <a class="dropdown-item filter-choice" data-value="hro">High Reliability Organization</a>
+
+            <!-- Home Loan -->
+            <a class="dropdown-item filter-choice" data-value="loan">Home Loan</a>
+
+            <!-- Homelessness -->
+            <a class="dropdown-item filter-choice" data-value="homeless">Homelessness</a>
+
+            <!-- HR Modernization -->
+            <a class="dropdown-item disabled filter-choice" data-value="hrmod">HR Modernization</a>
+
+            <!-- Interoperability -->
+            <a class="dropdown-item filter-choice" data-value="interop">Interoperability</a>
+
+            <!-- Life Insurance -->
+            <a class="dropdown-item filter-choice" data-value="life">Life Insurance</a>
+
+            <!-- Mental Health Joint Action Plan -->
+            <a class="dropdown-item disabled filter-choice" data-value="mhjap">Mental Health Joint Action Plan</a>
+
+            <!-- MISSION Act -->
+            <a class="dropdown-item filter-choice" data-value="mission">MISSION Act</a>
+
+            <!-- Modernization -->
+            <a class="dropdown-item filter-choice" data-value="mod">Modernization (General)</a>
+
+            <!-- National Work Queue -->
+            <a class="dropdown-item disabled filter-choice" data-value="nwq">National Work Queue</a>
+
+            <!-- NCA Modernization -->
+            <a class="dropdown-item filter-choice" data-value="nca">NCA</a>
+
+            <!-- NCC -->
+            <a class="dropdown-item filter-choice" data-value="ncc">NCC</a>
+
+            <!-- No Veteran Ever Dies Campaign -->
+            <a class="dropdown-item filter-choice" data-value="novet">No Veteran Ever Dies Campaign</a>
+
+            <!-- Opioid Safety -->
+            <a class="dropdown-item filter-choice" data-value="opioid">Opioid Safety</a>
+
+            <!-- Outreach -->
+            <a class="dropdown-item filter-choice" data-value="outreach">Outreach</a>
+
+            <!-- Paper Extraction -->
+            <a class="dropdown-item filter-choice" data-value="paper">Paper Extraction</a>
+
+            <!-- Partnerships -->
+            <a class="dropdown-item filter-choice" data-value="partners">Partnerships</a>
+
+            <!-- Pension -->
+            <a class="dropdown-item filter-choice" data-value="pension">Pension</a>
+
+            <!-- Pre-Discharge Redesign -->
+            <a class="dropdown-item filter-choice" data-value="predischarge">Pre-Discharge Redesign</a>
+
+            <!-- Rating Disabilities Reg Updates -->
+            <a class="dropdown-item filter-choice" data-value="rating">Rating Disabilities Reg Updates</a>
+
+            <!-- Reorganization -->
+            <a class="dropdown-item disabled filter-choice" data-value="reorg">Reorganization</a>
+
+            <!-- Suicide Prevention -->
+            <a class="dropdown-item filter-choice" data-value="prevention">Suicide Prevention</a>
+
+            <!-- Supply Chain Modernization -->
+            <a class="dropdown-item disabled filter-choice" data-value="supply">Supply Chain Modernization</a>
+
+            <!-- Telehealth -->
+            <a class="dropdown-item filter-choice" data-value="telehealth">Telehealth</a>
+
+            <!-- VA.gov -->
+            <a class="dropdown-item filter-choice" data-value="vagov">VA.gov</a>
+
+            <!-- VBA Modernization -->
+            <a class="dropdown-item disabled filter-choice" data-value="vbamod">VBA Modernization</a>
+
+            <!-- Veterans Legacy Program -->
+            <a class="dropdown-item filter-choice" data-value="vetlegacy">Veterans Legacy Program</a>
+
+            <!-- VHA -->
+            <a class="dropdown-item filter-choice" data-value="vha">VHA</a>
+
+            <!-- Voc Rehab -->
+            <a class="dropdown-item filter-choice" data-value="vocrehab">Voc Rehab</a>
+
+            <!-- VSignals -->
+            <a class="dropdown-item filter-choice" data-value="vsignals">VSignals</a>
+
+            <!-- WARTAC -->
+            <a class="dropdown-item filter-choice" data-value="wartac">WARTAC</a>
+
+            <!-- WHITE HOUSE HOTLINE -->
+            <a class="dropdown-item filter-choice" data-value="hotline">White House Hotline</a>
+
+            <!-- THE MOCKUP PRESENTATION FILTER -->
+            <a class="dropdown-item filter-choice" data-value="suraf">Mockup Presentation</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <main role="main">
     <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">MOD Images Gallery</h1>
-        <p class="lead text-muted">The following are examples of images we will offer for sharing via social media. Since these are thumbnails, the underlying image may have different dimensions.</p>
+        <p class="lead text-muted text-left">The following are examples of images we will offer for sharing via social
+          media. Since these are thumbnails, the underlying image may have different dimensions.</p>
+        <p class="lead text-muted text-left">Please use the filter options above. If you are unable to select an item,
+          it means no images ascribed to that category have been uploaded.</p>
+
       </div>
     </section>
 
@@ -81,7 +251,7 @@
     <div class="album py-5">
       <div class="container">
         <div class="row" id="galleryHook">
-        
+
 
           <!-- end the row -->
         </div>

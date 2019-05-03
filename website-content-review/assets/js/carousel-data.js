@@ -34,32 +34,32 @@ const data = [
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Housing-Stipend.jpg",
-    tags: ["other"]
+    tags: ["gibill"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Cogsmart.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Mental-Telehealth.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Veteran-trust-2.png",
-    tags: ["other"]
+    tags: ["vsignals"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Vsignals-4.png",
-    tags: ["other"]
+    tags: ["vsignals"]
   },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Vtrust-quote-2.png",
-    tags: ["other"]
+    tags: ["vsignals"]
   },
 
 
@@ -70,72 +70,72 @@ const data = [
   // begin 2019-04-30 images
   {
     src: "./assets/img/20190430-Graphics/20190430-Housing-Stipend.jpg",
-    tags: ["other"]
+    tags: ["gibill"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-LEAF-Program.png",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-3D-printers.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-infertility-2.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-infertility.jpg",
-    tags: ["other"]
+    tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-Whole-health-2.jpg",
-    tags: ["other"]
+    tags: ["vha"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide1.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide2.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide3.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_eBenefits_EN/Slide4.PNG",
-    tags: ["other"]
+    tags: ["ebenefits"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide1.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide2.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide3.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Education_and_Career_Counseling_EN/Slide4.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
@@ -205,99 +205,99 @@ const data = [
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide1.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide2.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide3.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide4.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide5.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide6.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide7.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide8.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide9.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide10.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
   
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide11.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide12.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide13.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide14.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide15.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide16.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide17.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide18.PNG",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
   // end 2019-04-30 images
 
   // begin 2019-04-29 images
   {
     src: "./assets/img/20190429-Graphics/20190429-BDDQuote2.jpg",
-    tags: ["other"]
+    tags: ["predischarge"]
   },
 
   {
@@ -307,57 +307,57 @@ const data = [
 
   {
     src: "./assets/img/20190429-Graphics/20190429-homelessness.jpg",
-    tags: ["other"]
+    tags: ["homeless"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-housed-homeless-vets.jpg",
-    tags: ["other"]
+    tags: ["homeless"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-Jason-VocRehab.jpg",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-NCCQuote2.jpg",
-    tags: ["other"]
+    tags: ["ncc"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-Opioid-safety.jpg",
-    tags: ["other"]
+    tags: ["opioid"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-Outreach-Special-Events2.jpg",
-    tags: ["other"]
+    tags: ["outreach"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-OutreachQuote1.jpg",
-    tags: ["other"]
+    tags: ["outreach"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-OutreachWorldwide3.jpg",
-    tags: ["other"]
+    tags: ["outreach"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-VHA_Apple_Health_SocialMedia_EN.jpg",
-    tags: ["other"]
+    tags: ["apple"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-VREQuote1.jpg",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
 
   {
     src: "./assets/img/20190429-Graphics/20190429-VREQuote2.jpg",
-    tags: ["other"]
+    tags: ["vocrehab"]
   },
   // end 2019-04-29 images
 
@@ -389,95 +389,95 @@ const data = [
 
   {
     src: "./assets/img/20190426-Graphics/JAMAWaitTimes1.png",
-    tags: ["suraf"]
+    tags: ["suraf", "vha"]
   },
 
   // still more
   {
     src: "./assets/img/20190426-Graphics/20190426-CICM.jpg",
-    tags: ["none"]
+    tags: ["intake"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Colmery-Act.jpg",
-    tags: ["none"]
+    tags: ["gibill"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-educaction-3.jpg",
-    tags: ["none"]
+    tags: ["education"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Education-call-center-2.jpg",
-    tags: ["none"]
+    tags: ["education"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-Insurance-Quote.jpg",
-    tags: ["none"]
+    tags: ["life"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-Insurance.jpg",
-    tags: ["none"]
+    tags: ["life"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-InsuranceQuoteMarine-Vet.jpg",
-    tags: ["none"]
+    tags: ["life"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Mobile-app-test-5.jpg",
-    tags: ["none"]
+    tags: ["nca"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-NCC-Quotes.jpg",
-    tags: ["none"]
+    tags: ["ncc"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-NCC.jpg",
-    tags: ["none"]
+    tags: ["ncc"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Pension-Burial-Claims-decreased.jpg",
-    tags: ["none"]
+    tags: ["pension"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Pension-James-2.png",
-    tags: ["none"]
+    tags: ["pension"]
   },
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Suicide-prevention.jpg",
-    tags: ["none"]
+    tags: ["prevention"]
   },
   // end 2019-04-26 images
 
   // begin 2019-04-25 images
   {
     src: "./assets/img/20190425-Graphics/AppleHealthImage.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "apple"]
   },
 
   {
     src: "./assets/img/20190425-Graphics/EHRMImage_1.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "ehrm"]
   },
 
   {
     src: "./assets/img/20190425-Graphics/EHRMImage_2.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "ehrm"]
   },
 
   {
     src: "./assets/img/20190425-Graphics/VHAModernizationPlan.PNG",
-    tags: ["suraf"]
+    tags: ["suraf", "vha"]
   },
   // end 2019-04-25 images
 
@@ -490,27 +490,27 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-AMA-3.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-AMA.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Appeals-reform.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-BDD.jpg",
-    tags: ["other"]
+    tags: ["predischarge"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Centralized-Intake-of-Claims-Material-Quotes.jpg",
-    tags: ["other"]
+    tags: ["intake"]
   },
 
   {
@@ -520,12 +520,12 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-GI-Bill-quote.jpg",
-    tags: ["gibill"]
+    tags: ["education"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Home-loan-Juan-Palacios.jpg",
-    tags: ["gibill", "home-loan"]
+    tags: ["loan"]
   },
 
   {
@@ -535,12 +535,12 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Pension-1.jpg",
-    tags: ["vba"]
+    tags: ["pension"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-Suicide-health-priority.jpg",
-    tags: ["vha"]
+    tags: ["vha", "prevention"]
   },
 
   {
@@ -550,12 +550,12 @@ const data = [
 
   {
     src: "./assets/img/20190424-Graphics/20190424-VA_Interoperability_SocialMedia_EN.jpg",
-    tags: ["suraf"]
+    tags: ["suraf", "interop"]
   },
 
   {
     src: "./assets/img/20190424-Graphics/20190424-WARTAC-Warrior-Training-Advancement-Course.jpg",
-    tags: ["other"]
+    tags: ["wartac"]
   },
 
   {
@@ -577,7 +577,7 @@ const data = [
 
   {
     src: "./assets/img/20190423-Graphics/20190423-recruit-graduates.jpg",
-    tags: ["none"]
+    tags: ["mission"]
   },
 
 
@@ -588,7 +588,7 @@ const data = [
 
   {
     src: "./assets/img/20190423-Graphics/20190423-VA_Buy_vs_Build_SocialMedia_EN.jpg",
-    tags: ["buyvsbuild"]
+    tags: ["buyvbuild"]
   },
 
   {
@@ -598,7 +598,7 @@ const data = [
 
   {
     src: "./assets/img/20190423-Graphics/20190423-VA-Appeals.jpg",
-    tags: ["appeals"]
+    tags: ["ama"]
   },
 
   {
@@ -610,22 +610,22 @@ const data = [
   // begin 2019-04-22 images
   {
     src: "./assets/img/20190422-Graphics/20190422_Legacy_NCA.jpg",
-    tags: ["nca"]
+    tags: ["nca","vetlegacy"]
   },
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Business-Transformation.jpg",
-    tags: ["other"]
+    tags: ["customer"]
   },
 
   {
     src: "./assets/img/20190422-Graphics/20190422-disabilities-rating-update.jpg",
-    tags: ["other"]
+    tags: ["rating"]
   },
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Extraction-Information.jpg",
-    tags: ["other"]
+    tags: ["paper"]
   },
 
   {
@@ -640,22 +640,22 @@ const data = [
 
   {
     src: "./assets/img/20190422-Graphics/20190422-HomeLoanGuaranty-NicholeArmyVet.jpg",
-    tags: ["gibill"]
+    tags: ["loan"]
   },
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Paper-Extraction.jpg",
-    tags: ["other"]
+    tags: ["paper"]
   },
 
   {
     src: "./assets/img/20190422-Graphics/20190422-purple-heart-priority.jpg",
-    tags: ["other"]
+    tags: ["autoest"]
   },
 
   {
     src: "./assets/img/20190422-Graphics/20190422-Rating-schedule-VASRD.jpg",
-    tags: ["other"]
+    tags: ["rating"]
   },
 
   {
@@ -727,12 +727,12 @@ const data = [
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Hands-of-Veterans.jpg",
-    tags: ["none"],
+    tags: ["vha"],
   },
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Legacy1.jpg",
-    tags: ["nca"]
+    tags: ["nca","vetlegacy"]
   },
 
   {
@@ -747,17 +747,17 @@ const data = [
 
   {
     src: "./assets/img/20190418-Graphics/20190418-No-Veteran-Ever-Dies-2.jpg",
-    tags: ["nca"]
+    tags: ["nca", "novet"]
   },
 
   {
     src: "./assets/img/20190418-Graphics/20190418-No-Veteran-Ever-Dies1.jpg",
-    tags: ["nca"]
+    tags: ["nca", "novet"]
   },
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Randy-Reeves.jpg",
-    tags: ["nca"]
+    tags: ["novet"]
   },
 
   {
@@ -779,32 +779,32 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Access-to-Care.jpg",
-    tags: ["vha"]
+    tags: ["vha", "accesstocare"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Customer-service.jpg",
-    tags: ["vha"]
+    tags: ["customer"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/20190417-GIS.jpg",
-    tags: ["nca"]
+    tags: ["nca", "gps"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Legacy.jpg",
-    tags: ["nca"]
+    tags: ["nca","vetlegacy"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Mission-Act.jpg",
-    tags: ["mission-act"]
+    tags: ["mission"]
   },
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Urgent-care.jpg",
-    tags: ["vha"]
+    tags: ["vha", "mission"]
   },
 
   {
@@ -814,7 +814,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Veterans-at-the-Center.jpg",
-    tags: ["none"]
+    tags: ["vha"]
   },
 
   {
@@ -824,7 +824,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-facilities.jpg",
-    tags: ["vha"]
+    tags: ["vha", "accesstocare"]
   },
 
   {
@@ -854,7 +854,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/Lighthouse3a.png",
-    tags: ["apis"]
+    tags: ["apis", "interop"]
   },
 
   {
@@ -923,7 +923,7 @@ const data = [
 
   {
     src: "./assets/img/20190412-Graphics/20190412-No-Veteran-Ever-Dies.jpg",
-    tags: ["nca"]
+    tags: ["nca", "novet"]
   },
   // end 2019-04-12 images
 
@@ -970,7 +970,7 @@ const data = [
 
   {
     src: "./assets/img/20190411-Graphics/20190411-VA-and-National-Multiple-Sclerosis-Society.jpg",
-    tags: ["partners"]
+    tags: ["partners", "vha"]
   },
 
   {
@@ -985,12 +985,12 @@ const data = [
 
   {
     src: "./assets/img/20190411-Graphics/20190411-WHH2.jpg",
-    tags: ["other"]
+    tags: ["hotline"]
   },
 
   {
     src: "./assets/img/20190411-Graphics/20190411-WWP1.jpg",
-    tags: ["partners"]
+    tags: ["partners", "vha"]
   },
 
   {
@@ -1002,7 +1002,7 @@ const data = [
   // begin prior to 2019-04-11 images
   {
     src: "./assets/img/20190407-CrisisLine.png",
-    tags: ["other"]
+    tags: ["mod"]
   },
 
   {
@@ -1012,7 +1012,7 @@ const data = [
 
   {
     src: "./assets/img/20190408-TeleHearing.png",
-    tags: ["telehearing"]
+    tags: ["ama"]
   },
 
   {
@@ -1022,7 +1022,7 @@ const data = [
 
   {
     src: "./assets/img/20190408-VAlor.png",
-    tags: ["other"]
+    tags: ["vha"]
   }
   // end prior to 2019-04-11 images
 ]
