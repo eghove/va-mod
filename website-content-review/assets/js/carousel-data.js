@@ -702,7 +702,8 @@ const data = [
 
   // 2019-04-18 images
   {
-    src: "./assets/img/20190418-Graphics/20190418-4EverGIBIll.png",
+    // replacement img updated 20190503
+    src: "./assets/img/20190418-Graphics/20190418-4EverGIBIll.jpg",
     tags: ["gibill"]
   },
 
