@@ -33,7 +33,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190501-Graphics/20190501-Housing-Stipend.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Housing-Stipend.jpg",
     tags: ["gibill"]
   },
 
@@ -61,17 +62,8 @@ const data = [
     src: "./assets/img/20190501-Graphics/20190501-Vtrust-quote-2.png",
     tags: ["vsignals"]
   },
-
-
   // end 2019-05-01 images
   
-
-
-  // begin 2019-04-30 images
-  {
-    src: "./assets/img/20190430-Graphics/20190430-Housing-Stipend.jpg",
-    tags: ["gibill"]
-  },
 
   {
     src: "./assets/img/20190430-Graphics/20190430-LEAF-Program.png",
@@ -326,7 +318,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190429-Graphics/20190429-Opioid-safety.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Opioid-safety.jpg",
     tags: ["opioid"]
   },
 
@@ -454,7 +447,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190426-Graphics/20190426-Suicide-prevention.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Suicide-prevention.jpg",
     tags: ["prevention"]
   },
   // end 2019-04-26 images
@@ -529,11 +523,6 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Housing-Stipend.jpg",
-    tags: ["gibill"]
-  },
-
-  {
     src: "./assets/img/20190424-Graphics/20190424-Pension-1.jpg",
     tags: ["pension"]
   },
@@ -544,7 +533,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Update-Students.jpg",
+    // updated 2090503
+    src: "./assets/img/20190503-Graphics1/Update-Students.jpg",
     tags: ["gibill"]
   },
 
@@ -597,7 +587,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190423-Graphics/20190423-VA-Appeals.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/VA-Appeals.jpg",
     tags: ["ama"]
   },
 
@@ -614,7 +605,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-Business-Transformation.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Business-Transformation.jpg",
     tags: ["customer"]
   },
 
@@ -659,7 +651,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-Telehealth.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Telehealth.jpg",
     tags: ["telehealth"]
   },
 
@@ -716,7 +709,8 @@ const data = [
 
   // 2019-04-18 images
   {
-    src: "./assets/img/20190418-Graphics/20190418-4EverGIBIll.png",
+    // replacement img updated 20190503
+    src: "./assets/img/20190418-Graphics/20190418-4EverGIBIll.jpg",
     tags: ["gibill"]
   },
 
@@ -736,12 +730,14 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190418-Graphics/20190418-NCA-photo.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/NCA-photo.jpg",
     tags: ["nca"]
   },
 
   {
-    src: "./assets/img/20190418-Graphics/20190418-NCA-revised-sketch.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/NCA-sketch.jpg",
     tags: ["nca"]
   },
 
@@ -761,19 +757,22 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190418-Graphics/20190418-Telehealth-Tech.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Telehealth-Tech.jpg",
     tags: ["telehealth"]
   },
   // end 2019-04-18 images
 
   // start 2019-04-17 images
   {
-    src: "./assets/img/20190417-Graphics/20190417-Access-Standards-without-va-logo.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Access-to-Care-without-va-logo.jpg",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-Access-Standards.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Access-to-Care.jpg",
     tags: ["vha"]
   },
 
@@ -783,7 +782,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-Customer-service.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Customer-service.jpg",
     tags: ["customer"]
   },
 
@@ -798,22 +798,26 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-Mission-Act.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Mission-Act.jpg",
     tags: ["mission"]
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-Urgent-care.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Urgent-care.jpg",
     tags: ["vha", "mission"]
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-VA-Community-Care.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/VA-Community-Care.jpg",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-Veterans-at-the-Center.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/Veterans-at-the-Center.jpg",
     tags: ["vha"]
   },
 
@@ -823,7 +827,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-facilities.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/facilities.jpg",
     tags: ["vha", "accesstocare"]
   },
 
@@ -870,7 +875,8 @@ const data = [
 
   // begin 2019-04-15 images
   {
-    src: "./assets/img/20190415-Graphics/20190415-patients.jpg",
+    // updated 20190503
+    src: "./assets/img/20190503-Graphics1/patients.jpg",
     tags: ["vha"]
   },
 
