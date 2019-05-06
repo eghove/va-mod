@@ -1,6 +1,58 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-06 images
+  {
+    src: "./assets/img/20190506-Graphics/3D-Dental.png",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/3D-Lung.png",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/AI-used-for-PTSD.png",
+    tags: ["healthcare", "ai"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/IT-Modernization-3.png",
+    tags: ["bt", "it"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/IT-Modernization1.png",
+    tags: ["bt", "it"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/IT-Modernization2.png",
+    tags: ["bt", "it"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/Modern-Technology-Glaucoma-surgery.jpg",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/VA-and-Microsoft.jpg",
+    tags: ["healthcare", "partners"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/VA-gov-IT-Modernization.png",
+    tags: ["it", "vagov"]
+  },
+
+  {
+    src: "./assets/img/20190506-Graphics/VAs-Supply-Chain.jpg",
+    tags: ["supply"]
+  },
+  // end 2019-05-06 images
+
   // begin 2019-05-01 images
   {
     src: "./assets/img/20190501-Graphics/20190501-AI1.jpg",
@@ -86,7 +138,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190430-Graphics/20190430-Whole-health-2.jpg",
+    // updated 20190506
+    src: "./assets/img/20190506-Graphics/Whole-health-2.jpg",
     tags: ["vha"]
   },
 
