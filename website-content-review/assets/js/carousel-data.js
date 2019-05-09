@@ -1031,10 +1031,6 @@ const data = [
   // end 2019-04-15 images
 
   // begin 2019-04-12 images
-  {
-    src: "./assets/img/20190412-Graphics/20190412-Modernizing-NCA.jpg",
-    tags: ["nca"]
-  },
 
   {
     src: "./assets/img/20190412-Graphics/20190412-No-Veteran-Ever-Dies.jpg",
