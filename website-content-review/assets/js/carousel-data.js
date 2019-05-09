@@ -2,6 +2,34 @@
 
 const data = [
   // begin 2019-05-09 images
+
+  // Graphics 2
+  {
+    src: "./assets/img/20190509-Graphics2/API.png",
+    tags: ["apis"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics2/Apple-Partners-with-VA.png",
+    tags: ["partners", "apple"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics2/CBCM.png",
+    tags: ["cbcm"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics2/GIS-Blog-2.jpg",
+    tags: ["gps"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics2/Increased-Pension-1.jpg",
+    tags: ["pension"]
+  },
+
+  // Graphics 1
   {
     src: "./assets/img/20190509-Graphics1/Digital-transformation-Cussatt.png",
     tags: ["it"]
@@ -143,7 +171,7 @@ const data = [
     tags: ["vsignals"]
   },
   // end 2019-05-01 images
-  
+
 
   {
     src: "./assets/img/20190430-Graphics/20190430-LEAF-Program.png",
@@ -325,7 +353,7 @@ const data = [
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide10.PNG",
     tags: ["vocrehab"]
   },
-  
+
   {
     src: "./assets/img/20190430-Graphics/VBA_Vocational_Rehabilitation_and_Employment_slideshow_EN/Slide11.PNG",
     tags: ["vocrehab"]
@@ -682,7 +710,7 @@ const data = [
   // begin 2019-04-22 images
   {
     src: "./assets/img/20190422-Graphics/20190422_Legacy_NCA.jpg",
-    tags: ["nca","vetlegacy"]
+    tags: ["nca", "vetlegacy"]
   },
 
   {
@@ -807,7 +835,7 @@ const data = [
 
   {
     src: "./assets/img/20190418-Graphics/20190418-Legacy1.jpg",
-    tags: ["nca","vetlegacy"]
+    tags: ["nca", "vetlegacy"]
   },
 
   {
@@ -875,7 +903,7 @@ const data = [
 
   {
     src: "./assets/img/20190417-Graphics/20190417-Legacy.jpg",
-    tags: ["nca","vetlegacy"]
+    tags: ["nca", "vetlegacy"]
   },
 
   {
