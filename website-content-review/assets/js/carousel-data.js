@@ -1,6 +1,34 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-09 images
+  {
+    src: "./assets/img/20190509-Graphics1/Digital-transformation-Cussatt.png",
+    tags: ["it"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics1/Exoskeleton.png",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics1/HealthcareTechAdv1.png",
+    tags: ["healthcare", "telehealth"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics1/Robotic-cat.png",
+    tags: ["healthcare", "vha"]
+  },
+
+  {
+    src: "./assets/img/20190509-Graphics1/VA-goal-is-Cussatt.png",
+    tags: ["it"]
+  },
+
+  // end 2019-05-09 images
+
   // begin 2019-05-06 images
   {
     src: "./assets/img/20190506-Graphics/3D-Dental.png",
