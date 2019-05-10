@@ -1,6 +1,38 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-10 images
+  {
+    src: "./assets/img/20190510-Graphics/AI-PTSD.png",
+    tags: ["ai"]
+  },
+
+  {
+    src: "./assets/img/20190510-Graphics/Full-services-to-Women.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190510-Graphics/NCA-infrastructure.jpg",
+    tags: ["nca"]
+  },
+
+  {
+    src: "./assets/img/20190510-Graphics/NCA-care.jpg",
+    tags: ["nca"]
+  },
+
+  {
+    src: "./assets/img/20190510-Graphics/Prolonged-exposure-PE.png",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190510-Graphics/Women-Veterans-Breast-Cancer-Screenings.jpg",
+    tags: ["vha"]
+  },
+  // end 2019-05-10 images
+
   // begin 2019-05-09 images
 
   // Graphics 2
