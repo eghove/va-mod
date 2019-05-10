@@ -3,6 +3,11 @@
 const data = [
   // begin 2019-05-10 images
   {
+    src: "./assets/img/20190510-Graphics/DrStone.png",
+    tags: ["healthcare"]
+  },
+
+  {
     src: "./assets/img/20190510-Graphics/AI-PTSD.png",
     tags: ["ai"]
   },
