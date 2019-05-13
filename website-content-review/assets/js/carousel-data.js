@@ -1,6 +1,53 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-13
+  {
+    src: "./assets/img/20190513-Graphics/AI-precision-oncology.png",
+    tags: ["ai", "healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/AI-target-Cancer.png",
+    tags: ["ai", "healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/Annie-5.png",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/MaketheConnection-loved-one.jpg",
+    tags: ["partners"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/MaketheConnection-treatment-works.jpg",
+    tags: ["partners"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/MaketheConnection-turning-around.jpg",
+    tags: ["partners"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/MaketheConnection.jpg",
+    tags: ["partners"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/MaketheConnection2.jpg",
+    tags: ["partners"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics/NCA-customer-satisfaction.png",
+    tags: ["nca", "customer"]
+  },
+  // end 2019-05-13
+
   // begin 2019-05-10 images
   {
     src: "./assets/img/20190510-Graphics/DrStone.png",
