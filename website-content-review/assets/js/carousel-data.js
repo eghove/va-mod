@@ -1,6 +1,33 @@
 // the data object for the sm carousel
 
 const data = [
+  // updated imgs 2019-05-13
+  {
+    src: "./assets/img/20190513-Graphics2/Education-call-center-updated.jpg",
+    tags: ["education"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics2/Education-claims-process-updated.png",
+    tags: ["education"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics2/First-50-days-of-AMA-updated.png",
+    tags: ["ama"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics2/NWQ-graph-with-statistic-info-updated.png",
+    tags: ["nwq"]
+  },
+
+  {
+    src: "./assets/img/20190513-Graphics2/VBA-Hires-WARTAC-grads-updated.png",
+    tags: ["wartac"]
+  },
+  // end updated imgs 2019-05-13
+
   // begin 2019-05-13
   {
     src: "./assets/img/20190513-Graphics/AI-precision-oncology.png",
@@ -217,11 +244,6 @@ const data = [
   {
     src: "./assets/img/20190501-Graphics/20190501-AI6.png",
     tags: ["ai"]
-  },
-
-  {
-    src: "./assets/img/20190501-Graphics/20190501-AMA-first-50-days.jpg",
-    tags: ["ama"]
   },
 
   {
@@ -590,16 +612,6 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190426-Graphics/20190426-educaction-3.jpg",
-    tags: ["education"]
-  },
-
-  {
-    src: "./assets/img/20190426-Graphics/20190426-Education-call-center-2.jpg",
-    tags: ["education"]
-  },
-
-  {
     src: "./assets/img/20190426-Graphics/20190426-Life-Insurance-Quote.jpg",
     tags: ["life"]
   },
@@ -734,11 +746,6 @@ const data = [
   {
     src: "./assets/img/20190424-Graphics/20190424-VA_Interoperability_SocialMedia_EN.jpg",
     tags: ["suraf", "interop"]
-  },
-
-  {
-    src: "./assets/img/20190424-Graphics/20190424-WARTAC-Warrior-Training-Advancement-Course.jpg",
-    tags: ["wartac"]
   },
 
   {
