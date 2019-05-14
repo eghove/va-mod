@@ -1,6 +1,18 @@
 // the data object for the sm carousel
 
 const data = [
+  // new 2019-05-14 images
+  {
+    src: "./assets/img/20190514-Graphics2/LEAF.png",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190514-Graphics2/WARTAC-eligibility.png",
+    tags: ["wartac"]
+  },
+  // end 2019-05-14 images
+
   // begin updated imgs 2019-05-14
   {
     src: "./assets/img/20190514-Graphics/CICM.png",
