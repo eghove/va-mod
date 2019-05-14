@@ -1,6 +1,43 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin updated imgs 2019-05-14
+  {
+    src: "./assets/img/20190514-Graphics/CICM.png",
+    tags: ["intake"]
+  },
+
+  {
+    src: "./assets/img/20190514-Graphics/ForeverGIBillComery.png",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/20190514-Graphics/NCC2Quotes.png",
+    tags: ["ncc"]
+  },
+
+  {
+    src: "./assets/img/20190514-Graphics/NCCQuote.png",
+    tags: ["ncc"]
+  },
+
+  {
+    src: "./assets/img/20190514-Graphics/Outreach.png",
+    tags: ["outreach"]
+  },
+
+  {
+    src: "./assets/img/20190514-Graphics/OutreachOverseas.png",
+    tags: ["outreach"]
+  },
+
+  {
+    src: "./assets/img/20190514-Graphics/VRE.png",
+    tags: ["vocrehab"]
+  },
+  // end updated imgs 2019-05-14
+
   // updated imgs 2019-05-13
   {
     src: "./assets/img/20190513-Graphics2/Education-call-center-updated.jpg",
@@ -528,28 +565,13 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190429-Graphics/20190429-NCCQuote2.jpg",
-    tags: ["ncc"]
-  },
-
-  {
     // updated 20190503
     src: "./assets/img/20190503-Graphics1/Opioid-safety.jpg",
     tags: ["opioid"]
   },
 
   {
-    src: "./assets/img/20190429-Graphics/20190429-Outreach-Special-Events2.jpg",
-    tags: ["outreach"]
-  },
-
-  {
     src: "./assets/img/20190429-Graphics/20190429-OutreachQuote1.jpg",
-    tags: ["outreach"]
-  },
-
-  {
-    src: "./assets/img/20190429-Graphics/20190429-OutreachWorldwide3.jpg",
     tags: ["outreach"]
   },
 
@@ -563,10 +585,6 @@ const data = [
     tags: ["vocrehab"]
   },
 
-  {
-    src: "./assets/img/20190429-Graphics/20190429-VREQuote2.jpg",
-    tags: ["vocrehab"]
-  },
   // end 2019-04-29 images
 
   // begin 2019-04-26 images
@@ -601,16 +619,7 @@ const data = [
   },
 
   // still more
-  {
-    src: "./assets/img/20190426-Graphics/20190426-CICM.jpg",
-    tags: ["intake"]
-  },
-
-  {
-    src: "./assets/img/20190426-Graphics/20190426-Colmery-Act.jpg",
-    tags: ["gibill"]
-  },
-
+  
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-Insurance-Quote.jpg",
     tags: ["life"]
@@ -629,11 +638,6 @@ const data = [
   {
     src: "./assets/img/20190426-Graphics/20190426-Mobile-app-test-5.jpg",
     tags: ["nca"]
-  },
-
-  {
-    src: "./assets/img/20190426-Graphics/20190426-NCC-Quotes.jpg",
-    tags: ["ncc"]
   },
 
   {
