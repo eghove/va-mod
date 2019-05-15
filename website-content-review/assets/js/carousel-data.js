@@ -1,6 +1,33 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-15 images
+  {
+    src: "./assets/img/20190515-Graphics/TAP-graph.png",
+    tags: ["tap"]
+  },
+
+  {
+    src: "./assets/img/20190515-Graphics/TAP-GrobergQuote.png",
+    tags: ["tap"]
+  },
+
+  {
+    src: "./assets/img/20190515-Graphics/TAP-GrobergQuote2.png",
+    tags: ["tap"]
+  },
+
+  {
+    src: "./assets/img/20190515-Graphics/TAP-PedersenQuote.png",
+    tags: ["tap"]
+  },
+
+  {
+    src: "./assets/img/20190515-Graphics/WARTAC-quote.png",
+    tags: ["wartac"]
+  },
+  // end 2019-05-15 images
+
   // new 2019-05-14 images
   {
     src: "./assets/img/20190514-Graphics2/LEAF.png",
