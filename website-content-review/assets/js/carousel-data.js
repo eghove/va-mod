@@ -26,6 +26,11 @@ const data = [
     src: "./assets/img/20190515-Graphics/WARTAC-quote.png",
     tags: ["wartac"]
   },
+
+  {
+    src: "./assets/img/20190515-Graphics/TAP-WilkieQuote.png",
+    tags: ["tap"]
+  },
   // end 2019-05-15 images
 
   // new 2019-05-14 images
