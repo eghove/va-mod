@@ -1,6 +1,29 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-17 images
+  {
+    src: "./assets/img/20190517-Graphics/HealthcareTech.jpg",
+    tags: ["healthcare"]
+  },
+
+  {
+    src: "./assets/img/20190517-Graphics/Suicide-Prevention.png",
+    tags: ["prevention"]
+  },
+
+  {
+    src: "./assets/img/20190517-Graphics/VA-Transformation.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/20190517-Graphics/rep-VA-Targeting-Cancer.png",
+    tags: ["ai", "healthcare"]
+  },
+
+  // end 2019-05-17 image
+
   // begin 2019-05-15 images
   {
     src: "./assets/img/20190515-Graphics/TAP-graph.png",
@@ -112,11 +135,6 @@ const data = [
   // begin 2019-05-13
   {
     src: "./assets/img/20190513-Graphics/AI-precision-oncology.png",
-    tags: ["ai", "healthcare"]
-  },
-
-  {
-    src: "./assets/img/20190513-Graphics/AI-target-Cancer.png",
     tags: ["ai", "healthcare"]
   },
 
