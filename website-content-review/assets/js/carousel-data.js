@@ -1,6 +1,53 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-20 images
+  {
+    src: "./assets/img/20190520-Graphics/Centralized-CBCM.png",
+    tags: ["cbcm"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/outreach-annual-standdown.png",
+    tags: ["outreach"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/PTSD-other-than-honorable.png",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/rep-on-computer-with-vet.png",
+    tags: ["outreach"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/TAP-partners.png",
+    tags: ["tap"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/VA-Commitment-Wilkie.jpg",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/VA-signal-Wilkie-quote.png",
+    tags: ["vsignals"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/Virta-and-VA-partnership.png",
+    tags: ["partners"]
+  },
+
+  {
+    src: "./assets/img/20190520-Graphics/Vsignals-real-time-service.png",
+    tags: ["vsignals"]
+  },
+  // end 2019-05-20 images
+
   // begin 2019-05-17 images
   {
     src: "./assets/img/20190517-Graphics/HealthcareTech.jpg",
