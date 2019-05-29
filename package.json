@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eghove/va-mod#readme",
   "dependencies": {
-    "uswds": "^1.6.9"
+    "@department-of-veterans-affairs/formation": "^6.4.0",
+    "uswds": "^1.6.10"
   }
 }
