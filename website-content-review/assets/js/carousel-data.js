@@ -11,6 +11,11 @@ const data = [
     src: "./assets/img/20190530-Graphics/NCA_Legacy.png",
     tags: ["nca"]
   },
+
+  {
+    src: "./assets/img/20190530-Graphics/HealthcareTechAdv3DKidney.png",
+    tags: ["healthcare"]
+  },
   // end 2019-05-30 images
 
   
