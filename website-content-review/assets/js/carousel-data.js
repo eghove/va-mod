@@ -1,6 +1,19 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-05-30 images
+  {
+    src: "./assets/img/20190530-Graphics/OutreachStandDown.png",
+    tags: ["outreach"]
+  },
+
+  {
+    src: "./assets/img/20190530-Graphics/NCA_Legacy.png",
+    tags: ["nca"]
+  },
+  // end 2019-05-30 images
+
+  
   // begin 2019-05-20 images
   {
     src: "./assets/img/20190520-Graphics/Centralized-CBCM.png",
