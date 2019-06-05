@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- this will need to get changed -->
-  <base href="https://www.innovation.va.gov/" />
-  <link rel="canonical" href="https://www.innovation.va.gov/" />
+  <!-- <base href="https://www.innovation.va.gov/" />
+  <link rel="canonical" href="https://www.innovation.va.gov/" /> -->
 
   <title>VA Modernization: Home</title>
   <!--Open Graph-->
@@ -17,20 +17,31 @@
   <meta property="og:type" content="website" />
 
   <!-- Stylesheets-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
-  <link href="/_media/css/uswds.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/_media/vendor/modal/css/modaal.min.css" />
+  <!-- this font awesome asset is protected; I do not have access -->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous"> -->
+
+  <!-- my font awesome kit for now -->
+  <script src="https://kit.fontawesome.com/09f227b93f.js"></script>
+  
+  <!-- local copy of uswds.min.css -->
+  <link href="./assets/css/uswds.min.css" rel="stylesheet" />
+
+  <!-- local copy of modaal.min.css -->
+  <link rel="stylesheet" href="./assets/css/modaal.min.css" />
+
   <!--Touch icons-->
-  <link rel="apple-touch-icon" sizes="57x57" href="/_media/img/icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/_media/img/icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/_media/img/icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/_media/img/icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/_media/img/icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/_media/img/icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/_media/img/icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/_media/img/icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/_media/img/icons/apple-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/apple-icon-180x180.png">
+
+
   <link rel="icon" type="image/png" sizes="192x192" href="/_media/img/icons/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/_media/img/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/_media/img/icons/favicon-96x96.png">
@@ -69,7 +80,7 @@
 
 
         <div class="desktop:grid-col-6 grid-col-12 padding-left-2 padding-y-2px desktop:padding-left-0 ">
-          <img class="usa-banner__header-flag" src="/_media/img/uswds/us_flag_small.png" alt="U.S. flag">
+          <img class="usa-banner__header-flag" src="./assets/img/uswds/us_flag_small.png" alt="U.S. flag">
           <p class="usa-banner__header-text text-bold"><a href="https://www.va.gov/" class="text-no-underline">U.S.
               Department
               of Veterans Affairs</a></p>
@@ -104,20 +115,15 @@
       <div class="usa-nav__inner">
         <button class="usa-nav__close"> <img src="/_media/img/uswds/close.svg" alt="close"> </button>
         <ul class="usa-nav__primary usa-accordion">
-          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <i class="fas fa-home icon-left"
-                aria-hidden="true"></i> <span>About Us</span> </a> </li>
-          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <i class="fas fa-home icon-left"
-                aria-hidden="true"></i> <span>Transformation</span> </a> </li>
-          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <i class="fas fa-home icon-left"
-                aria-hidden="true"></i> <span>Healthcare</span> </a> </li>
-          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <i class="fas fa-home icon-left"
-                aria-hidden="true"></i> <span>Technology</span> </a> </li>
-          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <i class="fas fa-home icon-left"
-                aria-hidden="true"></i> <span>Voices</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link">  <span>About Us</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link">  <span>Transformation</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link">  <span>Healthcare</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link">  <span>Technology</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link">  <span>Voices</span> </a> </li>
 
 
-        
-        
+
+
           <!-- Part of the collapsible nav, items found in the footer -->
           <li class="nav-mobile usa-nav__primary-item">
             <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="va-programs">
@@ -202,7 +208,7 @@
   <!-- Content Update Banner at End of Page -->
   <section class="usa-section text-center padding-1 usa-section--primary-midnight">
     <div class="grid-container">
-        <p class="font-serif-3xs">Coming Soon!</p>
+      <p class="font-serif-3xs">Coming Soon!</p>
       <!-- <p class="font-serif-3xs">Content last updated or reviewed on June 3, 2019</p> -->
     </div>
   </section>
@@ -217,8 +223,8 @@
               him who shall have borne the battle,
               and for his widow, and his orphan&rdquo;</span> by serving and honoring the men and women who are
             America&rsquo;s Veterans.</p>
-          
-            <!-- Took this out since we don't have a newsletter yet -->
+
+          <!-- Took this out since we don't have a newsletter yet -->
           <!-- <h3 class="font-serif-lg text-bold">Subscribe</h3> -->
 
           <!-- GovDelivery Signup Form -->
@@ -353,10 +359,11 @@
 
 
 
-
-  <script src="/_media/js/uswds/uswds.min.js"></script>
-  <script src="/_media/vendor/stickyfill/stickyfill.min.js"></script>
-  <script src="/_media/js/app.js"></script>
+  <!-- USWDS -->
+  <script src="./assets/js/uswds.min.js"></script>
+  <!-- Stickyfill -->
+  <script src="./assets/js/stickyfill.min.js"></script>
+  <script src="./assets/js/app.js"></script>
   <!-- GovDelivery Subscription Overlay -->
   <script src='https://content.govdelivery.com/overlay/js/6367.js'></script>
   <!-- End GovDelivery Overlay -->
