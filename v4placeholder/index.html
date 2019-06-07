@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Cache-Control" content="max-age=7200" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- this will need to get changed -->
+  <!-- <base href="https://www.innovation.va.gov/" />
+  <link rel="canonical" href="https://www.innovation.va.gov/" /> -->
+
+  <title>VA Modernization: Home</title>
+  <!--Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+
+  <!-- Stylesheets-->
+  <!-- this font awesome asset is protected; I do not have access -->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous"> -->
+
+  <!-- my font awesome kit for now -->
+  <script src="https://kit.fontawesome.com/09f227b93f.js"></script>
+  <!-- Atlas font awesome css, missing a few icons, or need to figure out how to plug them in, partial version behind? -->
+  <!-- <link href="./static/css/all.css" rel="stylesheet" /> -->
+
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <!-- local copy of uswds.min.css. Need to: figure out how to incorporate Atlas version -->
+  <link href="./assets/css/uswds.min.css" rel="stylesheet" />
+
+  <!-- local copy of modaal.min.css -->
+  <link rel="stylesheet" href="./assets/css/modaal.min.css" />
+
+  <!--Touch icons-->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/apple-icon-180x180.png">
+
+  <!-- Need To: Fix these icons -->
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icons/favicon-16x16.png">
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <!-- <meta name="msapplication-TileImage" content="/_media/img/icons/ms-icon-144x144.png"> -->
+  <meta name="theme-color" content="#ffffff">
+  <!--Favicon-->
+  <link href="./assets/img/icons/favicon.ico" rel="shortcut icon" media="screen" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- Google Tag Manager -->
+  <!-- <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TCNGXQZ');</script> -->
+  <!-- End Google Tag Manager -->
+
+
+  <style>
+    /* --ATLAS STYLING-- */
+
+    /* ---STAY ENGAGED STYLING--- */
+    /* not currently working */
+    /* nav div ul li#engaged {
+      float: right;
+    } */
+
+    /* ---TITLE/HERO STYLING--- */
+    #title_section {
+      padding: 50px;
+      margin: 0;
+      height: 600px;
+      background-image: url('static/img/VAMOD_Header-Img_mobile.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    @media (min-width: 600px) {
+      #title_section {
+        background-image: url('static/img/VAMOD_Header-Img_1890x840px.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    /* ---CAROUSEL STYLING--- */
+    #mainCarousel {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .carousel-control.left {
+      background-image: none;
+      color: #0E182D;
+      width: 25px;
+      margin-left: -25px;
+    }
+
+    .carousel-control.right {
+      background-image: none;
+      color: #0E182D;
+      width: 25px;
+      margin-right: -25px;
+    }
+
+    .carousel .carousel-indicators li {
+      background-color: #ffffff;
+    }
+
+    .carousel-indicators {
+      bottom: -45px;
+    }
+
+    .carousel-inner {
+      margin-bottom: 15px;
+    }
+
+    .carousel .carousel-indicators .active {
+      width: 30px;
+      height: 30px;
+      color: #ffffff;
+      background-color: #0E182D;
+    }
+
+    .carousel-indicators-numbers li {
+      text-indent: 0;
+      margin: 0;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #0E182D;
+      transition: all 0.25s ease;
+    }
+
+    .carousel-indicators-numbers li:active,
+    .carousel-indicators-numbers li:hover {
+      color: #ff0000;
+      margin: 0;
+      width: 30px;
+      height: 30px;
+      background-color: #ffffff;
+      text-decoration: underline;
+    }
+
+    /* ---DATA VISUAL STYLING--- */
+    #transformation_section {
+      padding: 0;
+      margin: 0;
+      background-color: #0E182D;
+      width: 100%;
+      /*height: 200px;*/
+    }
+
+    #divider_section {
+      padding: 0;
+      margin: 0;
+      background-color: #FFFFFF;
+      width: 100%;
+      height: 20px;
+    }
+
+    .telehealth_label_1 {
+      color: #1F88C9;
+      margin: 30px;
+    }
+
+    .telehealth_spacer {
+      height: 100px;
+    }
+
+    .telehealth_text {
+      color: #FFFFFF;
+    }
+
+    .telehealth_visits {
+      color: #FFFFFF;
+      font-size: 150px;
+    }
+
+    .RW_Quote {
+      color: #FFFFFF;
+      font-size: 35px;
+      font-family: "Times New Roman, Times, serif";
+    }
+
+    .telehealth_2017 {
+      color: #1F88C9;
+      font-size: 20px;
+    }
+
+    .telehealth_2018 {
+      color: #1F88C9;
+      font-size: 30px;
+    }
+
+    .RW_sig {
+      color: #1F88C9;
+      font-size: 20px;
+    }
+
+    .large_symbols {
+      color: #1F88C9;
+      font-size: 150px;
+    }
+
+    .medium_symbols {
+      color: #1F88C9;
+      font-size: 75px;
+    }
+
+    /* --END ATLAS STYLING */
+
+    /* --HOVE STYLING-- */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .sticky+main {
+      padding-top: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCNGXQZ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner" id="banner">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+
+
+        <div class="desktop:grid-col-6 grid-col-12 padding-left-2 padding-y-2px desktop:padding-left-0 ">
+          <img class="usa-banner__header-flag" src="./assets/img/uswds/us_flag_small.png" alt="U.S. flag">
+          <p class="usa-banner__header-text text-bold"><a href="https://www.va.gov/" class="text-no-underline">U.S.
+              Department
+              of Veterans Affairs</a></p>
+        </div>
+        <div class="desktop:grid-col-6 grid-col-12">
+          <div class="crisis-line">
+            <div class="flex">
+              <button data-show="#modal-crisisline" class="usa-button vcl-crisis-line__button overlay-trigger"> <span
+                  class="flex">
+                  <span class="vcl"></span>Talk to the Veterans Crisis Line now</span> </button>
+            </div>
+          </div>
+        </div>
+    </header>
+  </div>
+
+  <!-- Gov banner END -->
+  <div class="usa-overlay"></div>
+  <header class="usa-header usa-header--extended" role="banner">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="extended-logo"><em class="usa-logo__text"> <a href="/" accesskey="1"
+            aria-label="Home"><span class="logo">VA</span><span class="text-thin"> | MODERNIZATION</a> </em></span>
+      </div>
+
+      <button class="usa-menu-btn bg-secondary-darker"><i class="fas fa-bars icon-left" aria-hidden="true"></i>
+        Menu</button>
+
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav role="navigation" class="usa-nav">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close"> <img src="./static/img/uswds/close.svg" alt="close"> </button>
+        <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <span>About Us</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <span>Transformation</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <span>Healthcare</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <span>Technology</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/" class="usa-nav__link"> <span>Voices</span> </a> </li>
+          <li class="usa-nav__primary-item" id="engaged"><a href="#stay_engaged"
+              class="usa-nav-link">Stay&nbsp;Engaged</a></li>
+
+
+
+
+          <!-- Part of the collapsible nav, items found in the footer -->
+          <li class="nav-mobile usa-nav__primary-item">
+            <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="va-programs">
+              <span>VA Programs and Service</span>
+            </button>
+            <ul id="va-programs" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/homeless/">For Homeless Veterans</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/womenvet/">For Women Veterans</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/centerforminorityveterans/">For Minority
+                  Veterans</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.ptsd.va.gov">PTSD</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.mentalhealth.va.gov/">Mental Health</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.publichealth.va.gov/">Public Health</a>
+              <li class="usa-nav__submenu-item"><a href="https://www.accesstocare.va.gov/ourproviders/">Find a VA
+                  Healthcare Provider</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/adaptivesports/">Adaptive Sports and Special
+                  Events</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/vso/">Veterans Service Organizations
+                  (VSO)</a></li>
+            </ul>
+          <li class="nav-mobile  usa-nav__primary-item">
+            <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="va-resources">
+              <span>Additional VA Resources</span>
+            </button>
+            <ul id="va-resources" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item"><a href="https://explore.va.gov">Explore VA</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/landing2_locations.htm">Find a VA
+                  Location</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/vaforms/">VA Forms</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/health/">Veterans Health Administration
+                  (VHA)</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://benefits.va.gov/benefits/">Veterans Benefits
+                  Administration (VBA)</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://cem.va.gov/">National Cemetery Administration (NCA)</a>
+              </li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/jobs/">Careers at VA</a></li>
+              <li class="usa-nav__submenu-item"><a
+                  href="https://www.va.gov/COMMUNITYCARE/programs/veterans/VCP/index.asp">Veterans Choice Program</a>
+              </li>
+              <li class="usa-nav__submenu-item"><a href="https://www.accesstocare.va.gov/">Access to Care</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/landing2_business.htm">Doing Business with
+                  VA</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/opa/">Public Affairs</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/opa/pressrel/">News Releases</a></li>
+            </ul>
+
+          <li class="nav-mobile usa-nav__primary-item">
+            <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="policy">
+              <span>Legal and Administrative</span>
+            </button>
+            <ul id="policy" class="usa-nav__submenu">
+
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/oei/docs/VA2018-2024strategicPlan.pdf">VA
+                  Strategic Plan</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.oprm.va.gov/privacy/">Privacy</a></li>
+              <li class="usa-nav__submenu-item"><a
+                  href="hhttps://www.va.gov/web/standards/disclaimer.cfm">Disclaimers</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/oig/">Inspector General</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.oprm.va.gov/foia/">FOIA</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/orm/NOFEAR_Select.asp">No FEAR Act</a></lin>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/accountability">Whistleblower and Rights
+                  Protection</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/web/standards/">Website Policies</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.data.va.gov">Open Data</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="usa-nav__secondary usa-nav__secondary--no-links">
+          <form class="usa-search usa-search--small" action="https://www.va.gov/search/" id="search" method="get">
+            <div role="search">
+              <label for="query" class="usa-sr-only">Search:</label>
+              <input class="usa-input" type="search" autocomplete="off" id="query" name="query" placeholder="Search VA">
+              <button type="submit" class="usa-button"> <span class="usa-sr-only">Search</span> </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- TITLE/HERO SECTION -->
+    <section id="title_section" class="usa-section"><span role="img"
+        aria-label="Veteran with a running prosthetic leg readies for a sprint.">&nbsp; </span>
+    </section>
+
+    <!-- CAROUSEL SECTION -->
+    <section id="carousel_section" class="usa-section" style="position:relative; top:-100px; margin:0; padding:0;">
+      <center>
+        <div id="mainCarousel" class="carousel slide" data-ride="carousel" style="width:50%;">
+          <!-- Indicators -->
+          <ol class="carousel-indicators carousel-indicators-numbers">
+            <li data-target="#mainCarousel" data-slide-to="0" class="active">1</li>
+            <li data-target="#mainCarousel" data-slide-to="1">2</li>
+            <li data-target="#mainCarousel" data-slide-to="2">3</li>
+            <li data-target="#mainCarousel" data-slide-to="3">4</li>
+            <li data-target="#mainCarousel" data-slide-to="4">5</li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="static/img/iStock-904427708_1230x670px.jpg"
+                alt="A doctor reading a patient's medical chart on a digital tablet.">
+            </div>
+
+            <div class="item">
+              <img src="static/img/iStock-958886668_1230x670px.jpg" alt="Smiling doctor chats with patient.">
+            </div>
+
+            <div class="item">
+              <img src="static/img/iStock-497983132_1230x670px.jpg"
+                alt="IT professional touching hexagon icons screen containing various computer science terms.">
+            </div>
+
+            <div class="item">
+              <img src="static/img/MOD Logo_1230x670px.png"
+                alt='VA Modernization Logo with tagline "Delivering a Stronger Future"'>
+            </div>
+
+            <div class="item">
+              <video id='video1' controls width="100%" style="top:-600px;" poster="static/img/Wilkie_1230x670px.png"
+                onclick="this.play();">
+                <source src="static/videos/Secretary_Wilkie_Senate_Testimony_Modernization.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#mainCarousel" data-slide="prev" )>
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#mainCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </center>
+    </section>
+    <!-- END CAROUSEL SECTION -->
+
+    <!-- DATA VISUAL SECTION -->
+    <section id="transformation_section" class="usa-section">
+      <center>
+        <br>
+        <br>
+        <br>
+
+        <div class="telehealth_label_1">/ VA TELEHEALTH</div>
+
+        <div class="telehealth_text">
+          VA Telehealth changes the location of routine VA health care services and <br>
+          allows Veterans to receive care for 50+ clinical specialties, ensuring the right <br>
+          care, in the right place, at the right time. It leverages health informatics, <br>
+          disease management, and technology improving access to care. <br>
+
+        </div>
+
+        <div>
+          <span class="large_symbols">+<span><span class="telehealth_visits">1,000,000<span> <span
+                    class="telehealth_visits">19</span><span class="medium_symbols">%<span>
+        </div>
+
+        <div><span class="telehealth_2017">from 2017</span></div>
+        <div><span class="telehealth_2018">Telehealth Visits in 2018</span></div>
+
+
+
+        <div class="RW_Quote">
+          VA's telehealth capabilities are bridging the care gap <br>
+          through technology that gives Veterans <br>
+          access to the timely, quality care they deserve, <br>
+          without traveling great distances to a VA facility. <br>
+          Time spent traveling is time away from Veterans' <br>
+          jobs and families.</div>
+
+        <br>
+        <div class="RW_sig">- VA Secretary Robert Wilkie </div>
+
+      </center>
+      <br>
+      <br>
+      <br>
+    </section>
+    <!-- END DATA VISUAL SECTION -->
+
+
+  </main>
+
+
+
+  <!-- FOOTER -->
+  <footer class="usa-section usa-section--gray-warm-lightest border-top border-gray-30 padding-bottom-0"
+    role="contentinfo">
+    <div class="grid-container">
+      <div class="grid-row grid-gap margin-bottom-3">
+        <div class="tablet-lg:grid-col-3 tablet:grid-col-12 margin-bottom-3">
+          <h3 class="font-serif-lg text-bold">VA Mission</h3>
+          <p>To fulfill President Lincoln&rsquo;s promise <span class="text-italic font-family-alt">&ldquo;To care for
+              him who shall have borne the battle,
+              and for his widow, and his orphan&rdquo;</span> by serving and honoring the men and women who are
+            America&rsquo;s Veterans.</p>
+
+          <!-- Took this out since we don't have a newsletter yet -->
+          <!-- <h3 class="font-serif-lg text-bold">Subscribe</h3> -->
+
+          <!-- GovDelivery Signup Form -->
+          <!-- <form class="usa-form" id="GD-snippet-form"
+            action="https://public.govdelivery.com/accounts/USVACI/subscribers/qualify" accept-charset="UTF-8"
+            method="post">
+            <input name="utf8" type="hidden" value="âœ“">
+            <input type="hidden" name="authenticity_token"
+              value="oIoomhMS+nSZIGFhQV54V9HlhRl5YnlTM4Jkbd2MB8sKP7bD+tJR68QgqM/TJzpGsFHMoySmjHJc9l/s0fzxyw==">
+            <label for="email">Get the latest VA Innovation Center news products delivered to your inbox.</label>
+            <input class="usa-input bg-transparent" type="email" name="email" id="email" placeholder="Email Address">
+            <button type="submit" name="commit" class="usa-button"><i class="far fa-at icon-left"
+                aria-hidden="true"></i> Subscribe Today!</button>
+          </form> -->
+          <!-- END GovDelivery Signup Form -->
+
+        </div>
+        <nav class="tablet:grid-col-6 mobile-hide">
+          <h3 class="font-serif-lg text-bold">Veteran Program and Services</h3>
+          <ul class="usa-list usa-list--unstyled" style="column-count:2;column-width:200px;column-gap:2rem;">
+            <li><a href="https://www.va.gov/" title="Department of Veterans Affairs homepage">VA.gov</a></li>
+            <li><a href="https://www.va.gov/homeless/">For Homeless Veterans</a></li>
+            <li><a href="https://www.va.gov/womenvet/">For Women Veterans</a></li>
+            <li><a href="https://www.va.gov/centerforminorityveterans/">For Minority Veterans</a></li>
+            <li><a href="https://www.ptsd.va.gov">PTSD</a></li>
+            <li><a href="https://www.mentalhealth.va.gov/">Mental Health</a></li>
+            <li><a href="https://www.publichealth.va.gov/">Public Health</a>
+            <li><a href="https://www.accesstocare.va.gov/ourproviders/">Find a VA Healthcare Provider</a></li>
+            <li><a href="https://www.va.gov/adaptivesports/">Adaptive Sports and Special Events</a></li>
+            <li><a href="https://www.va.gov/vso/">Veterans Service Organizations (VSO)</a></li>
+          </ul>
+          <h3 class="font-serif-lg text-bold">Additional VA Resources</h3>
+          <ul class="usa-list  usa-list--unstyled" style="column-count:2;column-width:200px;column-gap:2rem;">
+            <li><a href="https://explore.va.gov">Explore VA</a></li>
+            <li><a href="https://www.va.gov/vaforms/">VA Forms</a></li>
+            <li><a href="https://www.va.gov/health/">Veterans Health Administration (VHA)</a></li>
+            <li><a href="https://benefits.va.gov/benefits/">Veterans Benefits Administration (VBA)</a></li>
+            <li><a href="https://cem.va.gov/">National Cemetery Administration (NCA)</a></li>
+            <li><a href="https://www.va.gov/jobs/">Careers at VA</a></li>
+            <li><a href="https://www.va.gov/COMMUNITYCARE/programs/veterans/VCP/index.asp">Veterans Choice Program</a>
+            </li>
+            <li><a href="https://www.accesstocare.va.gov/">Access to Care</a></li>
+            <li><a href="https://www.va.gov/landing2_business.htm">Doing Business with VA</a></li>
+            <li><a href="https://www.va.gov/opa/">Public Affairs</a></li>
+            <li><a href="https://www.va.gov/opa/pressrel/">News Releases</a></li>
+          </ul>
+        </nav>
+        <div class="tablet-lg:grid-col-3 tablet:grid-col-12 margin-bottom-3">
+          <h3 class="font-serif-lg text-bold">Connect with VA</h3>
+          <ul class="usa-list fa-ul">
+            <li><span class="fa-li"><i class="fas fa-rss text-accent-warm-dark"></i></span><a
+                href="https://www.blogs.va.gov/VAntage">VAntage
+                Point</a></li>
+            <li><span class="fa-li"><i class="fab fa-facebook facebook"></i></span><a
+                href="https://www.facebook.com/VeteransAffairs">Facebook</a></li>
+            <li><span class="fa-li"><i class="fab fa-twitter twitter"></i></span><a
+                href="https://www.twitter.com/DeptVetAffairs/">Twitter</a></li>
+            <li><span class="fa-li"><i class="fab fa-youtube youtube"></i></span><a
+                href="https://www.youtube.com/user/DeptVetAffairs">YouTube</a></li>
+            <li><span class="fa-li"><i class="fab fa-flickr flickr"></i></span><a
+                href="https://www.flickr.com/photos/VeteransAffairs/">Flickr</a></li>
+            <li><span class="fa-li"><i class="fab fa-instagram instagram"></i></span><a
+                href="https://www.instagram.com/deptvetaffairs/">Instagram</a></li>
+            <li><span class="fa-li"><i class="fas fa-mobile"></i></span><a href="https://mobile.va.gov/appstore/">VA
+                Mobile Apps</a></li>
+            <li><span class="fa-li"><i class="fas fa-list"></i></span><a
+                href="https://www.va.gov/opa/socialmedia.asp">Socia
+                Media Index</a></li>
+          </ul>
+          <h3 class="font-serif-lg text-bold">In Crisis? Get Help Now</h3>
+          <a href="http://www.veteranscrisisline.net/" class="usa-button bg-red-60v hover:bg-red-70v"><i
+              class="fas fa-comment-alt-dots text-white icon-left" aria-hidden="true"></i> Veterans Crisis Line</a>
+        </div>
+      </div>
+    </div>
+    <section class="usa-section usa-section--primary-midnight padding-05 margin-top-8">
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-col" style="height:5rem;">
+            <p class="text-center"> <a href="https://www.va.gov" title="go to the VA homepage"><img
+                  src="./assets/img/icons/Official_VA_Seal.png"
+                  style=" margin-left: auto; margin-right: auto; margin-top:-3rem; max-width:7rem;"
+                  alt="Official VA seal" /></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="usa-section usa-section--primary-midnight mobile-hide padding-top-1 padding-bottom-4 copyright">
+      <div class="grid-container">
+        <p class="text-center font-serif-2xs"> <span><a
+              href="https://www.va.gov/oei/docs/VA2018-2024strategicPlan.pdf">VA Strategic Plan</a></span> <span><a
+              href="https://www.oprm.va.gov/privacy/">Privacy</a></span> <span><a
+              href="hhttps://www.va.gov/web/standards/disclaimer.cfm">Disclaimers</a></span> <span><a
+              href="https://www.va.gov/oig/">Inspector General</a></span> <span><a
+              href="https://www.oprm.va.gov/foia/">FOIA</a></span> <span><a
+              href="https://www.va.gov/orm/NOFEAR_Select.asp">No FEAR Act</a></span> <span><a
+              href="https://www.va.gov/accountability">Whistleblower and Rights
+              Protection</a></span> <span><a href="https://www.va.gov/web/standards/">Website Policies</a></span>
+          <span><a href="https://www.data.va.gov">Open Data</a></span>
+        </p>
+      </div>
+    </section>
+  </footer>
+  <div id="modal-crisisline" class="vcl-overlay vcl-modal vcl-modal--large" role="alertdialog">
+    <div class="vcl-modal__inner radius-lg shadow-2">
+      <div class="vcl-overlay-body vcl-crisis__panel-body">
+        <h3 class="font-family-serif vcl-modal__title font-serif-md tablet-lg:font-serif-lg">We&rsquo;re here anytime,
+          day or night - 24/7</h3>
+        <p class="font-sans-xs padding-bottom-3">If you are a Veteran in crisis or concerned about one, connect with our
+          caring, qualified responders for confidential help. Many of them are Veterans themselves.</p>
+        <ul>
+          <li class="display-flex"><i class="fas fa-fw fa-phone icon-left margin-right-2  margin-top-2 fa-lg"
+              aria-hidden="true"></i><a href="tel:18002738255" tabindex='0' id="vcl-crisis-primary"> Call
+              <strong>1-800-273-8255 and press 1</strong></a></li>
+          <li class="display-flex"><i class="fas fa-fw fa-mobile-alt icon-left margin-right-2  margin-top-2 fa-lg"
+              aria-hidden="true"></i><a href="sms:838255"> Text to <b>838255</b></a></li>
+          <li class="display-flex"><i class="far fa-fw icon-left fa-comments margin-right-2  margin-top-2 fa-lg"></i><a
+              href="https://www.veteranscrisisline.net/ChatTermsOfService.aspx?account=Veterans%20Chat"> Chat
+              <b>confidentially now</b></a></li>
+          <li class="display-flex"><i class="fa fa-fw fa-deaf icon-left margin-right-2  margin-top-2 fa-lg"
+              aria-hidden="true"></i><a href="tel:18007994889"> Call TTY if you have hearing loss
+              <strong>1-800-799-4889</strong></a></li>
+        </ul>
+        <p class="font-sans-xs">Get more resources at <a
+            href="https://www.veteranscrisisline.net/">VeteransCrisisLine.net</a>.</p>
+      </div>
+      <button class="usa-button vcl-modal__close vcl-overlay-close" type="button" id="vcl-vcl-close-btn"><span
+          class="usa-sr-only">Close
+          this modal</span> <i class="far fa-times-circle fa-2x vcl-overlay-close text-primary" aria-hidden="true"
+          title="close this modal"></i> </button>
+    </div>
+  </div>
+
+
+
+  <!-- USWDS -->
+  <script src="./assets/js/uswds.min.js"></script>
+  <!-- Stickyfill -->
+  <script src="./assets/js/stickyfill.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <!-- GovDelivery Subscription Overlay -->
+  <!-- <script src='https://content.govdelivery.com/overlay/js/6367.js'></script> -->
+  <!-- End GovDelivery Overlay -->
+
+  <style>
+    ._acsbottomright._acsbadge--default {
+      margin-right: 5.6em;
+      left: auto !important;
+      right: 0 !important;
+      top: auto;
+      bottom: 1.6em;
+    }
+  </style>
+
+</body>
+
+</html>
