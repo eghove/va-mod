@@ -1,6 +1,80 @@
 // the data object for the sm carousel
 
 const data = [
+  // begin 2019-06-17 images
+  {
+    src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterview.png",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterviewEsp.png",
+    tags: ["vha", "spanish"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/MissionActMTInterview.png",
+    tags: ["mission"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/MissionActMTInterviewEsp.png",
+    tags: ["mission", "spanish"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/SecretaryInterviewMT.png",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/SecretaryInterviewMTEsp.png",
+    tags: ["vha", "spanish"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/TelehealthMTInterview.png",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/TelehealthMTInterviewEsp.png",
+    tags: ["vha", "spanish"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/VACareFNInterview.png",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/VACareFNInterviewEsp.png",
+    tags: ["vha", "spanish"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterview1.png",
+    tags: ["culture"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterview2.png",
+    tags: ["culture"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterviewEsp1.png",
+    tags: ["culture", "spanish"]
+  },
+
+  {
+    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterviewEsp2.png",
+    tags: ["culture", "spanish"]
+  },
+
+
+  // end 2019-06-17 images
+
   // begin 2019-05-30 images
   {
     src: "./assets/img/20190530-Graphics/OutreachStandDown.png",
