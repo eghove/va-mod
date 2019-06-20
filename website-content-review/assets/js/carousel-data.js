@@ -115,11 +115,6 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190520-Graphics/TAP-partners.png",
-    tags: ["tap"]
-  },
-
-  {
     src: "./assets/img/20190520-Graphics/VA-Commitment-Wilkie.jpg",
     tags: ["vha"]
   },
