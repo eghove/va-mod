@@ -77,11 +77,6 @@ const data = [
 
   // begin 2019-05-30 images
   {
-    src: "./assets/img/20190530-Graphics/OutreachStandDown.png",
-    tags: ["outreach"]
-  },
-
-  {
     src: "./assets/img/20190530-Graphics/NCA_Legacy.png",
     tags: ["nca"]
   },
@@ -100,18 +95,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190520-Graphics/outreach-annual-standdown.png",
-    tags: ["outreach"]
-  },
-
-  {
     src: "./assets/img/20190520-Graphics/PTSD-other-than-honorable.png",
     tags: ["vha"]
-  },
-
-  {
-    src: "./assets/img/20190520-Graphics/rep-on-computer-with-vet.png",
-    tags: ["outreach"]
   },
 
   {
