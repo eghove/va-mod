@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-  // TO DO: NEED TO CHANGE ALL OF THIS TO AFFECT THE NEW BT SECTION ONLY and then link it in
+  // SCRIPT FOR THE NEW BT SECTION ACCORDION
+  
   //Info 1
  $(".accitem6, #accimg6").click(function() {
    $("#accitem6info, #accimg6").show();
