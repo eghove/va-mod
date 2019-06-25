@@ -1041,6 +1041,7 @@
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
+    height: 800px;
   }
 
   /* changed */
