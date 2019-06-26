@@ -869,9 +869,9 @@
       top: -60px;
     }
 
-    .engaged1 {
+    /* .engaged1 {
       float: right;
-    }
+    } */
 
 
 
@@ -975,7 +975,7 @@
 
 <!-- this onreize trigger reloads the page so the sticky navs behave appropriately -->
 
-<body class="page-page-templates layout-styleguide" onload="init();" onresize="location.reload();">
+<body class="" onload="init(); myFunction();" >
   <!-- Google Tag Manager (noscript) -->
   <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCNGXQZ" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript> -->
@@ -1475,10 +1475,6 @@
 
         <!--BT Left Info Container-->
         <div class="s5accleft">
-          <div class="s5header">
-            <div class="section5h1">/ BUSINESS TRANSFORMATION</div>
-            <div class="section5h3">Lorem ipsum dolor sit amet, et vel adhuc nusquam menandri, eligendi scaevola ut qui. Quidam assentior liberavisse cum id, ius ad mediocrem principes, summo iusto vidisse vim ad. An affert intellegat vis, vel eu civibus prodesset. Legimus mandamus vituperata qui te, postea delectus usu ad. Et enim sint primis usu, at dico modus est. Aliquam constituam complectitur in sed, id quod dissentiet has, mel ancillae ocurreret cu.</div>
-          </div>
 
           <!--BT INFO 1 (ACCITEM 6)-->
           <div class="accitem6">
@@ -1488,7 +1484,10 @@
                     class="fas fa-chevron-down"></i></span><br></div>
             </div>
             <div id="accitem6info" style="display:show" class="accitemcontent">
-              <p class="btaccitemh2">Lorem ipsum dolor sit amet, et vel adhuc nusquam menandri, eligendi scaevola ut qui. Quidam assentior liberavisse cum id, ius ad mediocrem principes, summo iusto vidisse vim ad. An affert intellegat vis, vel eu civibus prodesset. Legimus mandamus vituperata qui te, postea delectus usu ad. Et enim sint primis usu, at dico modus est. Aliquam constituam complectitur in sed, id quod dissentiet has, mel ancillae ocurreret cu.
+              <p class="btaccitemh2">Delivers superior digital customer service by simplifying the Veteran experience
+                through <a href="https://www.oit.va.gov/reports/year-in-review/2018/digital-transformation"
+                  target="_blank" title="2018 Digital Transformation Report">digital platforms</a> that achieve the
+                highest levels of Customer Service, Effectiveness, and Ease of Use
             </div>
           </div>
           <!--BT Info 2 (ACCITEM 7)-->
@@ -1499,7 +1498,10 @@
                     class="fas fa-chevron-down"></i></span><br></div>
             </div>
             <div id="accitem7info" style="display:none" class="accitemcontent">
-              <p class="btaccitemh2">Lorem ipsum dolor sit amet, et vel adhuc nusquam menandri, eligendi scaevola ut qui. Quidam assentior liberavisse cum id, ius ad mediocrem principes, summo iusto vidisse vim ad. An affert intellegat vis, vel eu civibus prodesset. Legimus mandamus vituperata qui te, postea delectus usu ad. Et enim sint primis usu, at dico modus est. Aliquam constituam complectitur in sed, id quod dissentiet has, mel ancillae ocurreret cu.</p>
+              <p class="btaccitemh2">Enables Veterans to receive high-reliability healthcare through the deployment of
+                an <a href="https://www.ehrm.va.gov/" target="_blank" title="EHRM Homepage">Enterprise-wide Integrated
+                  Health Information System</a> by transforming 140 de-centralized, non-connected programs into one
+                network, so providers make better decisions that lead to improved outcomes</p>
             </div>
           </div>
           <!--BT Info 3 (ACCITEM8)-->
@@ -1510,7 +1512,11 @@
                     class="fas fa-chevron-down"></i></span><br></div>
             </div>
             <div id="accitem8info" style="display:none" class="accitemcontent">
-              <p class="btaccitemh2">Lorem ipsum dolor sit amet, et vel adhuc nusquam menandri, eligendi scaevola ut qui. Quidam assentior liberavisse cum id, ius ad mediocrem principes, summo iusto vidisse vim ad. An affert intellegat vis, vel eu civibus prodesset. Legimus mandamus vituperata qui te, postea delectus usu ad. Et enim sint primis usu, at dico modus est. Aliquam constituam complectitur in sed, id quod dissentiet has, mel ancillae ocurreret cu.</p>
+              <p class="btaccitemh2">Allows Veterans to receive Accurate and Timely Appeal Resolution through the
+                Implementation of the <a href="https://www.benefits.va.gov/benefits/appeals.asp" target="_blank"
+                  title="Appeals Homepage">Appeals Modernization Act</a> giving Veterans greater choice and control when
+                they disagree with VA’s decision, with three review options: Higher Level Review, Supplemental Claim, or
+                a Board Appeal</p>
             </div>
           </div>
           <!--BT Info 4 (ACCITEM9)-->
@@ -1521,17 +1527,23 @@
                     class="fas fa-chevron-down"></i></span><br></div>
             </div>
             <div id="accitem9info" style="display:none" class="accitemcontent">
-              <p class="btaccitemh2">Lorem ipsum dolor sit amet, et vel adhuc nusquam menandri, eligendi scaevola ut qui. Quidam assentior liberavisse cum id, ius ad mediocrem principes, summo iusto vidisse vim ad. An affert intellegat vis, vel eu civibus prodesset. Legimus mandamus vituperata qui te, postea delectus usu ad. Et enim sint primis usu, at dico modus est. Aliquam constituam complectitur in sed, id quod dissentiet has, mel ancillae ocurreret cu.</p>
+              <p class="btaccitemh2">Delivers the Right Items, To the Right Place, At the Right Time, In the Right
+                Condition by transforming the enterprise VA supply chain through a robust supply-chain training and
+                development program, integrated data analysis, and comprehensive equipment lifecycle management program
+              </p>
             </div>
           </div>
           <!--BT Info 5 (ACCITEM10)-->
           <div class="accitem10">
             <div id="accitem10sectionf" class="accitemtrigger">
-              <div class="btaccitemh1">Financial Management Business Transformation <span style="font-size: 12px; color: red; font-style: italic;"><i
+              <div class="btaccitemh1">Financial Management Business Transformation <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
                     class="fas fa-chevron-down"></i></span><br></div>
             </div>
             <div id="accitem10info" style="display:none" class="accitemcontent">
-              <p class="btaccitemh2">Lorem ipsum dolor sit amet, et vel adhuc nusquam menandri, eligendi scaevola ut qui. Quidam assentior liberavisse cum id, ius ad mediocrem principes, summo iusto vidisse vim ad. An affert intellegat vis, vel eu civibus prodesset. Legimus mandamus vituperata qui te, postea delectus usu ad. Et enim sint primis usu, at dico modus est. Aliquam constituam complectitur in sed, id quod dissentiet has, mel ancillae ocurreret cu.</p>
+              <p class="btaccitemh2">Improves financial stewardship by transforming the financial and acquisition
+                business process and systems to achieve standardized financial and acquisition practices, cost savings,
+                stronger internal controls, and the reduction of risk</p>
             </div>
           </div>
         </div>
@@ -1541,39 +1553,29 @@
           <div class="accitemimgcontainer">
             <!--BT Img 1 (ACCIMG6)-->
             <div id="accimg6" style="display:show" class="accitemimg6"><img
-                src="static/img/S3/modernization-icons-p-800.png" width="600" height="350"
-                srcset="static/img/S3/modernization-icons-p-500.png 500w, static/img/S3/modernization-icons-p-1080.png 1080w"
-                sizes="(max-width: 479px) 100vw, 500px"
-                alt="IT professional touching hexagon icons screen containing various computer science terms."
-                class="accimg6"></div>
+                src="./static/img/s5/Modernization-Digital_Transformation.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Digital_Transformation.png 500w, static/img/s5/Modernization-Digital_Transformation.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px" alt="" class="accimg6"></div>
             <!--BT Img 2 (ACCIMG7) -->
             <div id="accimg7" style="display:none" class="accitemimg7"><img
-                src="static/img/S3/surafeal-asgedom-va-chief-modernization-officer-p-800.jpeg" width="400" height="400"
-                srcset="static/img/S3/surafeal-asgedom-va-chief-modernization-officer-p-1080.jpeg 1080w, static/img/S3/surafeal-asgedom-va-chief-modernization-officer-p-500.jpeg 500w"
-                alt="Surafeal Asgedom, VA Chief Modernization Officer, posing for official photo with flags in background."
-                sizes="400px"
-                alt="Surafeal Asgedom, VA Chief Modernization Officer, posing for official photo with flags in background."
-                class="accimg7"></div>
+                src="./static/img/s5/Modernization-Electronic_Health.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Electronic_Health.png 500w, static/img/s5/Modernization-Electronic_Health.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px" alt="" class="accimg7"></div>
             <!--BT Img 3 (ACCIMG8)-->
             <div id="accimg8" style="display:none" class="accitemimg8"><img
-                src="static/img/S3/misc-business-thumbnails2-p-800.png" width="600" height="350"
-                srcset="static/img/S3/misc-business-thumbnails2-p-500.png 500w,static/img/S3/misc-business-thumbnails2-p-1080.png 1080w "
-                sizes="(max-width: 479px) 100vw, 500px"
-                alt="Assortment of business related photos like shaking hands and health information on computers."
-                class="accimg8"></div>
+                src="./static/img/s5/Modernization-Appeals.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Appeals.png 500w, static/img/s5/Modernization-Appeals.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px" alt="" class="accimg8"></div>
             <!--BT Img 4 (ACCIMG9)-->
             <div id="accimg9" style="display:none" class="accitemimg9"><img
-                src="static/img/S3/data-visualization2-p-800.png" width="600" height="350"
-                srcset="static/img/S3/data-visualization2-p-500.png 500w, static/img/S3/data-visualization2-p-1080.png 1080w"
-                sizes="(max-width: 479px) 100vw, 500px"
-                alt="Various charts overlaid on a group of health information professionals working on digital devices. "
-                class="accimg9"></div>
+                src="./static/img/s5/Modernization-Supply_Chain.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Supply_Chain.png 500w, static/img/s5/Modernization-Supply_Chain.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px" alt="" class="accimg9"></div>
             <!--BT Img 5 (ACCIMG10)-->
             <div id="accimg10" style="display:none" class="accitemimg10"><img
-                src="static/img/S3/family-getting-new-house2-p-800.png" width="600" height="350"
-                srcset="static/img/S3/family-getting-new-house2-p-500.png 500w, static/img/S3/family-getting-new-house2-p-1080.png 1080w"
-                sizes="(max-width: 479px) 100vw, 500px"
-                alt="Real estate agent handing keys to a family of three in front of their new house." class="accimg10">
+                src="./static/img/s5/Modernization-Financial_Management.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Financial_Management.png, static/img/s5/Modernization-Financial_Management.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px" alt="" class="accimg10">
             </div>
           </div>
         </div>
