@@ -94,9 +94,9 @@
 			outline: 0;
 			box-shadow: none!important;
 		}
-		nav div ul li#engaged {
+		/* nav div ul li#engaged {
 			float: right;
-		}
+		} */
 		#video1, #video2 {
 			width: 93%;
 			top:-600px;
