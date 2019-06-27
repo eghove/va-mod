@@ -100,10 +100,10 @@
       font-size: 6px;
 		}
       
-		nav div ul li.focus, nav div ul li:focus {
+		/* nav div ul li.focus, nav div ul li:focus {
 			outline: 0;
 			box-shadow: none!important;
-		}
+		} */
 		/* nav div ul li#engaged {
 			float: right;
 		} */
