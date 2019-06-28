@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Cache-Control" content="max-age=7200" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- this will need to get changed -->
+  <!-- <base href="https://www.innovation.va.gov/" />
+  <link rel="canonical" href="https://www.innovation.va.gov/" /> -->
+
+  <title>VA Modernization: Home</title>
+  <!--Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+
+  <!-- Stylesheets-->
+  <!-- this font awesome asset is protected; I do not have access -->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous"> -->
+
+
+
+  <!-- my font awesome kit for now -->
+  <script src="https://kit.fontawesome.com/09f227b93f.js"></script>
+
+
+
+
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <!-- NG -->
+  <link href="static/css/vamod.css" rel="stylesheet" type="text/css">
+
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+  <!-- NG -->
+
+  <!-- local copy of uswds.min.css. -->
+  <link href="./assets/css/uswds.css" rel="stylesheet" />
+
+  <!-- local copy of modaal.min.css -->
+  <link rel="stylesheet" href="./assets/css/modaal.min.css" />
+
+  <!--Touch icons-->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/apple-icon-180x180.png">
+
+
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icons/favicon-16x16.png">
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <!-- <meta name="msapplication-TileImage" content="/_media/img/icons/ms-icon-144x144.png"> -->
+  <meta name="theme-color" content="#ffffff">
+  <!--Favicon-->
+  <link href="./assets/img/icons/favicon.ico" rel="shortcut icon" media="screen" type="image/x-icon">
+
+
+  <!-- Google Tag Manager -->
+  <!-- <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TCNGXQZ');</script> -->
+  <!-- End Google Tag Manager -->
+
+
+  <style>
+    /* -------------------------------------------- */
+    /* --ATLAS STYLING-- */
+    #title_section {
+      padding: 50px;
+      margin: 0;
+      height: 600px;
+      background-image: url('static/img/VAMOD_Header-Img_mobile.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #transformation_section {
+      padding: 0;
+      margin: 0;
+      background-color: #0E182D;
+      width: 100%;
+      /*height: 200px;*/
+    }
+
+    .slider_card {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: white;
+      width: 376px;
+      height: 471px;
+      min-width: 376px;
+      position: relative;
+      top: 10px;
+      transition: all 0.25s ease;
+    }
+
+    #chevron_section {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 2250px;
+      background-image: url('static/img/biz-transformation_chevron-notext.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-color: white;
+    }
+
+    #chevron_section2 {
+      padding: 0;
+      margin: 0;
+      width: 1500px;
+      /*100%;*/
+      height: 1250px;
+      background-image: url('static/img/biz-transformation-desktop_chevrons.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-color: white;
+    }
+
+    #chevron_large {
+      display: none;
+    }
+
+    #chevron_small {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    #chevron_wrapper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .chevron_center {
+      text-align: center;
+    }
+
+    .chevron_right {
+      text-align: right;
+    }
+
+    .chevron_category {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 10px;
+      margin: 0;
+    }
+
+    a.chevron_link {
+      color: white;
+    }
+
+    a.chevron_link:link {
+      text-decoration: underline;
+      color: white;
+    }
+
+    a.chevron_link:visited {
+      text-decoration: underline;
+      color: lightgrey;
+    }
+
+    a.chevron_link:hover {
+      text-decoration: underline;
+      color: lightgrey;
+    }
+
+    a.chevron_link:active {
+      text-decoration: none;
+      color: lightblue;
+    }
+
+    #healthcare_section {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 860px;
+      background-image: url('static/img/VA-Healthcare_background.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: white;
+    }
+
+    #healthcare_intro {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      width: 380px;
+      height: 200px;
+    }
+
+    #healthcare_header {
+      font-style: bold;
+      color: red;
+    }
+
+    #healthcare_title {
+      font-family: "Georgia", serif;
+      font-style: bold;
+      color: #0E182D;
+    }
+
+    .healthcare_text {
+      font-size: 20px;
+      line-height: 1;
+      color: #0E182D;
+    }
+
+    #healthcare_container {
+      position: relative;
+      top: 70px;
+      left: 10px;
+      width: 386px;
+      height: 500px;
+    }
+
+    #healthcare_buttons {
+      position: relative;
+      top: 600px;
+      left: 175px;
+    }
+
+    #healthcare_prev {
+      padding: 0;
+      margin: 0;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-image: url('static/img/VA-Healthcare-backward-arrow.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #0E182D;
+    }
+
+    #healthcare_next {
+      padding: 0;
+      margin: 0;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-image: url('static/img/VA-Healthcare-forward-arrow.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #0E182D;
+    }
+
+    #healthcare_prev:focus,
+    #healthcare_next:focus {
+      outline: none;
+    }
+
+    .healthcare_card_header {
+      font-family: "Georgia", serif;
+      font-style: normal;
+      color: #1F88C9;
+    }
+
+    #healthcare_card_1 {
+      background-image: url('static/img/VA-Healthcare_img01.png');
+      left: 0px;
+    }
+
+    #healthcare_card_2 {
+      background-image: url('static/img/VA-Healthcare_img02.png');
+      left: 10px;
+    }
+
+    #healthcare_card_3 {
+      background-image: url('static/img/VA-Healthcare_img03.png');
+      left: 20px;
+    }
+
+    #healthcare_card_4 {
+      background-image: url('static/img/VA-Healthcare_img04.png');
+      left: 30px;
+    }
+
+    #voice_section {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 820px;
+      background-image: url('static/img/VA-Voices_background_mobile.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: white;
+    }
+
+    #voice_intro {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      width: 380px;
+      height: 200px;
+    }
+
+    #voice_header {
+      font-style: bold;
+      color: #1F88C9;
+    }
+
+    #voice_title {
+      font-family: "Georgia", serif;
+      font-style: bold;
+      color: white;
+    }
+
+    .voice_text {
+      font-size: 20px;
+      line-height: 1;
+      color: white;
+    }
+
+    #voice_container {
+      position: relative;
+      top: 0px;
+      left: 10px;
+      width: 386px;
+      height: 500px;
+    }
+
+    #voice_buttons {
+      position: relative;
+      top: 550px;
+      left: 175px;
+    }
+
+    #voice_prev {
+      padding: 0;
+      margin: 0;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-image: url('static/img/VA-Healthcare-backward-arrow.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #0E182D;
+    }
+
+    #voice_next {
+      padding: 0;
+      margin: 0;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-image: url('static/img/VA-Healthcare-forward-arrow.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #0E182D;
+    }
+
+    #voice_prev:focus,
+    #voice_next:focus {
+      outline: none;
+    }
+
+    #voice_card_1 {
+      background-image: url('static/img/s8/VA-Voices_veteran_602x778.png');
+      left: 0px;
+    }
+
+    #voice_card_2 {
+      background-image: url('static/img/s8/VA-Voices_private-sector_602x778.png');
+      left: 10px;
+    }
+
+    #voice_card_3 {
+      background-image: url('static/img/s8/VA-Voices_hill_602x778.png');
+      left: 20px;
+    }
+
+    #voice_card_4 {
+      background-image: url('static/img/s8/VA-Voices_employee_602x778.png');
+      left: 30px;
+    }
+
+    /* EGH added 06/27/2019 */
+    #healthcare_buttons {
+      align-content: center;
+      clear: right;
+
+    }
+
+
+    /*Deskktop CSS - Defaut min = 600px */
+    @media (min-width: 600px) {
+
+      /* I believe this is new */
+      #mainCarousel {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 70%;
+      }
+
+      .carousel_desc {
+        /* ATLAS original styling below */
+        /* position: relative;
+        color: white;
+        top: -140px;
+        left: -260px;
+        text-align: left;
+        width: 475px;
+        height: 0px;
+        line-height: 1.2; */
+
+        /* EGH changes 06/28/19 */
+        /* position: absolute;
+        color: white;
+        bottom: 25%; */
+        /* left: 0; */
+        /* margin-left: 0.6vw;
+        text-align: left;
+        width: 50%;
+        height: 0;
+        line-height: 1;
+        margin-bottom: 0; */
+
+        /* more EGH changes 06/28/19 */
+        position: absolute;
+        color: white;
+        bottom: 0%;
+        margin-left: 0;
+        text-align: left;
+        width: 50%;
+        line-height: 1.25;
+        margin-bottom: 0;
+        background-color:rgb(14,24,45,0.8);
+        height: 30%;
+        padding: 1%;
+        overflow: auto;
+        border-left: 5px solid red;
+      }
+
+      .carousel_header {
+        /* font-size: 28px; */
+        /* font-size: 1.25em; */
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      .carousel_body {
+        /* font-size: 16px; */
+        font-size: 1em;
+      }
+
+      #video1,
+      #video2 {
+        width: 95.5%;
+        top: -600px;
+      }
+
+      #title_section {
+        background-image: url('static/img/VAMOD_Header-Img_1890x840px.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #chevron_section {
+        padding: 0;
+        margin: 0;
+        width: 1500px;
+        /*100%;*/
+        height: 1250px;
+        /*
+				background-image:url('static/img/biz-transformation-desktop_chevrons-nontext.png');
+				background-repeat: no-repeat; 
+				background-size: 100% 100%;	
+				background-color: white;
+				*/
+      }
+
+      #chevron_section2 {
+        padding: 0;
+        margin: 0;
+        width: 1500px;
+        /*100%;*/
+        height: 1250px;
+        background-image: url('static/img/biz-transformation-desktop-01.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: white;
+      }
+
+      .chevron_category {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        margin: 0;
+      }
+
+      #chevron_large {
+        display: block;
+        width: 1500px;
+        /*100%;*/
+        height: 1250px;
+        background-image: url('static/img/biz-transformation-desktop_chevrons-nontext.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: white;
+      }
+
+      #chevron_small {
+        display: none;
+        width: 100%;
+        height: 2000px;
+        background-image: url('biz-transformation_chevron-text');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: white;
+      }
+
+      #healthcare_section {
+        /*background-image:url('static/img/VA-Voices_background.png');*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+      }
+
+      #healthcare_intro {
+        position: relative;
+        top: 20px;
+        left: 30px;
+        width: 380px;
+        height: 200px;
+      }
+
+      #healthcare_header {
+        font-style: bold;
+        color: red;
+      }
+
+      #healthcare_title {
+        font-family: "Georgia", serif;
+        font-style: bold;
+        color: #0E182D;
+      }
+
+      .healthcare_text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #0E182D;
+      }
+
+      #healthcare_container {
+        position: relative;
+        top: -190px;
+        left: 320px;
+        width: 1000px;
+        height: 500px;
+      }
+
+      #healthcare_buttons {
+        text-align: none;
+        position: relative;
+        top: 280px;
+        left: 100px;
+      }
+
+      #voice_section {
+        background-image: url('static/img/VA-Voices_background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+      }
+
+      #voice_intro {
+        position: relative;
+        top: 20px;
+        left: 30px;
+        width: 380px;
+        height: 200px;
+      }
+
+      #voice_header {
+        font-style: bold;
+        color: #1F88C9;
+      }
+
+      #voice_title {
+        font-family: "Georgia", serif;
+        font-style: bold;
+        color: white;
+      }
+
+      .voice_text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: white;
+      }
+
+      #voice_container {
+        position: relative;
+        top: -190px;
+        left: 320px;
+        width: 1000px;
+        height: 500px;
+
+
+      }
+
+      #voice_buttons {
+        position: relative;
+        top: 280px;
+        left: 100px;
+      }
+    }
+
+    /* Section 2 - Telehealth Section - TW */
+    #divider_section {
+      padding: 0;
+      margin: 0;
+      background-color: #FFFFFF;
+      width: 100%;
+      height: 20px;
+    }
+
+    .telehealth_label_1 {
+      color: #1F88C9;
+      padding-top: 5em;
+    }
+
+    .telehealth_spacer {
+      height: 100px;
+    }
+
+    .telehealth_text {
+      color: #FFFFFF;
+      font-size: 20px;
+      width: 75%;
+    }
+
+    .stats_img {
+      padding: 0px;
+      margin-top: 40px;
+      /* EGH modified 06/27/2019 */
+      /* margin-bottom: 60px; */
+      /* margin-left: 150px;
+      margin-right: 150px; */
+    }
+
+    /* replaced with an image */
+
+    /* .telehealth_visits {
+			color: #FFFFFF;
+			font-size: 12em;
+			letter-spacing: -4px;
+			font-weight: bold; 
+			font-family: "Calibri, Candara, Segoe";
+			width: 50%;
+			text-align: left;
+		} 	 */
+
+    /*@media screen and (max-width: 600px) {
+		.telehealth_visits  {
+			 font-size: 6em;
+			}
+		}*/
+
+    .RW_Quote {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-family: "Times New Roman, Times, serif";
+      line-height: 50%;
+      width: 60%;
+
+    }
+
+    .telehealth_2017 {
+      color: #1F88C9;
+      font-size: 1.5em;
+      text-align: left;
+      letter-spacing: -1px;
+      margin: 10px;
+      line-height: .25;
+    }
+
+    /*@media screen and (max-width: 600px) {
+		.telehealth_2017  {
+			 font-size: 1em;
+			}
+		}*/
+
+    /* .telehealth_2018 {
+			color: #1F88C9;
+			font-size: 3em;
+			text-align: left;
+			letter-spacing: -1px;
+			text-align: left;
+			margin: 10px;
+			line-height: 1;
+		}  */
+
+    /*@media screen and (max-width: 600px) {
+		.telehealth_2018  {
+			 font-size: 1.5em;
+			}
+		}*/
+
+    .RW_sig {
+      color: #1F88C9;
+      font-size: 20px;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+
+    .medium_symbols {
+      color: #1F88C9;
+      font-size: 3.5em;
+      font-weight: bold;
+      text-align: left;
+      vertical-align: super;
+    }
+
+    .large_symbols {
+      color: #1F88C9;
+      font-size: 12em;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    /*@media screen and (max-width: 600px) {
+		.large_symbols  {
+			 font-size: 3em;
+			}
+		}*/
+
+    .horizontal_rule_group {
+      width: 80%;
+      text-align: center;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+    div.visitor_stats {
+      float: auto;
+      width: 100%;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+    /*@media screen and (max-width: 600px) {
+		div.visitor_stats {
+        	position: none;
+			float: auto;
+			width: auto;
+			}
+		}*/
+
+    div.visits_left {
+      position: absolute;
+      float: left;
+      width: 70%;
+      padding-left: 150px;
+      text-align: left;
+    }
+
+    /*@media screen and (max-width: 600px) {
+		div.visits_left  {
+			position: none;
+			float: none;	
+			text-align: center;
+			}
+		}*/
+
+    div.visits_right {
+      position: relative;
+      float: right;
+      width: 30%;
+      padding-right: 150px;
+      text-align: left;
+    }
+
+    /*@media screen and (max-width: 600px) {
+		div.visits_right   {
+			position: none;
+			float: none;
+			text-align: center;
+			}
+		}*/
+
+    .hr1 {
+      width: 45%;
+      height: 1px;
+      /* EGH modified 06/27/2019 */
+      /* margin-left: auto;
+      margin-right: auto; */
+      background-color: #1F88C9;
+      border: 0 none;
+      float: left;
+    }
+
+    /*@media screen and (max-width: 600px) {
+		.hr1  {
+			 display: none;
+			}
+		}*/
+
+    .hr2 {
+      width: 45%;
+      height: 1px;
+      /* EGH modified 06/27/2019 */
+      /* margin-left: auto;
+      margin-right: auto; */
+      background-color: #1F88C9;
+      border: 0 none;
+      float: right;
+    }
+
+    /*@media screen and (max-width: 600px) {
+		.hr2  {
+			 display: none;
+			}
+		}*/
+
+    .clearfix {
+      overflow: auto;
+    }
+
+    .scrolling-wrapper-flexbox {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+
+      .card {
+        flex: 0 0 auto;
+        margin-right: 3px;
+      }
+    }
+
+    .card {
+      border: 2px solid $red;
+      width: 150px;
+      height: 75px;
+      background: black;
+    }
+
+    .scrolling-wrapper,
+    .scrolling-wrapper-flexbox {
+      height: 80px;
+      margin-bottom: 20px;
+      width: 100%;
+      -webkit-overflow-scrolling: touch;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    /* --END ATLAS STYLING */
+    /* -------------------------------------------- */
+
+    /* -------------------------------------------- */
+    /* --HOVE STYLING-- */
+    /* ---STICKY NAV */
+    .sticky_desktop {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #0e2640;
+      z-index: 25;
+    }
+
+    .sticky_desktop+main {
+      padding-top: 60px;
+    }
+
+    .sticky_mobile {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 25;
+    }
+
+    .sticky_mobile+main {
+      padding-top: 60px;
+    }
+
+    .anchor1 {
+      position: relative;
+    }
+
+    .anchor1 a {
+      position: absolute;
+      left: 0px;
+      top: -60px;
+    }
+
+    /* .engaged1 {
+      float: right;
+    } */
+
+
+
+    /* -------------------------------------------- */
+  </style>
+
+  <!-- begin ATLAS SCRIPT FOR HEALTHCARE and VOICE CARD movement -->
+  <script>
+    // Move the list of cards left and right
+    //===========================================
+    function healthcare_move(direction) {
+      // Get the current position of first card
+      //------------------------------------------
+      pos = parseInt($("#healthcare_card_1").css('left'));
+
+      // Don't do anything if the transition has not completed
+      //--------------------------------------------------------
+      if (pos % 386 == 0) {
+        if (direction == 'right') {
+          // If moving left and last card not seen yet,
+          // shift the poaition by the width of a card
+          //---------------------------------------------
+          if (pos > -1158) {
+            pos = pos - 386;
+          }
+        } else {
+          // If moving right and first card not visible,
+          // shift the poaition by the width of a card
+          //---------------------------------------------
+          if (pos < 0) {
+            pos = pos + 386;
+          }
+        }
+
+        // Change the position if all cards relative to the first card
+        //--------------------------------------------------------------
+        $("#healthcare_card_1").css({ 'left': pos });
+        $("#healthcare_card_2").css({ 'left': pos + 10 });
+        $("#healthcare_card_3").css({ 'left': pos + 20 });
+        $("#healthcare_card_4").css({ 'left': pos + 30 });
+      }
+    }
+
+    // Move the list of cards left and right
+    //===========================================
+    function voice_move(direction) {
+      // Get the current position of first card
+      //------------------------------------------
+      pos = parseInt($("#voice_card_1").css('left'));
+
+      // Don't do anything if the transition has not completed
+      //--------------------------------------------------------
+      if (pos % 386 == 0) {
+        if (direction == 'right') {
+          // If moving left and last card not seen yet,
+          // shift the poaition by the width of a card
+          //---------------------------------------------
+          if (pos > -1158) {
+            pos = pos - 386;
+          }
+        } else {
+          // If moving right and first card not visible,
+          // shift the poaition by the width of a card
+          //---------------------------------------------
+          if (pos < 0) {
+            pos = pos + 386;
+          }
+        }
+
+        // Change the position if all cards relative to the first card
+        //--------------------------------------------------------------
+        $("#voice_card_1").css({ 'left': pos });
+        $("#voice_card_2").css({ 'left': pos + 10 });
+        $("#voice_card_3").css({ 'left': pos + 20 });
+        $("#voice_card_4").css({ 'left': pos + 30 });
+      }
+    }
+
+    /* This function is new */
+    function init() {
+      // Handle carousel opration while videos play
+      //------------------------------------------------
+
+      $('video').on('play', function (e) {
+        $("#mainCarousel").carousel('pause');
+      });
+
+      $('video').on('stop pause ended', function (e) {
+        $("#mainCarousel").carousel();
+      });
+    }
+  </script>
+  <!-- end ATLAS SCRIPT FOR HEALTHCARE and VOICE CARD movement -->
+
+  <!-- MORE  SCRIPTS -->
+  <!-- ATLAS SCRIPT FOR THE ABOUT US SECTION -->
+  <script src="static/js/Sec3.js"></script>
+  <!-- HOVE SCRIPT FOR THE ACCORDION IN THE BT SECTION -->
+  <script src="static/js/Sec5.js"></script>
+
+
+</head>
+
+<!-- this onreize trigger reloads the page so the sticky navs behave appropriately -->
+
+<body class="" onload="init(); myFunction();">
+  <!-- Google Tag Manager (noscript) -->
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCNGXQZ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner" id="banner">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+
+
+        <div class="desktop:grid-col-6 grid-col-12 padding-left-2 padding-y-2px desktop:padding-left-0 ">
+          <img class="usa-banner__header-flag" src="./assets/img/uswds/us_flag_small.png" alt="U.S. flag">
+          <p class="usa-banner__header-text text-bold"><a href="https://www.va.gov/" class="text-no-underline">U.S.
+              Department
+              of Veterans Affairs</a></p>
+        </div>
+        <div class="desktop:grid-col-6 grid-col-12">
+          <div class="crisis-line">
+            <div class="flex">
+              <button data-show="#modal-crisisline" class="usa-button vcl-crisis-line__button overlay-trigger"> <span
+                  class="flex">
+                  <span class="vcl"></span>Talk to the Veterans Crisis Line now</span> </button>
+            </div>
+          </div>
+        </div>
+    </header>
+  </div>
+
+  <!-- Gov banner END -->
+  <div class="usa-overlay"></div>
+  <header class="usa-header usa-header--extended" role="banner">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="extended-logo"><em class="usa-logo__text"> <a href="#" accesskey="1"
+            aria-label="Home"><span class="logo">VA</span><span class="logo"> | MODERNIZATION</a> </em></span>
+        <!-- changed above span class from "text-thin"; EGH 06/20/19 -->
+      </div>
+
+      <button class="usa-menu-btn bg-secondary-darker" id="navbutton"><i class="fas fa-bars icon-left"
+          aria-hidden="true"></i>
+        Menu</button>
+
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav role="navigation" class="usa-nav" id="navbar">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close"> <img src="./static/img/uswds/close.svg" alt="close"> </button>
+        <ul class="usa-nav__primary usa-accordion" style="position:relative;">
+          <li class="usa-nav__primary-item"> <a href="/#about_us" class="usa-nav-link"> <span>About Us</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/#transformation" class="usa-nav-link">
+              <span>Transformation</span> </a> </li>
+          <li class="usa-nav__primary-item"> <a href="/#healthcare" class="usa-nav-link"> <span>Healthcare</span> </a>
+          </li>
+          <li class="usa-nav__primary-item"> <a href="/#technology" class="usa-nav-link"> <span>Technology</span> </a>
+          </li>
+          <li class="usa-nav__primary-item"> <a href="/#voices" class="usa-nav-link"> <span>Voices</span> </a> </li>
+          <!-- EGH removed 06/27/2019 to address float right on mobile menu -->
+          <!-- <li class="usa-nav__primary-item" id="engaged" style="position:absolute; right:0px;"><a href="/#stay_engaged"
+              class="usa-nav-link">Stay&nbsp;Engaged</a></li> -->
+          <li class="usa-nav__primary-item" id="engaged"><a href="/#stay_engaged"
+              class="usa-nav-link">Stay&nbsp;Engaged</a></li>
+
+
+
+
+          <!-- Part of the collapsible nav, items found in the footer -->
+          <!-- temp fix for stay engaged; removed by EGH on 06/27/2019 -->
+          <!-- <br />
+          <br /> -->
+          <!-- end temp fix for stay engaged -->
+          <li class="nav-mobile usa-nav__primary-item">
+            <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="va-programs">
+              <span>VA Programs and Service</span>
+            </button>
+            <ul id="va-programs" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/homeless/">For Homeless Veterans</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/womenvet/">For Women Veterans</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/centerforminorityveterans/">For Minority
+                  Veterans</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.ptsd.va.gov">PTSD</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.mentalhealth.va.gov/">Mental Health</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.publichealth.va.gov/">Public Health</a>
+              <li class="usa-nav__submenu-item"><a href="https://www.accesstocare.va.gov/ourproviders/">Find a VA
+                  Healthcare Provider</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/adaptivesports/">Adaptive Sports and Special
+                  Events</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/vso/">Veterans Service Organizations
+                  (VSO)</a></li>
+            </ul>
+          <li class="nav-mobile  usa-nav__primary-item">
+            <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="va-resources">
+              <span>Additional VA Resources</span>
+            </button>
+            <ul id="va-resources" class="usa-nav__submenu">
+              <li class="usa-nav__submenu-item"><a href="https://explore.va.gov">Explore VA</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/landing2_locations.htm">Find a VA
+                  Location</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/vaforms/">VA Forms</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/health/">Veterans Health Administration
+                  (VHA)</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://benefits.va.gov/benefits/">Veterans Benefits
+                  Administration (VBA)</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://cem.va.gov/">National Cemetery Administration (NCA)</a>
+              </li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/jobs/">Careers at VA</a></li>
+              <li class="usa-nav__submenu-item"><a
+                  href="https://www.va.gov/COMMUNITYCARE/programs/veterans/VCP/index.asp">Veterans Choice Program</a>
+              </li>
+              <li class="usa-nav__submenu-item"><a href="https://www.accesstocare.va.gov/">Access to Care</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/landing2_business.htm">Doing Business with
+                  VA</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/opa/">Public Affairs</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/opa/pressrel/">News Releases</a></li>
+            </ul>
+
+          <li class="nav-mobile usa-nav__primary-item">
+            <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="policy">
+              <span>Legal and Administrative</span>
+            </button>
+            <ul id="policy" class="usa-nav__submenu">
+
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/oei/docs/VA2018-2024strategicPlan.pdf">VA
+                  Strategic Plan</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.oprm.va.gov/privacy/">Privacy</a></li>
+              <li class="usa-nav__submenu-item"><a
+                  href="hhttps://www.va.gov/web/standards/disclaimer.cfm">Disclaimers</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/oig/">Inspector General</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.oprm.va.gov/foia/">FOIA</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/orm/NOFEAR_Select.asp">No FEAR Act</a></lin>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/accountability">Whistleblower and Rights
+                  Protection</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.va.gov/web/standards/">Website Policies</a></li>
+              <li class="usa-nav__submenu-item"><a href="https://www.data.va.gov">Open Data</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="usa-nav__secondary usa-nav__secondary--no-links">
+          <form class="usa-search usa-search--small" action="https://www.va.gov/search/" id="search" method="get">
+            <div role="search">
+              <label for="query" class="usa-sr-only">Search:</label>
+              <input class="usa-input" type="search" autocomplete="off" id="query" name="query" placeholder="Search VA">
+              <button type="submit" class="usa-button"> <span class="usa-sr-only">Search</span> </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- TITLE/HERO SECTION -->
+    <section id="title_section" class="usa-section"><span role="img"
+        aria-label="Veteran with a running prosthetic leg readies for a sprint.">&nbsp; </span>
+    </section>
+
+    <!-- CAROUSEL SECTION -->
+    <section id="carousel_section" class="usa-section" style="position:relative; top:-100px; margin:0; padding:0;">
+      <center>
+        <!-- EGH added the data-interval=false on 06/28/2019 temporarily to prevent the carousel slide during rebuild of carousel -->
+        <div id="mainCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+          <!-- Indicators -->
+          <ol class="carousel-indicators carousel-indicators-numbers">
+            <li data-target="#mainCarousel" data-slide-to="0" class="active">1</li>
+            <li data-target="#mainCarousel" data-slide-to="1">2</li>
+            <li data-target="#mainCarousel" data-slide-to="2">3</li>
+            <li data-target="#mainCarousel" data-slide-to="3">4</li>
+            <li data-target="#mainCarousel" data-slide-to="4">5</li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="static/img/S1/Gallery1_1176_2.jpg"
+                alt="A doctor reading a patient's medical chart on a digital tablet.">
+              <p class="carousel_desc">
+                <span class="carousel_header">Electronic Health Record</span><br />
+                <span class="carousel_body"><br /><strong>VA's EHR</strong>
+                  will be the health data source for Veterans and providers, promoting Veteran-focused,
+                  provider-friendly care.<br />
+                  <a class="carousel_link" href="https://www.ehrm.va.gov/resources/factsheet">Learn More</a>
+                </span>
+              </p>
+            </div>
+
+            <div class="item">
+              <img src="static/img/S1/Gallery2_1176_2.jpg" alt="Smiling doctor chats with patient.">
+              <p class="carousel_desc">
+                <span class="carousel_header">MISSION Act</span><br />
+                <span class="carousel_body"><br /><strong>MISSION Act</strong>
+                  provides increased eligibility and access for our Veterans, consistent standards
+                  of quality, and dedicated advocacy.<br />
+                  <a class="carousel_link" href="https://missionact.va.gov/">Learn More</a>
+                </span>
+              </p>
+            </div>
+
+            <div class="item">
+              <img src="static/img/S1/Gallery3_1176_2.jpg"
+                alt="IT professional touching hexagon icons screen containing various computer science terms.">
+              <p class="carousel_desc">
+                <span class="carousel_header">API MOD</span><br />
+                <span class="carousel_body"><br />Veterans can now access their personal <strong>health
+                    information</strong>
+                  using innovative mobile and web-based solutions.<br />
+                  <a class="carousel_link" href="https://developer.va.gov/explore/health">Learn More</a>
+                </span>
+              </p>
+            </div>
+
+            <!----- Replace these two items ------>
+            <div class="item">
+              <video id='video1' controls poster="static/img/MOD Logo_1230x670px.png" onclick="this.play();"
+                alt="VA Modernization Logo with tagline Delivering a Stronger Future">
+                <source src="static/videos/What_is_VA_Modernization.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              <p
+                style="position: relative; color:white; background-color:black; top:-80px; left:-200px; text-align: left; width:300px; height: 0px;">
+                <br />&nbsp;
+              </p>
+            </div>
+
+            <div class="item">
+              <img src="static/img/S1/Gallery5_1176_2.png" alt="VA Secretary Robert Wilkie testifying to Congress">
+              <p class="carousel_desc">
+                <span class="carousel_header">VA Secretary Robert Wilkie</span><br />
+                <span class="carousel_body"><br />"We’re on the cusp of the most important era in the history of the
+                  Department, transformation not seen since World War II."<br />
+                  <a class="carousel_link"
+                    href=" https://www.c-span.org/video/?459099-1/veterans-affairs-secretary-wilkie-testifies-fiscal-year-2020-budget-request">Learn
+                    More</a>
+                </span>
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#mainCarousel" data-slide="prev" )>
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#mainCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </center>
+    </section>
+    <!-- END CAROUSEL SECTION -->
+
+    <!-- DATA VISUAL SECTION -->
+    <section id="transformation_section" class="usa-section">
+      <center>
+
+        <div class="telehealth_label_1">
+          <p>/ VA TELEHEALTH</p>
+        </div>
+
+        <div class="telehealth_text">
+          <p>VA Telehealth changes the location of routine VA health care services and
+            allows Veterans to receive care for 50+ clinical specialties, ensuring the right
+            care, in the right place, at the right time. It leverages health informatics,
+            disease management, and technology improving access to care. </p>
+        </div>
+
+        <div class="stats_img" alt="">
+          <img src="static/img/S2/telehealth-statistics_2480 x 689.png" width="100%"
+            alt="Over one million Telehealth Visits in 2018. That is up 19% from 2017.">
+        </div>
+
+
+
+        <div class="horizontal_rule_group">
+          <span>
+            <hr class="hr1" /></span>
+          <!-- original -->
+          <!-- <span style="font-size: 3em; color: red; font-style: italic;">
+            <i class="fas fa-quote-left"></i>
+          </span> -->
+          <!-- EGH MODIFIED 06/27/2019 -->
+          <span style="font-size: 3vw; color: red; font-style: italic;">
+            <i class="fas fa-quote-left"></i>
+          </span>
+
+
+          <span>
+            <hr class="hr2" /></span>
+        </div>
+
+        <div class="RW_Quote">
+          <p style="line-height: 1;">
+            VA's telehealth capabilities are bridging the care gap
+            through technology that gives Veterans
+            access to the timely, quality care they deserve,
+            without traveling great distances to a VA
+            facility. Time spent traveling is time away from
+            Veterans' jobs and families.</p>
+        </div>
+
+        <div class="RW_sig">
+          <p>- ROBERT WILKIE, VA SECRETARY</p>
+        </div>
+
+      </center>
+
+    </section>
+    <!-- END DATA VISUAL SECTION -->
+
+    <!-- ABOUT US SECTION -->
+    <div class="anchor1"><a id="about_us"> </a></div>
+
+    <!--NG Section 3 Begin -->
+    <section class="section3" id="about"
+      style="background-image: url('static/img/S3/VA-Healthcare_background-p-3200.png')">
+      <div class="s3accwrapper">
+
+        <!--Acc Left Info Container-->
+        <div class="s3accleft">
+          <div class="s3header">
+            <div class="section3h1">/ ABOUT US</div>
+            <div class="section3h3">Our Mission is <strong>Delivering a Stronger Future</strong> by transforming the VA
+              into a <strong>modern, high-performing organization</strong> that simplifies operations and achieves
+              high-quality service and care for Veterans.</div>
+          </div>
+
+          <!--About Us Info 1-->
+          <div class="accitem1">
+            <div id="accitem1section" class="accitemtrigger">
+              <div class="accitemh1">About VA Modernization <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem1info" style="display:show" class="accitemcontent">
+              <p class="accitemh2">VA Modernization is a continuous journey that empowers our Veterans, employees, and
+                partners to:</p>
+              <ul>
+                <li><strong>Transform</strong> systems to create foundational change</li>
+                <li><strong>Simplify</strong> operations to improve customer service</li>
+                <li><strong>Achieve</strong> better results for Veterans</li>
+              </ul>
+            </div>
+          </div>
+          <!--About Us Info 2-->
+          <div class="accitem2">
+            <div id="accitem2section" class="accitemtrigger">
+              <div class="accitemh1">VA Modernization Leadership <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem2info" style="display:none" class="accitemcontent">
+              <p class="accitemh2">Chief Modernization Officer <a href="https://www.va.gov/oei/about/bioAsgedom.asp"
+                  target="_blank" title="Officer Surafeal Asgedom Bio">Surafeal Asgedom</a> leads efforts to
+                <strong>transform VA</strong> through private/public partnerships, emerging technologies, and business
+                integration. The Modernization Office leverages best-in-class processes and tools to <strong>enable
+                  enterprise-level modernization</strong>.</p>
+            </div>
+          </div>
+          <!--About Us Info 3-->
+          <div class="accitem3">
+            <div id="accitem3section" class="accitemtrigger">
+              <div class="accitemh1">Modernization Priorities <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem3info" style="display:none" class="accitemcontent">
+              <ul>
+                <li><strong>Customer Service</strong><a href="https://www.va.gov/ve/" target="_blank"
+                    title=""><br>Exceptional Veterans experience</a></li>
+                <li><strong>MISSION ACT<br></strong><a href="https://missionact.va.gov/" target="_blank"
+                    title=""><strong>The best care from VA and the community providers</strong></a></li>
+                <li><strong>Business Transformation <br></strong>System modernization and employee empowerment</li>
+                <li><strong>Electronic Health Record (EHR) Modernization<br></strong><a href="https://www.ehrm.va.gov/"
+                    target="_blank" title=""><strong>Seamless transition of care after military service</strong></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--About Us Info 4-->
+          <div class="accitem4">
+            <div id="accitem4section" class="accitemtrigger">
+              <div class="accitemh1">Managing Business Change <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem4info" style="display:none" class="accitemcontent">
+              <p class="accitemh2">As the champions of transformation, the Modernization Office is managing change, so
+                <strong>people embrace, adopt, and use </strong>the solutions. <strong>Integrating business and
+                  technical solutions</strong> requires transforming multiple enterprise activities simultaneously.</p>
+            </div>
+          </div>
+          <!--About Us Info 5-->
+          <div class="accitem5">
+            <div id="accitem5sectionf" class="accitemtrigger">
+              <div class="accitemh1">Achieving Results <span style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem5info" style="display:none" class="accitemcontent">
+              <p class="accitemh2">Modernization delivers a stronger future.<strong></strong></p>
+              <ul>
+                <li>Veteran <strong>Trust in VA increased</strong> from 47% to 87%</li>
+                <li>VA Healthcare <a
+                    href="https://tdi.dartmouth.edu/news-events/veterans-health-administration-hospitals-outperform-non-vha-hospitals-most-healthcare-markets"
+                    title="" target="_blank">wait times shorter</a> than private sector<strong></strong></li>
+                <li>The new <a href="https://www.va.gov/" title="" target="_blank">VA.GOV</a> simplifies the experience
+                  for Veterans<strong></strong></li>
+                <li><a href="https://www.youtube.com/watch?v=qucrG2Cv0lg" title="" target="_blank">VA’s Appeals
+                    Modernization Act</a><strong> decreasing wait times</strong> and <strong>improving Veteran
+                    satisfaction</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Acc Right Img Container-->
+        <div class="s3accright">
+          <div class="accitemimgcontainer">
+            <!--About Us Img 1-->
+            <div id="accimg1" style="display:show" class="accitemimg1"><img
+                src="static/img/S3/modernization-icons-p-800.png" width="600" height="350"
+                srcset="static/img/S3/modernization-icons-p-500.png 500w, static/img/S3/modernization-icons-p-1080.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="IT professional touching hexagon icons screen containing various computer science terms."
+                class="accimg1"></div>
+            <!--About Us Img 2-->
+            <div id="accimg2" style="display:none" class="accitemimg2"><img
+                src="static/img/S3/surafeal-asgedom-va-chief-modernization-officer-p-800.jpeg" width="400" height="400"
+                srcset="static/img/S3/surafeal-asgedom-va-chief-modernization-officer-p-1080.jpeg 1080w, static/img/S3/surafeal-asgedom-va-chief-modernization-officer-p-500.jpeg 500w"
+                alt="Surafeal Asgedom, VA Chief Modernization Officer, posing for official photo with flags in background."
+                sizes="400px"
+                alt="Surafeal Asgedom, VA Chief Modernization Officer, posing for official photo with flags in background."
+                class="accimg2"></div>
+            <!--About Us Img 3-->
+            <div id="accimg3" style="display:none" class="accitemimg3"><img
+                src="static/img/S3/misc-business-thumbnails2-p-800.png" width="600" height="350"
+                srcset="static/img/S3/misc-business-thumbnails2-p-500.png 500w,static/img/S3/misc-business-thumbnails2-p-1080.png 1080w "
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="Assortment of business related photos like shaking hands and health information on computers."
+                class="accimg3"></div>
+            <!--About Us Img 4-->
+            <div id="accimg4" style="display:none" class="accitemimg4"><img
+                src="static/img/S3/data-visualization2-p-800.png" width="600" height="350"
+                srcset="static/img/S3/data-visualization2-p-500.png 500w, static/img/S3/data-visualization2-p-1080.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="Various charts overlaid on a group of health information professionals working on digital devices. "
+                class="accimg4"></div>
+            <!--About Us Img 5-->
+            <div id="accimg5" style="display:none" class="accitemimg5"><img
+                src="static/img/S3/family-getting-new-house2-p-800.png" width="600" height="350"
+                srcset="static/img/S3/family-getting-new-house2-p-500.png 500w, static/img/S3/family-getting-new-house2-p-1080.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="Real estate agent handing keys to a family of three in front of their new house." class="accimg5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT US SECTION -->
+
+    <!-- BUSINESS TRANSFORMATION SECTION -->
+    <!-- NG -->
+    <div class="anchor1">
+      <a id="transformation"> </a>
+    </div>
+    <!--NG Section 4 Begin -->
+    <section class="section4">
+      <div class="section4h1">/ BUSINESS TRANSFORMATION</div>
+      <div class="section4h2">Promoting a culture of modernization.</div>
+      <div class="section4h3">Contributing to the success of VA priorities and Modernization Initiatives.</div>
+      <div class="iconrow1">
+        <!-- FIRST ICON -->
+        <div class="column1s4">
+          <div class="icon1">
+            <div class="icon1">
+              <img src="static/img/S4/Empower.png" alt="Icon of a human fist with energy wayves extending from it."
+                class="iconimages4">
+            </div>
+          </div>
+          <div class="icon1text">
+            <div class="iconh4"><a
+                href="https://www.blogs.va.gov/VAntage/57226/va-using-feedback-improve-veterans-experience/"
+                target="_blank"
+                title="VAntage Point blog post on How VA is using feedback to improve Veterans Experience">Empower
+                our<br>employees serving<br>Veterans</a></div>
+          </div>
+        </div>
+        <!-- SECOND ICON -->
+        <div class="column2s4">
+          <div class="icon1">
+            <div class="icon1">
+              <img src="static/img/S4/Service.png" alt="Icon of customer support representative" class="iconimages4">
+            </div>
+          </div>
+          <div class="icon1text">
+            <div class="iconh4"><a href="https://www.va.gov/ve/" target="_blank" title="">Provide world-class customer
+                service<br></a></div>
+          </div>
+        </div>
+        <!-- THIRD ICON -->
+        <div class="column3s4">
+          <div class="icon1">
+            <div class="icon1">
+              <img src="static/img/S4/Increase.png" alt="Icon of upward moving arrow." class="iconimages4">
+            </div>
+          </div>
+          <div class="icon1text">
+            <div class="iconh4"><a href="https://www.va.gov/accountability/" target="_blank"
+                title="Office of Accountability and Whistleblower Protection">Increase accountability and
+                transparency</a></div>
+          </div>
+        </div>
+        <!-- FOURTH ICON -->
+        <div class="column4s4">
+          <div class="icon1">
+            <div class="icon1"><img src="static/img/S4/Efficiency.png"
+                alt="Icon of archery target with arrow hitting the bullseye." class="iconimages4">
+            </div>
+          </div>
+          <div class="icon1text">
+            <div class="iconh4"><a href="https://www.va.gov/oei/docs/va2018-2024strategicplan.pdf" target="_blank"
+                title="VA FY2018-2024 Strategic Plan (PDF)">Operate more effectively<br></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NG -->
+    <!-- end BUSINESS TRANSFORMATION SECTION -->
+
+    <!-- NEW BUSINESS TRANSFORMATION -->
+    <section class="section5" id="" style="background-image: url('static/img/VA-Voices_background.png')">
+      <div class="s5accwrapper">
+
+        <!--BT Left Info Container-->
+        <div class="s5accleft">
+
+          <!--BT INFO 1 (ACCITEM 6)-->
+          <div class="accitem6">
+            <div id="accitem6section" class="accitemtrigger">
+              <div class="btaccitemh1">Digital Transformation <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem6info" style="display:show" class="accitemcontent">
+              <p class="btaccitemh2">Delivers superior digital customer service by simplifying the Veteran experience
+                through <a href="https://www.oit.va.gov/reports/year-in-review/2018/digital-transformation"
+                  target="_blank" title="2018 Digital Transformation Report">digital platforms</a> that achieve the
+                highest levels of Customer Service, Effectiveness, and Ease of Use
+            </div>
+          </div>
+          <!--BT Info 2 (ACCITEM 7)-->
+          <div class="accitem7">
+            <div id="accitem7section" class="accitemtrigger">
+              <div class="btaccitemh1">Electronic Health Record Modernization <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem7info" style="display:none" class="accitemcontent">
+              <p class="btaccitemh2">Enables Veterans to receive high-reliability healthcare through the deployment of
+                an <a href="https://www.ehrm.va.gov/" target="_blank" title="EHRM Homepage">Enterprise-wide Integrated
+                  Health Information System</a> by transforming 140 de-centralized, non-connected programs into one
+                network, so providers make better decisions that lead to improved outcomes</p>
+            </div>
+          </div>
+          <!--BT Info 3 (ACCITEM8)-->
+          <div class="accitem8">
+            <div id="accitem8section" class="accitemtrigger">
+              <div class="btaccitemh1">Appeals Modernization <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem8info" style="display:none" class="accitemcontent">
+              <p class="btaccitemh2">Allows Veterans to receive Accurate and Timely Appeal Resolution through the
+                Implementation of the <a href="https://www.benefits.va.gov/benefits/appeals.asp" target="_blank"
+                  title="Appeals Homepage">Appeals Modernization Act</a> giving Veterans greater choice and control when
+                they disagree with VA’s decision, with three review options: Higher Level Review, Supplemental Claim, or
+                a Board Appeal</p>
+            </div>
+          </div>
+          <!--BT Info 4 (ACCITEM9)-->
+          <div class="accitem9">
+            <div id="accitem9section" class="accitemtrigger">
+              <div class="btaccitemh1">Supply Chain Modernization <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem9info" style="display:none" class="accitemcontent">
+              <p class="btaccitemh2">Delivers the Right Items, To the Right Place, At the Right Time, In the Right
+                Condition by transforming the enterprise VA supply chain through a robust supply-chain training and
+                development program, integrated data analysis, and comprehensive equipment lifecycle management program
+              </p>
+            </div>
+          </div>
+          <!--BT Info 5 (ACCITEM10)-->
+          <div class="accitem10">
+            <div id="accitem10sectionf" class="accitemtrigger">
+              <div class="btaccitemh1">Financial Management Business Transformation <span
+                  style="font-size: 12px; color: red; font-style: italic;"><i
+                    class="fas fa-chevron-down"></i></span><br></div>
+            </div>
+            <div id="accitem10info" style="display:none" class="accitemcontent">
+              <p class="btaccitemh2">Improves financial stewardship by transforming the financial and acquisition
+                business process and systems to achieve standardized financial and acquisition practices, cost savings,
+                stronger internal controls, and the reduction of risk</p>
+            </div>
+          </div>
+        </div>
+
+        <!--Acc Right Img Container-->
+        <div class="s5accright">
+          <div class="accitemimgcontainer">
+            <!--BT Img 1 (ACCIMG6)-->
+            <div id="accimg6" style="display:show" class="accitemimg6"><img
+                src="./static/img/s5/Modernization-Digital_Transformation.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Digital_Transformation.png 500w, static/img/s5/Modernization-Digital_Transformation.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="IT professional touching a creative digital chip with a circuit background" class="accimg6"></div>
+            <!--BT Img 2 (ACCIMG7) -->
+            <div id="accimg7" style="display:none" class="accitemimg7"><img
+                src="./static/img/s5/Modernization-Electronic_Health.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Electronic_Health.png 500w, static/img/s5/Modernization-Electronic_Health.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="Medical professional holding tablet with various medical technology icons and images"
+                class="accimg7"></div>
+            <!--BT Img 3 (ACCIMG8)-->
+            <div id="accimg8" style="display:none" class="accitemimg8"><img
+                src="./static/img/s5/Modernization-Appeals.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Appeals.png 500w, static/img/s5/Modernization-Appeals.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="Hand pushing a Digital Fast Forward button on a touch screen interface" class="accimg8"></div>
+            <!--BT Img 4 (ACCIMG9)-->
+            <div id="accimg9" style="display:none" class="accitemimg9"><img
+                src="./static/img/s5/Modernization-Supply_Chain.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Supply_Chain.png 500w, static/img/s5/Modernization-Supply_Chain.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px"
+                alt="Professional holding tablet with various supply chain technologies" class="accimg9"></div>
+            <!--BT Img 5 (ACCIMG10)-->
+            <div id="accimg10" style="display:none" class="accitemimg10"><img
+                src="./static/img/s5/Modernization-Financial_Management.png" width="600" height="350"
+                srcset="static/img/s5/Modernization-Financial_Management.png, static/img/s5/Modernization-Financial_Management.png 1080w"
+                sizes="(max-width: 479px) 100vw, 500px" alt="Hand holding digital dollar currency icon"
+                class="accimg10">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END NEW BUSINESS TRANSFORMATION -->
+
+    <!-- HEALTHCARE SECTION -->
+    <div class="anchor1">
+      <a id="healthcare"> </a>
+    </div>
+    <section id="healthcare_section" class="usa-section">
+      <div id="healthcare_intro">
+        <h3 id="healthcare_header">/ VA HEALTHCARE</h3>
+        <h1 id="healthcare_title">Making<br />measurable<br />progress.</h1>
+        <p class="healthcare_text">
+          Modernization is achieving success by<br />
+          enabling efficiencies and effective<br />
+          solutions, adopting faster<br />
+          transformations and incorporating a<br />
+          Veteran-centered design.<br /><br />
+        </p>
+      </div>
+      <div id="healthcare_buttons">
+        <button id="healthcare_prev" onclick="healthcare_move('left');" />
+        <button id="healthcare_next" onclick="healthcare_move('right');" />
+      </div>
+      <!--<div style="position:relative; top:50px; left:300px; width:1000px; height:500px;">-->
+      <div id="healthcare_container">
+        <div class="scrolling-wrapper-flexbox" style="width:100%; height:100%; overflow:hidden;">
+          <div id="healthcare_card_1" class="slider_card">
+            <div style="position: relative; top:180px; padding:25px;"
+              alt="Team of doctors performing a surgical procedure on a patient in an operating room.">
+              <h3 class="healthcare_card_header">Delivering Integrated Care</h3>
+              <p>
+                VA consistently delivers high-quality health care and customer
+                service. We will restore trust by consistently delivering
+                reliable, quality care; create a learning organization where
+                employees continually improve; and modernize systems by
+                using the tools required to deliver the best care.
+              </p>
+            </div>
+          </div>
+          <div id="healthcare_card_2" class="slider_card">
+            <div style="position: relative; top:180px; padding:25px;"
+              alt="Doctor pointing to a DNA helix icon in the center of other health informatics-related icons.">
+              <h3 class="healthcare_card_header">Integrated High Reliability Organization (HRO)</h3>
+              <p>
+                VA will lead the way to transform the nation's largest integrated
+                health care system into the largest high-functioning HRO in the
+                world. VA is implementing procedures and protocols that maximize
+                safety and minimize harm, ensuring every patient receives excellent
+                care, every time.
+              </p>
+            </div>
+          </div>
+          <div id="healthcare_card_3" class="slider_card">
+            <div style="position: relative; top:180px; padding:25px;"
+              alt="A patient researches a potential doctor online from a smartphone and a desktop computer.">
+              <h3 class="healthcare_card_header">Excellence in American Healthcare</h3>
+              <p>
+                We deliver higher-quality and safer health care than the private
+                sector. A study published in the Journal of the American Medical
+                Association <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2720917"
+                  title="">(JAMA)</a>
+                concluded VA primary care wait times are shorter than those in
+                the private sector in 15 major metropolitan areas.
+              </p>
+            </div>
+          </div>
+          <div id="healthcare_card_4" class="slider_card">
+            <div style="position: relative; top:180px; padding:25px;"
+              alt="A circular dial pointing to the word quality.">
+              <h3 class="healthcare_card_header">Increasing Veterans' Access to Health Care</h3>
+              <p>
+                The <a href="https://missionact.va.gov/" title="">MISSION Act</a> strengthens
+                VA's ability to deliver trusted, easy to access, high quality care at
+                VA facilities, virtually through telehealth, and in your community.
+                That means you get the care and services you need, where and when
+                you need them.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END HEALTHCARE SECTION -->
+
+    <!-- VA TECHNOLOGY SECTION -->
+    <!-- NG -->
+    <div class="anchor1">
+      <a id="technology"> </a>
+    </div>
+    <section class="section7">
+      <div class="section7h1">/ VA TECHNOLOGY</div>
+      <div class="section7h2">Pursuing high-tech healthcare.</div>
+      <div class="section7h3">The VA&#x27;s commitment to cutting-edge technologies takes many forms<br>and Veterans
+        are already seeing the benefits.</div>
+      <div class="iconrow2">
+        <div id="IconHoverContainer" class="column1s7">
+          <div class="icon2">
+            <div class="icon1"><img src="static/img/S7/3D.png" alt="Icon of a manufactured cube." class="iconimages7">
+            </div>
+          </div>
+          <div class="icon2text">
+            <div class="iconh1">VA 3D Printing</div>
+            <div class="arrowcontainers7"><img src="static/img/S7/Down-Arrow_184 x 102.png" width="18" alt=""
+                class="icondownarrows7"></div>
+            <div id="IconHoverText" class="iconh2">The emerging <a
+                href="https://www.blogs.va.gov/VAntage/55714/va-expands-network-3d-printing/" title=""
+                target="_blank">innovations of 3D printing </a>are being used in areas as varied as pre-surgical
+              planning, the manufacture of hand and foot orthotics, prosthesis prototyping, and more</div>
+          </div>
+        </div>
+        <div div id="" class="column2s7">
+          <div class="icon2">
+            <div class="icon1"><img src="static/img/S7/Apple-Health.png" alt="Icon of a checklist on a clipboard."
+                class="iconimages7"></div>
+          </div>
+          <div class="icon2text">
+            <div class="iconh1">VA Interoperability</div>
+            <div class="arrowcontainers7"><img src="static/img/S7/Down-Arrow_184 x 102.png" width="18" alt=""
+                class="icondownarrows7"></div>
+            <div div id="" class="iconh2">VA is creating and implementing a single longitudinal clinical health record,
+              from active duty to Veteran status, to ensure <a href="https://www.oit.va.gov/org/ipo/" title=""
+                target="_blank">interoperability</a>.</div>
+          </div>
+        </div>
+        <div div id="" class="column3s7">
+          <div class="icon2"><img src="static/img/S7/APIs.png"
+              alt="Icon of a human hand swiping across a tablet computer." class="iconimages7"></div>
+          <div class="icon2text">
+            <div class="iconh1">VA APIs</div>
+            <div class="arrowcontainers7"><img src="static/img/S7/Down-Arrow_184 x 102.png" width="18" alt=""
+                class="icondownarrows7"></div>
+            <div div id="" class="iconh2">VA recently launched the <a href="https://developer.va.gov/" title=""
+                target="_blank">Health Application Programming Interface (API)</a> to accelerate the creation of digital
+              tools to support Veterans. Veterans will soon have access to their personal medical data using the Health
+              Records iPhone feature.<br></div>
+          </div>
+        </div>
+        <div div id="" class="column4s7">
+          <div class="icon2"><img src="static/img/S7/AI.png" alt="Icon of a brain with circuit connections."
+              class="iconimages7"></div>
+          <div class="icon2text">
+            <div class="iconh1">VA Artificial Intelligence</div>
+            <div class="arrowcontainers7"><img src="static/img/S7/Down-Arrow_184 x 102.png" width="18" alt=""
+                class="icondownarrows7"></div>
+            <div div id="" class="iconh2"><a href="https://www.va.gov/opa/pressrel/pressrelease.cfm?id=4013" title=""
+                target="_blank">VA announced</a> a medical research partnership to analyze patterns from 700,000
+              historical health records to develop machine learning algorithms that will accurately identify risk
+              factors for patient deterioration and predict its onset.<br></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NG -->
+    <!-- END TECHNOLOGY SECTION -->
+
+    <!-- VA VOICE SECTION -->
+    <div class="anchor1">
+      <a id="voices"> </a>
+    </div>
+    <section id="voice_section" class="usa-section">
+      <div id="voice_intro">
+        <h3 id="voice_header">/ VA VOICES</h3>
+        <h2 id="voice_title">In other words,<br />modernization.</h1>
+          <p class="voice_text">
+            Read what our partners, policymakers,<br />
+            and Veterans themselves are saying<br />
+            about the VA's modernized customer<br />
+            service.
+          </p>
+      </div>
+      <div id="voice_buttons">
+        <button id="voice_prev" onclick="voice_move('left');" />
+        <button id="voice_next" onclick="voice_move('right');" />
+      </div>
+      <div id="voice_container">
+        <div class="scrolling-wrapper-flexbox" style="width:100%; height:100%; overflow:hidden;">
+          <div id="voice_card_1" class="slider_card"
+            alt="US Air Forced Veteran wearing Veteran hat. James Sample, Aviation Electrician. April 5, 2019. Quote. I've seen a lot of changes at the VA over the years and everything is lovely here.">
+          </div>
+          <div id="voice_card_2" class="slider_card"
+            alt="Black apple logo on white background. Jeff Williams, COO, Apple.  February 11, 2019. Quote. By bringing Health Records on iPhone to VA patients, we hope veterans will experience improved healthcare that will enhance their lives.">
+          </div>
+          <div id="voice_card_3" class="slider_card"
+            alt="Photo of the U.S. Senate building on a sunny day taken from the bottom of steps. U.S. Senator Johnny Isakson (R-GA). April 5, 2019. Quote. I am pleased with the VA's timely implementation of the legislation we enacted to dramatically improve the appeals process for our nation's veterans.">
+          </div>
+          <div id="voice_card_4" class="slider_card"
+            alt="The United States Digital Service logo showing a star and stripes shield with gold wings. Marcy Jacobs and Chris Johnson, U.S. Digital Servicce Team. February 19, 2019. Quote. We're really trying to shift the content around and focus on, obviously, the highest-priority content.  This means taking a veterans-first approach.">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END VA VOICE SECTION -->
+
+    <!-- ENGAGE SECTION -->
+    <div class="anchor1">
+      <a id="stay_engaged"> </a>
+    </div>
+    <section class="section9">
+      <div class="section9h1">\ STAY ENGAGED</div>
+      <div class="section9h2">Sign up for our newsletter.</div>
+      <div class="subscribebuttoncontainer"><a href="https://public.govdelivery.com/accounts/USVA/subscriber/new"
+          class="button w-button" title="">SUBSCRIBE</a></div>
+    </section>
+    <!-- END ENGAGE SECTION -->
+
+
+  </main>
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="usa-section usa-section--gray-warm-lightest border-top border-gray-30 padding-bottom-0"
+    role="contentinfo">
+    <div class="grid-container">
+      <div class="grid-row grid-gap margin-bottom-3">
+        <div class="tablet-lg:grid-col-3 tablet:grid-col-12 margin-bottom-3">
+          <h3 class="font-serif-lg text-bold">VA Mission</h3>
+          <p>To fulfill President Lincoln&rsquo;s promise <span class="text-italic font-family-alt">&ldquo;To care for
+              him who shall have borne the battle,
+              and for his widow, and his orphan&rdquo;</span> by serving and honoring the men and women who are
+            America&rsquo;s Veterans.</p>
+
+
+          <h3 class="font-serif-lg text-bold">Subscribe</h3>
+
+          <!-- GovDelivery Signup Form -->
+          <form class="usa-form" id="GD-snippet-form"
+            action="https://public.govdelivery.com/accounts/USVA/subscriber/new">
+            <input name="commit" type="hidden" value="USVA" />
+            <!-- <input type="hidden" name="authenticity_token"
+              value="oIoomhMS+nSZIGFhQV54V9HlhRl5YnlTM4Jkbd2MB8sKP7bD+tJR68QgqM/TJzpGsFHMoySmjHJc9l/s0fzxyw=="> -->
+            <label for="email">Get the latest VA Modernization News products delivered to your inbox.</label>
+            <!-- <input class="usa-input bg-transparent" type="email" name="email" id="email" placeholder="Email Address"> -->
+            <button type="submit" class="usa-button" i class="fas fa-at icon-left" aria-hidden="true"></i> Subscribe
+              Today!</button>
+          </form>
+          <!-- END GovDelivery Signup Form -->
+
+        </div>
+        <nav class="tablet:grid-col-6 mobile-hide">
+          <h3 class="font-serif-lg text-bold">Veteran Program and Services</h3>
+          <ul class="usa-list usa-list--unstyled" style="column-count:2;column-width:200px;column-gap:2rem;">
+            <li><a href="https://www.va.gov/" title="Department of Veterans Affairs homepage">VA.gov</a></li>
+            <li><a href="https://www.va.gov/homeless/">For Homeless Veterans</a></li>
+            <li><a href="https://www.va.gov/womenvet/">For Women Veterans</a></li>
+            <li><a href="https://www.va.gov/centerforminorityveterans/">For Minority Veterans</a></li>
+            <li><a href="https://www.ptsd.va.gov">PTSD</a></li>
+            <li><a href="https://www.mentalhealth.va.gov/">Mental Health</a></li>
+            <li><a href="https://www.publichealth.va.gov/">Public Health</a>
+            <li><a href="https://www.accesstocare.va.gov/ourproviders/">Find a VA Healthcare Provider</a></li>
+            <li><a href="https://www.va.gov/adaptivesports/">Adaptive Sports and Special Events</a></li>
+            <li><a href="https://www.va.gov/vso/">Veterans Service Organizations (VSO)</a></li>
+          </ul>
+          <h3 class="font-serif-lg text-bold">Additional VA Resources</h3>
+          <ul class="usa-list  usa-list--unstyled" style="column-count:2;column-width:200px;column-gap:2rem;">
+            <li><a href="https://explore.va.gov">Explore VA</a></li>
+            <li><a href="https://www.va.gov/vaforms/">VA Forms</a></li>
+            <li><a href="https://www.va.gov/health/">Veterans Health Administration (VHA)</a></li>
+            <li><a href="https://benefits.va.gov/benefits/">Veterans Benefits Administration (VBA)</a></li>
+            <li><a href="https://cem.va.gov/">National Cemetery Administration (NCA)</a></li>
+            <li><a href="https://www.va.gov/jobs/">Careers at VA</a></li>
+            <li><a href="https://www.va.gov/COMMUNITYCARE/programs/veterans/VCP/index.asp">Veterans Choice Program</a>
+            </li>
+            <li><a href="https://www.accesstocare.va.gov/">Access to Care</a></li>
+            <li><a href="https://www.va.gov/landing2_business.htm">Doing Business with VA</a></li>
+            <li><a href="https://www.va.gov/opa/">Public Affairs</a></li>
+            <li><a href="https://www.va.gov/opa/pressrel/">News Releases</a></li>
+          </ul>
+        </nav>
+        <div class="tablet-lg:grid-col-3 tablet:grid-col-12 margin-bottom-3">
+          <h3 class="font-serif-lg text-bold">Connect with VA</h3>
+          <ul class="usa-list fa-ul">
+            <li><span class="fa-li"><i class="fas fa-rss text-accent-warm-dark"></i></span><a
+                href="https://www.blogs.va.gov/VAntage">VAntage
+                Point</a></li>
+            <li><span class="fa-li"><i class="fab fa-facebook facebook"></i></span><a
+                href="https://www.facebook.com/VeteransAffairs">Facebook</a></li>
+            <li><span class="fa-li"><i class="fab fa-twitter twitter"></i></span><a
+                href="https://www.twitter.com/DeptVetAffairs/">Twitter</a></li>
+            <li><span class="fa-li"><i class="fab fa-youtube youtube"></i></span><a
+                href="https://www.youtube.com/user/DeptVetAffairs">YouTube</a></li>
+            <li><span class="fa-li"><i class="fab fa-flickr flickr"></i></span><a
+                href="https://www.flickr.com/photos/VeteransAffairs/">Flickr</a></li>
+            <li><span class="fa-li"><i class="fab fa-instagram instagram"></i></span><a
+                href="https://www.instagram.com/deptvetaffairs/">Instagram</a></li>
+            <li><span class="fa-li"><i class="fas fa-mobile"></i></span><a href="https://mobile.va.gov/appstore/">VA
+                Mobile Apps</a></li>
+            <li><span class="fa-li"><i class="fas fa-list"></i></span><a
+                href="https://www.va.gov/opa/socialmedia.asp">Socia
+                Media Index</a></li>
+          </ul>
+          <h3 class="font-serif-lg text-bold">In Crisis? Get Help Now</h3>
+          <a href="http://www.veteranscrisisline.net/" class="usa-button bg-red-60v hover:bg-red-70v"><i
+              class="fas fa-comment-alt-dots text-white icon-left" aria-hidden="true"></i> Veterans Crisis Line</a>
+        </div>
+      </div>
+    </div>
+    <section class="usa-section usa-section--primary-midnight padding-05 margin-top-8">
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-col" style="height:5rem;">
+            <p class="text-center"> <a href="https://www.va.gov" title="go to the VA homepage"><img
+                  src="./assets/img/icons/Official_VA_Seal.png"
+                  style=" margin-left: auto; margin-right: auto; margin-top:-3rem; max-width:7rem;"
+                  alt="Official VA seal" /></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="usa-section usa-section--primary-midnight mobile-hide padding-top-1 padding-bottom-4 copyright">
+      <div class="grid-container">
+        <p class="text-center font-serif-2xs"> <span><a
+              href="https://www.va.gov/oei/docs/VA2018-2024strategicPlan.pdf">VA Strategic Plan</a></span> <span><a
+              href="https://www.oprm.va.gov/privacy/">Privacy</a></span> <span><a
+              href="hhttps://www.va.gov/web/standards/disclaimer.cfm">Disclaimers</a></span> <span><a
+              href="https://www.va.gov/oig/">Inspector General</a></span> <span><a
+              href="https://www.oprm.va.gov/foia/">FOIA</a></span> <span><a
+              href="https://www.va.gov/orm/NOFEAR_Select.asp">No FEAR Act</a></span> <span><a
+              href="https://www.va.gov/accountability">Whistleblower and Rights
+              Protection</a></span> <span><a href="https://www.va.gov/web/standards/">Website Policies</a></span>
+          <span><a href="https://www.data.va.gov">Open Data</a></span>
+        </p>
+      </div>
+    </section>
+  </footer>
+  <div id="modal-crisisline" class="vcl-overlay vcl-modal vcl-modal--large" role="alertdialog">
+    <div class="vcl-modal__inner radius-lg shadow-2">
+      <div class="vcl-overlay-body vcl-crisis__panel-body">
+        <h3 class="font-family-serif vcl-modal__title font-serif-md tablet-lg:font-serif-lg">We&rsquo;re here anytime,
+          day or night - 24/7</h3>
+        <p class="font-sans-xs padding-bottom-3">If you are a Veteran in crisis or concerned about one, connect with our
+          caring, qualified responders for confidential help. Many of them are Veterans themselves.</p>
+        <ul>
+          <li class="display-flex"><i class="fas fa-fw fa-phone icon-left margin-right-2  margin-top-2 fa-lg"
+              aria-hidden="true"></i><a href="tel:18002738255" tabindex='0' id="vcl-crisis-primary"> Call
+              <strong>1-800-273-8255 and press 1</strong></a></li>
+          <li class="display-flex"><i class="fas fa-fw fa-mobile-alt icon-left margin-right-2  margin-top-2 fa-lg"
+              aria-hidden="true"></i><a href="sms:838255"> Text to <b>838255</b></a></li>
+          <li class="display-flex"><i class="far fa-fw icon-left fa-comments margin-right-2  margin-top-2 fa-lg"></i><a
+              href="https://www.veteranscrisisline.net/ChatTermsOfService.aspx?account=Veterans%20Chat"> Chat
+              <b>confidentially now</b></a></li>
+          <li class="display-flex"><i class="fa fa-fw fa-deaf icon-left margin-right-2  margin-top-2 fa-lg"
+              aria-hidden="true"></i><a href="tel:18007994889"> Call TTY if you have hearing loss
+              <strong>1-800-799-4889</strong></a></li>
+        </ul>
+        <p class="font-sans-xs">Get more resources at <a
+            href="https://www.veteranscrisisline.net/">VeteransCrisisLine.net</a>.</p>
+      </div>
+      <button class="usa-button vcl-modal__close vcl-overlay-close" type="button" id="vcl-vcl-close-btn"><span
+          class="usa-sr-only">Close
+          this modal</span> <i class="far fa-times-circle fa-2x vcl-overlay-close text-primary" aria-hidden="true"
+          title="close this modal"></i> </button>
+    </div>
+  </div>
+
+  <section class="usa-section text-center padding-1 usa-section--primary-midnight">
+    <div class="grid-container">
+      <p class="font-serif-3xs">Content last updated or reviewed on June 25, 2019</p>
+    </div>
+  </section>
+
+  <!-- sticky nav code -->
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    let navbar = document.getElementById("navbar");
+    let initSticky = navbar.offsetTop;
+    let navbutton = document.getElementById("navbutton");
+    let initSticky2 = navbutton.offsetTop;
+
+
+    function myFunction() {
+      if (window.pageYOffset >= initSticky && initSticky > 0) {
+        navbar.classList.add("sticky_desktop");
+      } else if (window.pageYOffset < initSticky) {
+        navbar.classList.remove("sticky_desktop");
+      } else if (window.pageYOffset >= initSticky2 && initSticky2 > 0) {
+        navbutton.classList.add("sticky_mobile");
+      } else {
+        navbutton.classList.remove("sticky_mobile");
+      }
+    }
+
+
+  </script>
+
+  <!-- USWDS -->
+  <script src="./assets/js/uswds.min.js"></script>
+  <!-- Stickyfill -->
+  <script src="./assets/js/stickyfill.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <!-- ATLAS ASSET -->
+  <script src="static/js/vamod.js" type="text/javascript"></script>
+  <!-- GovDelivery Subscription Overlay -->
+  <!-- <script src='https://content.govdelivery.com/overlay/js/6367.js'></script> -->
+  <!-- End GovDelivery Overlay -->
+
+
+  <style>
+    ._acsbottomright._acsbadge--default {
+      margin-right: 5.6em;
+      left: auto !important;
+      right: 0 !important;
+      top: auto;
+      bottom: 1.6em;
+    }
+  </style>
+
+
+
+</body>
+
+</html>
