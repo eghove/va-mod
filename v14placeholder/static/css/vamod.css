@@ -84,20 +84,32 @@
 			width:175px;
 			height: 0px;
       line-height: 0.5; */
-      bottom:25%;
+
+      /* EGH changes on 06/27/19 */
+      /* bottom:25%;
 			left:2px;
 			text-align: left;
 			width: 50%;
       height: 5%;
-      line-height: 0.6;
-      
+      line-height: 0.6; */
+
+      /* EGH changes on 06/28/19 */
+      bottom:25%;
+      margin-left: 0.75vw;
+      margin-bottom: 2%;
+			text-align: left;
+			width: 50%;
+      height: 0;
+      line-height: 0.5;
 		}
 		.carousel_header {
-			font-size: 8px;
+      /* EGH changed 06/28/19 */
+			font-size: 2.0vw;
 			font-weight: bold;
 		}
 		.carousel_body {
-      font-size: 6px;
+      /* EGH changed 06/28/19 */
+      font-size: 1.5vw;
 		}
       
 		/* nav div ul li.focus, nav div ul li:focus {

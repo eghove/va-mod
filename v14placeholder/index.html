@@ -398,6 +398,13 @@
       background-image: url('static/img/s8/VA-Voices_employee_602x778.png');
       left: 30px;
     }
+    /* EGH added 06/27/2019 */
+    #healthcare_buttons {
+      align-content: center;
+      clear: right;
+      
+    }
+    
 
     /*Deskktop CSS - Defaut min = 600px */
     @media (min-width: 600px) {
@@ -410,23 +417,38 @@
       }
 
       .carousel_desc {
-        position: relative;
+        /* ATLAS original styling below */
+        /* position: relative;
         color: white;
         top: -140px;
         left: -260px;
         text-align: left;
         width: 475px;
         height: 0px;
+        line-height: 1.2; */
+
+        /* EGH changes 06/28/19 */
+        position: absolute;
+        color: white;
+        bottom: 25%;
+        /* left: 0; */
+        margin-left: 0.6vw;
+        text-align: left;
+        width: 50%;
+        height: 0;
         line-height: 1.2;
+        margin-bottom: 0;
       }
 
       .carousel_header {
-        font-size: 28px;
+        /* font-size: 28px; */
+        font-size: 1.5em;
         font-weight: bold;
       }
 
       .carousel_body {
-        font-size: 16px;
+        /* font-size: 16px; */
+        font-size: 1em;
       }
 
       #video1,
@@ -537,6 +559,7 @@
       }
 
       #healthcare_buttons {
+        text-align: none;
         position: relative;
         top: 280px;
         left: 100px;
@@ -1207,9 +1230,9 @@
             <div class="item">
               <img src="static/img/S1/Gallery5_1176.png" alt="VA Secretary Robert Wilkie testifying to Congress">
               <p class="carousel_desc">
-                <span class="carousel_header">&nbsp;</span>
+                <span class="carousel_header">VA Secretary Robert Wilkie</span><br />
                 <span class="carousel_body"><br />"We’re on the cusp of the most important era in the history of the
-                  Department, transformation not seen since World War II" - VA Secretary Robert Wilkie<br /><br />
+                  Department, transformation not seen since World War II."<br /><br />
                   <a class="carousel_link"
                     href=" https://www.c-span.org/video/?459099-1/veterans-affairs-secretary-wilkie-testifies-fiscal-year-2020-budget-request">Learn
                     More</a>
@@ -1719,7 +1742,7 @@
     <section class="section7">
       <div class="section7h1">/ VA TECHNOLOGY</div>
       <div class="section7h2">Pursuing high-tech healthcare.</div>
-      <div class="section7h3">The VA&#x27;s commitment to cutting-edge technologies takes many forms<br>--and Veterans
+      <div class="section7h3">The VA&#x27;s commitment to cutting-edge technologies takes many forms<br>and Veterans
         are already seeing the benefits.</div>
       <div class="iconrow2">
         <div id="IconHoverContainer" class="column1s7">
