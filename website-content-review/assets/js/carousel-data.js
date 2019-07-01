@@ -76,10 +76,6 @@ const data = [
   // end 2019-06-17 images
 
   // begin 2019-05-30 images
-  {
-    src: "./assets/img/20190530-Graphics/NCA_Legacy.png",
-    tags: ["nca"]
-  },
 
   {
     src: "./assets/img/20190530-Graphics/HealthcareTechAdv3DKidney.png",
@@ -208,15 +204,6 @@ const data = [
     tags: ["ncc"]
   },
 
-  {
-    src: "./assets/img/20190514-Graphics/Outreach.png",
-    tags: ["outreach"]
-  },
-
-  {
-    src: "./assets/img/20190514-Graphics/OutreachOverseas.png",
-    tags: ["outreach"]
-  },
 
   {
     src: "./assets/img/20190514-Graphics/VRE.png",
@@ -441,11 +428,6 @@ const data = [
   // begin 2019-05-01 images
   {
     src: "./assets/img/20190501-Graphics/20190501-AI1.jpg",
-    tags: ["ai"]
-  },
-
-  {
-    src: "./assets/img/20190501-Graphics/20190501-AI3.jpg",
     tags: ["ai"]
   },
 
@@ -726,11 +708,6 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190429-Graphics/20190429-Forever-GI-Bill-Quote-STEM.jpg",
-    tags: ["gibill"]
-  },
-
-  {
     src: "./assets/img/20190429-Graphics/20190429-homelessness.jpg",
     tags: ["homeless"]
   },
@@ -740,20 +717,15 @@ const data = [
     tags: ["homeless"]
   },
 
-  {
-    src: "./assets/img/20190429-Graphics/20190429-Jason-VocRehab.jpg",
-    tags: ["vocrehab"]
-  },
+  // {
+  //   src: "./assets/img/20190429-Graphics/20190429-Jason-VocRehab.jpg",
+  //   tags: ["vocrehab"]
+  // },
 
   {
     // updated 20190503
     src: "./assets/img/20190503-Graphics1/Opioid-safety.jpg",
     tags: ["opioid"]
-  },
-
-  {
-    src: "./assets/img/20190429-Graphics/20190429-OutreachQuote1.jpg",
-    tags: ["outreach"]
   },
 
   {
@@ -800,11 +772,7 @@ const data = [
   },
 
   // still more
-  
-  {
-    src: "./assets/img/20190426-Graphics/20190426-Life-Insurance-Quote.jpg",
-    tags: ["life"]
-  },
+
 
   {
     src: "./assets/img/20190426-Graphics/20190426-Life-Insurance.jpg",
@@ -1001,16 +969,6 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-Extraction-Information.jpg",
-    tags: ["paper"]
-  },
-
-  {
-    src: "./assets/img/20190422-Graphics/20190422-Forever-Gi-Bill-Quote.jpg",
-    tags: ["gibill"]
-  },
-
-  {
     src: "./assets/img/20190422-Graphics/20190422-ForeverGiBillNG.jpg",
     tags: ["gibill"]
   },
@@ -1018,11 +976,6 @@ const data = [
   {
     src: "./assets/img/20190422-Graphics/20190422-HomeLoanGuaranty-NicholeArmyVet.jpg",
     tags: ["loan"]
-  },
-
-  {
-    src: "./assets/img/20190422-Graphics/20190422-Paper-Extraction.jpg",
-    tags: ["paper"]
   },
 
   {
@@ -1107,11 +1060,6 @@ const data = [
   {
     src: "./assets/img/20190418-Graphics/20190418-Hands-of-Veterans.jpg",
     tags: ["vha"],
-  },
-
-  {
-    src: "./assets/img/20190418-Graphics/20190418-Legacy1.jpg",
-    tags: ["nca", "vetlegacy"]
   },
 
   {
@@ -1306,22 +1254,10 @@ const data = [
   },
   // end 2019-04-15 images
 
-  // begin 2019-04-12 images
-
-  {
-    src: "./assets/img/20190412-Graphics/20190412-No-Veteran-Ever-Dies.jpg",
-    tags: ["nca", "novet"]
-  },
-  // end 2019-04-12 images
 
   // begin 2019-04-11 images
   {
     src: "./assets/img/20190411-Graphics/20190411-BaltimoreVADocs.png",
-    tags: ["vha"]
-  },
-
-  {
-    src: "./assets/img/20190411-Graphics/20190411-CuspRobotAssistedSurgery.jpg",
     tags: ["vha"]
   },
 
@@ -1361,11 +1297,6 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-VA-gov.png",
-    tags: ["vagov"]
-  },
-
-  {
     src: "./assets/img/20190411-Graphics/20190411-VA_and_Tech Companies.png",
     tags: ["partners"]
   },
@@ -1376,21 +1307,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-WWP1.jpg",
-    tags: ["partners", "vha"]
-  },
-
-  {
     src: "./assets/img/20190411-Graphics/20190411-Walmart.png",
     tags: ["partners"]
   },
   // end 2019-04-11 images
 
   // begin prior to 2019-04-11 images
-  {
-    src: "./assets/img/20190407-CrisisLine.png",
-    tags: ["mod"]
-  },
 
   {
     src: "./assets/img/20190408-GIBill.HL.png",
