@@ -1,6 +1,14 @@
 // the data object for the sm carousel
 
 const data = [
+
+  // begin 2019-07-02 images
+  {
+    src: "./assets/img/MC_GRAPHICS_1A/VA-Blind-Rehab-Program.png",
+    tags: ["vocrehab"]
+  },
+  // end 2019-07-02 images
+
   // begin 2019-06-17 images
   {
     src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterview.png",
@@ -33,22 +41,22 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190617-Graphics/TelehealthMTInterview.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Telehealth-MT-Interview.png",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/TelehealthMTInterviewEsp.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Telehealth-MT-Interview-ESP.png",
     tags: ["vha", "spanish"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/VACareFNInterview.png",
+    src: "./assets/img/MC_GRAPHICS_1A/VACare-FN-Interview.png",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/VACareFNInterviewEsp.png",
+    src: "./assets/img/MC_GRAPHICS_1A/VACare-FN-Interview-Esp.png",
     tags: ["vha", "spanish"]
   },
 
@@ -123,7 +131,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190517-Graphics/Suicide-Prevention.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Suicide-Prevention.png",
     tags: ["prevention"]
   },
 
@@ -133,7 +141,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190517-Graphics/rep-VA-Targeting-Cancer.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Target-Cancer.png",
     tags: ["ai", "healthcare"]
   },
 
@@ -146,7 +154,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190515-Graphics/TAP-GrobergQuote.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Tap-Train-yourself.png",
     tags: ["tap"]
   },
 
@@ -185,17 +193,17 @@ const data = [
 
   // begin updated imgs 2019-05-14
   {
-    src: "./assets/img/20190514-Graphics/CICM.png",
+    src: "./assets/img/MC_GRAPHICS_1B/Stats_in_Blue.png",
     tags: ["intake"]
   },
 
   {
-    src: "./assets/img/20190514-Graphics/ForeverGIBillComery.png",
+    src: "./assets/img/MC_GRAPHICS_1B/W_Colmery_Vet_Edu_Asst_Act.png",
     tags: ["gibill"]
   },
 
   {
-    src: "./assets/img/20190514-Graphics/NCC2Quotes.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Touchet-quote-on-NCC.png",
     tags: ["ncc"]
   },
 
@@ -357,7 +365,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190509-Graphics1/HealthcareTechAdv1.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Telehealth.png",
     tags: ["healthcare", "telehealth"]
   },
 
@@ -367,7 +375,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190509-Graphics1/VA-goal-is-Cussatt.png",
+    src: "./assets/img/MC_GRAPHICS_1B/VAs_Goal.png",
     tags: ["it"]
   },
 
@@ -415,7 +423,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/VA-gov-IT-Modernization.png",
+    src: "./assets/img/MC_GRAPHICS_1A/VAgov.png",
     tags: ["it", "vagov"]
   },
 
@@ -437,12 +445,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190501-Graphics/20190501-AI5.jpg",
+    src: "./assets/img/MC_GRAPHICS_1B/VA_tapping_into_AI.png",
     tags: ["ai"]
   },
 
   {
-    src: "./assets/img/20190501-Graphics/20190501-AI6.png",
+    src: "./assets/img/MC_GRAPHICS_1B/VA_using_DeepMinds_AI.png",
     tags: ["ai"]
   },
 
@@ -861,7 +869,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Centralized-Intake-of-Claims-Material-Quotes.jpg",
+    src: "./assets/img/MC_GRAPHICS_1B/Wilkie_quote_with_digital_background.png",
     tags: ["intake"]
   },
 
@@ -902,7 +910,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Wilkie-National-Cemeteries.jpg",
+    src: "./assets/img/MC_GRAPHICS_1B/Wilkie_quotes_with_Marine_and_Honor_Guard.png",
     tags: ["nca"]
   },
   // end 2019-04-24 images
@@ -953,7 +961,7 @@ const data = [
 
   // begin 2019-04-22 images
   {
-    src: "./assets/img/20190422-Graphics/20190422_Legacy_NCA.jpg",
+    src: "./assets/img/MC_GRAPHICS_1B/VLP_Modernizing_Memories.png",
     tags: ["nca", "vetlegacy"]
   },
 
@@ -1126,7 +1134,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-Legacy.jpg",
+    src: "./assets/img/MC_GRAPHICS_1B/Veterans_Legacy_Education.png",
     tags: ["nca", "vetlegacy"]
   },
 
@@ -1302,7 +1310,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-WHH2.jpg",
+    src: "./assets/img/MC_GRAPHICS_1B/VWHH.png",
     tags: ["hotline"]
   },
 
@@ -1330,7 +1338,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190408-VAlor.png",
+    src: "./assets/img/MC_GRAPHICS_1B/VAlor.png",
     tags: ["vha"]
   }
   // end prior to 2019-04-11 images
