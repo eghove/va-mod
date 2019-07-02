@@ -46,7 +46,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/MC_GRAPHICS_1A/Telehealth-MT-Interview-ESP.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Telehealth-MT-Interview-Esp.png",
     tags: ["vha", "spanish"]
   },
 
@@ -154,7 +154,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/MC_GRAPHICS_1A/Tap-Train-yourself.png",
+    src: "./assets/img/MC_GRAPHICS_1A/TAP-Train-yourself.png",
     tags: ["tap"]
   },
 
