@@ -21,12 +21,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190617-Graphics/MissionActMTInterview.png",
+    src: "./assets/img/MC_2A/MissionAct-MT-Interview.png",
     tags: ["mission"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/MissionActMTInterviewEsp.png",
+    src: "./assets/img/MC_2A/MissionAct-MT-Interview-Esp.png",
     tags: ["mission", "spanish"]
   },
 
@@ -61,22 +61,22 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterview1.png",
+    src: "./assets/img/MC_2A/Militaryculture-MT-Interview1.png",
     tags: ["culture"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterview2.png",
+    src: "./assets/img/MC_2A/MilitaryCulture-MT-Interview2.png",
     tags: ["culture"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterviewEsp1.png",
+    src: "./assets/img/MC_2A/Militaryculture-MT-Interview1-Esp.png",
     tags: ["culture", "spanish"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/MilitaryCultureMTInterviewEsp2.png",
+    src: "./assets/img/MC_2A/MilitaryCulture-MT-Interview2-Esp.png",
     tags: ["culture", "spanish"]
   },
 
@@ -283,7 +283,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190513-Graphics/NCA-customer-satisfaction.png",
+    src: "./assets/img/MC_2A/NCA.png",
     tags: ["nca", "customer"]
   },
   // end 2019-05-13
@@ -398,7 +398,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/IT-Modernization-3.png",
+    src: "./assets/img/MC_2A/Migrating_clouds.png",
     tags: ["bt", "it"]
   },
 
@@ -742,7 +742,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190429-Graphics/20190429-VREQuote1.jpg",
+    src: "./assets/img/MC_2A/Karl_VRE-quote.png",
     tags: ["vocrehab"]
   },
 
@@ -798,7 +798,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190426-Graphics/20190426-NCC.jpg",
+    src: "./assets/img/MC_2A/National-quality-Conley-quote.png",
     tags: ["ncc"]
   },
 
@@ -1285,7 +1285,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-Perry.jpg",
+    src: "./assets/img/MC_2A/MS.png",
     tags: ["vha"]
   },
 
