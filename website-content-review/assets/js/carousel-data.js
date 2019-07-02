@@ -1,6 +1,14 @@
 // the data object for the sm carousel
 
 const data = [
+
+  // begin 2019-07-02 images
+  {
+    src: "./assets/img/MC_GRAPHICS_1A/VA-Blind-Rehab-Program.png",
+    tags: ["vocrehab"]
+  },
+  // end 2019-07-02 images
+
   // begin 2019-06-17 images
   {
     src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterview.png",
@@ -33,22 +41,22 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190617-Graphics/TelehealthMTInterview.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Telehealth-MT-Interview.png",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/TelehealthMTInterviewEsp.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Telehealth-MT-Interview-ESP.png",
     tags: ["vha", "spanish"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/VACareFNInterview.png",
+    src: "./assets/img/MC_GRAPHICS_1A/VACare-FN-Interview.png",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/VACareFNInterviewEsp.png",
+    src: "./assets/img/MC_GRAPHICS_1A/VACare-FN-Interview-Esp.png",
     tags: ["vha", "spanish"]
   },
 
@@ -123,7 +131,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190517-Graphics/Suicide-Prevention.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Suicide-Prevention.png",
     tags: ["prevention"]
   },
 
@@ -133,7 +141,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190517-Graphics/rep-VA-Targeting-Cancer.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Target-Cancer.png",
     tags: ["ai", "healthcare"]
   },
 
@@ -146,7 +154,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190515-Graphics/TAP-GrobergQuote.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Tap-Train-yourself.png",
     tags: ["tap"]
   },
 
@@ -195,7 +203,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190514-Graphics/NCC2Quotes.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Touchet-quote-on-NCC.png",
     tags: ["ncc"]
   },
 
@@ -357,7 +365,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190509-Graphics1/HealthcareTechAdv1.png",
+    src: "./assets/img/MC_GRAPHICS_1A/Telehealth.png",
     tags: ["healthcare", "telehealth"]
   },
 
@@ -415,7 +423,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/VA-gov-IT-Modernization.png",
+    src: "./assets/img/MC_GRAPHICS_1A/VAgov.png",
     tags: ["it", "vagov"]
   },
 
