@@ -31,12 +31,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190617-Graphics/SecretaryInterviewMT.png",
+    src: "./assets/img/MC_2B/Secretary-Interview-MT.png",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/SecretaryInterviewMTEsp.png",
+    src: "./assets/img/MC_2B/Secretary-InterviewMT-Esp.png",
     tags: ["vha", "spanish"]
   },
 
@@ -164,7 +164,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190515-Graphics/TAP-PedersenQuote.png",
+    src: "./assets/img/MC_2B/PedersenQuote.png",
     tags: ["tap"]
   },
 
@@ -214,7 +214,7 @@ const data = [
 
 
   {
-    src: "./assets/img/20190514-Graphics/VRE.png",
+    src: "./assets/img/MC_2B/Russell-VRE-Counselor.png",
     tags: ["vocrehab"]
   },
   // end updated imgs 2019-05-14
@@ -783,7 +783,7 @@ const data = [
 
 
   {
-    src: "./assets/img/20190426-Graphics/20190426-Life-Insurance.jpg",
+    src: "./assets/img/MC_2B/Online-Access-Ins.png",
     tags: ["life"]
   },
 
@@ -922,7 +922,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190423-Graphics/20190423-Forever-GI-BillPH.jpg",
+    src: "./assets/img/MC_2B/Purple-Heart-Post-911.png",
     tags: ["gibill"]
   },
 
@@ -954,7 +954,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190423-Graphics/20190423-Sample-VANorthTexas.jpg",
+    src: "./assets/img/MC_2B/Sample.png",
     tags: ["vha"]
   },
   // end 2019-04-23 images
@@ -1056,7 +1056,7 @@ const data = [
   // 2019-04-18 images
   {
     // replacement img updated 20190503
-    src: "./assets/img/20190418-Graphics/20190418-4EverGIBIll.jpg",
+    src: "./assets/img/MC_2B/No-More-Limits.png",
     tags: ["gibill"]
   },
 
@@ -1088,12 +1088,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190418-Graphics/20190418-No-Veteran-Ever-Dies1.jpg",
+    src: "./assets/img/MC_2B/Reeves-quote-with-Scout.png",
     tags: ["nca", "novet"]
   },
 
   {
-    src: "./assets/img/20190418-Graphics/20190418-Randy-Reeves.jpg",
+    src: "./assets/img/MC_2B/Reeves-quote.png",
     tags: ["novet"]
   },
 
@@ -1295,7 +1295,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-Ulos-Kennamer-GIBillHL.png",
+    src: "./assets/img/MC_2B/Since-1944.png",
     tags: ["gibill"]
   },
 
