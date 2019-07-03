@@ -268,7 +268,7 @@ const data = [
 
   // begin 2019-05-13
   {
-    src: "./assets/img/MC_3A/AI-precision-oncology.png",
+    src: "./assets/img/MC_3A/AI-Precision-oncology.png",
     tags: ["ai", "healthcare"]
   },
 
