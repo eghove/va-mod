@@ -414,7 +414,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/YST/Apple-Partners-with-VA.png",
+    src: "./assets/img/YST/Apple-partners-with-VA.png",
     tags: ["partners", "apple"]
   },
 
