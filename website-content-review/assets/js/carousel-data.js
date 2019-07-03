@@ -22,16 +22,21 @@ const data = [
     src: "./assets/img/MC_3A/Crisis-Help.png",
     tags: ["ncc"]
   },
+
+  {
+    src: "./assets/img/MC_3B/Dr-Spector-quote.png",
+    tags: ["ai"]
+  },
   // end 2019-07-02 images
 
   // begin 2019-06-17 images
   {
-    src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterview.png",
+    src: "./assets/img/MC_3B/HealthCare-FN-Interview.png",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterviewEsp.png",
+    src: "./assets/img/MC_3B/HealthCare-FN-Interview-Esp.png",
     tags: ["vha", "spanish"]
   },
 
@@ -101,7 +106,7 @@ const data = [
   // begin 2019-05-30 images
 
   {
-    src: "./assets/img/20190530-Graphics/HealthcareTechAdv3DKidney.png",
+    src: "./assets/img/MC_3B/Dr-Ripley-3D-kidney.png",
     tags: ["healthcare"]
   },
   // end 2019-05-30 images
@@ -151,7 +156,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190517-Graphics/VA-Transformation.jpg",
+    src: "./assets/img/MC_3B/Feel-Welcome-Wilkie.png",
     tags: ["mod"]
   },
 
@@ -223,7 +228,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190514-Graphics/NCCQuote.png",
+    src: "./assets/img/MC_3B/Crolwey-quote-on-NCC.png",
     tags: ["ncc"]
   },
 
@@ -263,7 +268,7 @@ const data = [
 
   // begin 2019-05-13
   {
-    src: "./assets/img/20190513-Graphics//AI-Precision-oncology.png",
+    src: "./assets/img/MC_3A/AI-precision-oncology.png",
     tags: ["ai", "healthcare"]
   },
 
@@ -305,7 +310,7 @@ const data = [
 
   // begin 2019-05-10 images
   {
-    src: "./assets/img/20190510-Graphics/DrStone.png",
+    src: "./assets/img/MC_3B/Dr-Stone-Networked-VA.png",
     tags: ["healthcare"]
   },
 
@@ -370,7 +375,7 @@ const data = [
 
   // Graphics 1
   {
-    src: "./assets/img/20190509-Graphics1/Digital-transformation-Cussatt.png",
+    src: "./assets/img/MC_3B/Digital-Transformation-Cussatt-quote.png",
     tags: ["it"]
   },
 
@@ -423,7 +428,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/IT-Modernization2.png",
+    src: "./assets/img/MC_3B/DoD-and-Scott-Blackburn-Quote.png",
     tags: ["bt", "it"]
   },
 
@@ -992,7 +997,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-ForeverGiBillNG.jpg",
+    src: "./assets/img/MC_3B/GI-Bill-Natl-Guard-and-Reserves.png",
     tags: ["gibill"]
   },
 
@@ -1285,7 +1290,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-CuspRobotAssistedSurgery2.jpg",
+    src: "./assets/img/MC_3B/Cusp.png",
     tags: ["vha"]
   },
 
