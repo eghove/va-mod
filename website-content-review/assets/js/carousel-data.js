@@ -43,6 +43,45 @@ const data = [
     tags: ["mod"]
   },
 
+  {
+    src: "./assets/img/NC2/Modernization-brand-PLATFORM.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-brand-Surafeal-2.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-brand-Surafeal.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Electronic-Health-with-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Financial-Management-no-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Financial-Management-with-header.png",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Supply-Chain-no-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Supply-Chain-with-header.jpg",
+    tags: ["mod"]
+  },
 
   // end 2019-07-03 images
 
@@ -370,12 +409,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190510-Graphics/NCA-infrastructure.jpg",
+    src: "./assets/img/NC2/NCA-infrastructure.jpg",
     tags: ["nca"]
   },
 
   {
-    src: "./assets/img/20190510-Graphics/NCA-Care.jpg",
+    src: "./assets/img/NC2/NCA-Care.jpg",
     tags: ["nca"]
   },
 
@@ -385,7 +424,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190510-Graphics/Women-Veterans-Breast-Cancer-Screenings.jpg",
+    src: "./assets/img/NC2/Women-Veterans-Breast-Cancer-Screenings.jpg",
     tags: ["vha"]
   },
   // end 2019-05-10 images
@@ -493,7 +532,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/VAs-Supply-Chain.jpg",
+    src: "./assets/img/NC2/VA-Supply-Chain.jpg",
     tags: ["supply"]
   },
   // end 2019-05-06 images
@@ -574,7 +613,7 @@ const data = [
 
   {
     // updated 20190506
-    src: "./assets/img/20190506-Graphics/Whole-health-2.jpg",
+    src: "./assets/img/NC2/Whole-health-2.jpg",
     tags: ["vha"]
   },
 
@@ -797,7 +836,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Opioid-safety.jpg",
+    src: "./assets/img/NC2/Opioid-safety.jpg",
     tags: ["opioid"]
   },
 
@@ -879,7 +918,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Suicide-prevention.jpg",
+    src: "./assets/img/NC2/Suicide-prevention.jpg",
     tags: ["prevention"]
   },
   // end 2019-04-26 images
@@ -959,13 +998,13 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Suicide-health-priority.jpg",
+    src: "./assets/img/NC2/Suicide-health-priority.jpg",
     tags: ["vha", "prevention"]
   },
 
   {
     // updated 2090503
-    src: "./assets/img/20190503-Graphics1/Update-Students.jpg",
+    src: "./assets/img/NC2/Update-Students.jpg",
     tags: ["gibill"]
   },
 
@@ -992,7 +1031,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190423-Graphics/20190423-recruit-graduates.jpg",
+    src: "./assets/img/NC2/recruit-graduates.jpg",
     tags: ["mission"]
   },
 
@@ -1014,7 +1053,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/VA-Appeals.jpg",
+    src: "./assets/img/NC2/VA-Appeals.jpg",
     tags: ["ama"]
   },
 
@@ -1063,7 +1102,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Telehealth.jpg",
+    src: "./assets/img/NC2/Telehealth.jpg",
     tags: ["telehealth"]
   },
 
@@ -1137,13 +1176,13 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/NCA-photo.jpg",
+    src: "./assets/img/NC2/NCA-photo.jpg",
     tags: ["nca"]
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/NCA-sketch.jpg",
+    src: "./assets/img/NC2/NCA-sketch.jpg",
     tags: ["nca"]
   },
 
@@ -1164,7 +1203,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Telehealth-Tech.jpg",
+    src: "./assets/img/NC2/Telehealth-Tech.jpg",
     tags: ["telehealth"]
   },
   // end 2019-04-18 images
@@ -1211,19 +1250,19 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Urgent-care.jpg",
+    src: "./assets/img/NC2/Urgent-care.jpg",
     tags: ["vha", "mission"]
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/VA-Community-Care.jpg",
+    src: "./assets/img/NC2/VA-Community-Care.jpg",
     tags: ["vha"]
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Veterans-at-the-Center.jpg",
+    src: "./assets/img/NC2/Veterans-at-the-Center.jpg",
     tags: ["vha"]
   },
 
