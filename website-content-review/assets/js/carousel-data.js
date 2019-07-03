@@ -212,20 +212,12 @@ const data = [
     tags: ["vha"]
   },
 
-  {
-    src: "./assets/img/20190520-Graphics/VA-signal-Wilkie-quote.png",
-    tags: ["vsignals"]
-  },
 
   {
     src: "./assets/img/20190520-Graphics/Virta-and-VA-partnership.png",
     tags: ["partners"]
   },
 
-  {
-    src: "./assets/img/20190520-Graphics/Vsignals-real-time-service.png",
-    tags: ["vsignals"]
-  },
   // end 2019-05-20 images
 
   // begin 2019-05-17 images
@@ -252,10 +244,7 @@ const data = [
   // end 2019-05-17 image
 
   // begin 2019-05-15 images
-  {
-    src: "./assets/img/20190515-Graphics/TAP-graph.png",
-    tags: ["tap"]
-  },
+  
 
   {
     src: "./assets/img/MC_GRAPHICS_1A/TAP-Train-yourself.png",
@@ -277,10 +266,6 @@ const data = [
     tags: ["wartac"]
   },
 
-  {
-    src: "./assets/img/20190515-Graphics/TAP-WilkieQuote.png",
-    tags: ["tap"]
-  },
   // end 2019-05-15 images
 
   // new 2019-05-14 images
@@ -339,15 +324,6 @@ const data = [
     tags: ["ama"]
   },
 
-  {
-    src: "./assets/img/20190513-Graphics2/NWQ-graph-with-statistic-info-updated.png",
-    tags: ["nwq"]
-  },
-
-  {
-    src: "./assets/img/20190513-Graphics2/VBA-Hires-WARTAC-grads-updated.png",
-    tags: ["wartac"]
-  },
   // end updated imgs 2019-05-13
 
   // begin 2019-05-13
@@ -447,10 +423,6 @@ const data = [
     tags: ["cbcm"]
   },
 
-  {
-    src: "./assets/img/20190509-Graphics2/Increased-Pension-1.jpg",
-    tags: ["pension"]
-  },
 
   // Graphics 1
   {
@@ -466,11 +438,6 @@ const data = [
   {
     src: "./assets/img/MC_GRAPHICS_1A/Telehealth.png",
     tags: ["healthcare", "telehealth"]
-  },
-
-  {
-    src: "./assets/img/20190509-Graphics1/Robotic-cat.png",
-    tags: ["healthcare", "vha"]
   },
 
   {
@@ -574,10 +541,6 @@ const data = [
     tags: ["vsignals"]
   },
 
-  {
-    src: "./assets/img/20190501-Graphics/20190501-Vsignals-4.png",
-    tags: ["vsignals"]
-  },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Vtrust-quote-2.png",
@@ -892,23 +855,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190426-Graphics/20190426-Mobile-app-test-5.jpg",
-    tags: ["nca"]
-  },
-
-  {
     src: "./assets/img/MC_2A/National-quality-Conley-quote.png",
     tags: ["ncc"]
-  },
-
-  {
-    src: "./assets/img/20190426-Graphics/20190426-Pension-Burial-Claims-decreased.jpg",
-    tags: ["pension"]
-  },
-
-  {
-    src: "./assets/img/20190426-Graphics/20190426-Pension-James-2.png",
-    tags: ["pension"]
   },
 
   {
@@ -985,11 +933,6 @@ const data = [
   {
     src: "./assets/img/YST/Home-loan-Juan-Palacios-quote.png",
     tags: ["loan"]
-  },
-
-  {
-    src: "./assets/img/20190424-Graphics/20190424-Pension-1.jpg",
-    tags: ["pension"]
   },
 
   {
@@ -1070,10 +1013,7 @@ const data = [
     tags: ["customer", "bt"]
   },
 
-  {
-    src: "./assets/img/20190422-Graphics/20190422-disabilities-rating-update.jpg",
-    tags: ["rating"]
-  },
+  
 
   {
     src: "./assets/img/MC_3B/GI-Bill-Natl-Guard-and-Reserves.png",
@@ -1090,10 +1030,7 @@ const data = [
     tags: ["autoest"]
   },
 
-  {
-    src: "./assets/img/20190422-Graphics/20190422-Rating-schedule-VASRD.jpg",
-    tags: ["rating"]
-  },
+
 
   {
     // updated 20190503
