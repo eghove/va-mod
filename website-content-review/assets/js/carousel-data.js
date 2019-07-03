@@ -2,6 +2,90 @@
 
 const data = [
 
+  // begin 2019-07-03 images
+  {
+    src: "./assets/img/NC1/Forever-GI-Bill-Housing-Stipend-3-Poster.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/NC1/Forever-GI-Bill-Housing-Stipend-5-Poster.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/NC1/Forever-GI-Bill-Housing-Stipend-Poster-1.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/NC1/Forever-GI-Bill-Housing-Stipend-Poster.jpg",
+    tags: ["gibill"]
+  },
+
+  {
+    src: "./assets/img/NC1/Modernization-Appeals-no-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC1/Modernization-Appeals-with-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC1/Modernization-Digital-Transformation-no-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC1/Modernization-Digital-Transformation-with-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-brand-PLATFORM.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-brand-Surafeal-2.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-brand-Surafeal.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Electronic-Health-with-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Financial-Management-no-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Financial-Management-with-header.png",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Supply-Chain-no-header.jpg",
+    tags: ["mod"]
+  },
+
+  {
+    src: "./assets/img/NC2/Modernization-Supply-Chain-with-header.jpg",
+    tags: ["mod"]
+  },
+
+  // end 2019-07-03 images
+
+
   // begin 2019-07-02 images
   {
     src: "./assets/img/MC_GRAPHICS_1A/VA-Blind-Rehab-Program.png",
@@ -278,27 +362,27 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190513-Graphics/MaketheConnection-loved-one.jpg",
+    src: "./assets/img/NC1/MaketheConnection-A-loved-one.jpg",
     tags: ["partners"]
   },
 
   {
-    src: "./assets/img/20190513-Graphics/MaketheConnection-treatment-works.jpg",
+    src: "./assets/img/NC1/MaketheConnection-treatment-starts-to-work.jpg",
     tags: ["partners"]
   },
 
   {
-    src: "./assets/img/20190513-Graphics/MaketheConnection-turning-around.jpg",
+    src: "./assets/img/NC1/MaketheConnection-things-finally-turning-around.jpg",
     tags: ["partners"]
   },
 
   {
-    src: "./assets/img/20190513-Graphics/MaketheConnection.jpg",
+    src: "./assets/img/NC1/MaketheConnection-a-friend.jpg",
     tags: ["partners"]
   },
 
   {
-    src: "./assets/img/20190513-Graphics/MaketheConnection2.jpg",
+    src: "./assets/img/NC1/MaketheConnection-you-reach-out-for-support.jpg",
     tags: ["partners"]
   },
 
@@ -320,17 +404,17 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190510-Graphics/Full-services-to-Women.jpg",
+    src: "./assets/img/NC1/Full-services-to-Women.jpg",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190510-Graphics/NCA-infrastructure.jpg",
+    src: "./assets/img/NC2/NCA-infrastructure.jpg",
     tags: ["nca"]
   },
 
   {
-    src: "./assets/img/20190510-Graphics/NCA-Care.jpg",
+    src: "./assets/img/NC2/NCA-Care.jpg",
     tags: ["nca"]
   },
 
@@ -340,7 +424,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190510-Graphics/Women-Veterans-Breast-Cancer-Screenings.jpg",
+    src: "./assets/img/NC2/Women-Veterans-Breast-Cancer-Screenings.jpg",
     tags: ["vha"]
   },
   // end 2019-05-10 images
@@ -433,7 +517,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/Modern-Technology-Glaucoma-surgery.jpg",
+    src: "./assets/img/NC1/Modern-Technology-Dr-Lynch-Glaucoma.jpg",
     tags: ["healthcare"]
   },
 
@@ -448,7 +532,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/VAs-Supply-Chain.jpg",
+    src: "./assets/img/NC2/VA-Supply-Chain.jpg",
     tags: ["supply"]
   },
   // end 2019-05-06 images
@@ -476,17 +560,17 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Housing-Stipend.jpg",
+    src: "./assets/img/NC1/Housing-Stipend.jpg",
     tags: ["gibill"]
   },
 
   {
-    src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Cogsmart.jpg",
+    src: "./assets/img/NC1/Modern-Technology-Cogsmart.jpg",
     tags: ["healthcare"]
   },
 
   {
-    src: "./assets/img/20190501-Graphics/20190501-Modern-Technology-Mental-Telehealth.jpg",
+    src: "./assets/img/NC1/Modern-Technology-Mental-Telehealth.jpg",
     tags: ["healthcare"]
   },
 
@@ -513,12 +597,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-3D-printers.jpg",
+    src: "./assets/img/NC1/Modern-Technology-3D-printers.jpg",
     tags: ["healthcare"]
   },
 
   {
-    src: "./assets/img/20190430-Graphics/20190430-Modern-Technology-infertility-2.jpg",
+    src: "./assets/img/NC1/Modern-Technology-infertility-2.jpg",
     tags: ["healthcare"]
   },
 
@@ -529,7 +613,7 @@ const data = [
 
   {
     // updated 20190506
-    src: "./assets/img/20190506-Graphics/Whole-health-2.jpg",
+    src: "./assets/img/NC2/Whole-health-2.jpg",
     tags: ["vha"]
   },
 
@@ -736,12 +820,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190429-Graphics/20190429-homelessness.jpg",
+    src: "./assets/img/NC1/homelessness.jpg",
     tags: ["homeless"]
   },
 
   {
-    src: "./assets/img/20190429-Graphics/20190429-housed-homeless-vets.jpg",
+    src: "./assets/img/NC1/housed-homeless-vets.jpg",
     tags: ["homeless"]
   },
 
@@ -752,7 +836,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Opioid-safety.jpg",
+    src: "./assets/img/NC2/Opioid-safety.jpg",
     tags: ["opioid"]
   },
 
@@ -834,7 +918,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Suicide-prevention.jpg",
+    src: "./assets/img/NC2/Suicide-prevention.jpg",
     tags: ["prevention"]
   },
   // end 2019-04-26 images
@@ -914,13 +998,13 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Suicide-health-priority.jpg",
+    src: "./assets/img/NC2/Suicide-health-priority.jpg",
     tags: ["vha", "prevention"]
   },
 
   {
     // updated 2090503
-    src: "./assets/img/20190503-Graphics1/Update-Students.jpg",
+    src: "./assets/img/NC2/Update-Students.jpg",
     tags: ["gibill"]
   },
 
@@ -947,7 +1031,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190423-Graphics/20190423-recruit-graduates.jpg",
+    src: "./assets/img/NC2/recruit-graduates.jpg",
     tags: ["mission"]
   },
 
@@ -969,7 +1053,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/VA-Appeals.jpg",
+    src: "./assets/img/NC2/VA-Appeals.jpg",
     tags: ["ama"]
   },
 
@@ -987,8 +1071,8 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Business-Transformation.jpg",
-    tags: ["customer"]
+    src: "./assets/img/NC1/Business-Transformation.jpg",
+    tags: ["customer", "bt"]
   },
 
   {
@@ -1018,7 +1102,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Telehealth.jpg",
+    src: "./assets/img/NC2/Telehealth.jpg",
     tags: ["telehealth"]
   },
 
@@ -1086,19 +1170,19 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190418-Graphics/20190418-Hands-of-Veterans.jpg",
+    src: "./assets/img/NC1/Hands-of-Veterans.jpg",
     tags: ["vha"],
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/NCA-photo.jpg",
+    src: "./assets/img/NC2/NCA-photo.jpg",
     tags: ["nca"]
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/NCA-sketch.jpg",
+    src: "./assets/img/NC2/NCA-sketch.jpg",
     tags: ["nca"]
   },
 
@@ -1119,7 +1203,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Telehealth-Tech.jpg",
+    src: "./assets/img/NC2/Telehealth-Tech.jpg",
     tags: ["telehealth"]
   },
   // end 2019-04-18 images
@@ -1144,7 +1228,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Customer-service.jpg",
+    src: "./assets/img/NC1/Customer-service.jpg",
     tags: ["customer"]
   },
 
@@ -1160,25 +1244,25 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Mission-Act.jpg",
+    src: "./assets/img/NC1/Mission-Act.jpg",
     tags: ["mission"]
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Urgent-care.jpg",
+    src: "./assets/img/NC2/Urgent-care.jpg",
     tags: ["vha", "mission"]
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/VA-Community-Care.jpg",
+    src: "./assets/img/NC2/VA-Community-Care.jpg",
     tags: ["vha"]
   },
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/Veterans-at-the-Center.jpg",
+    src: "./assets/img/NC2/Veterans-at-the-Center.jpg",
     tags: ["vha"]
   },
 
@@ -1189,7 +1273,7 @@ const data = [
 
   {
     // updated 20190503
-    src: "./assets/img/20190503-Graphics1/facilities.jpg",
+    src: "./assets/img/NC1/facilities.jpg",
     tags: ["vha", "accesstocare"]
   },
 
