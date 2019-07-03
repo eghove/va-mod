@@ -285,7 +285,7 @@ const data = [
 
   // new 2019-05-14 images
   {
-    src: "./assets/img/20190514-Graphics2/LEAF.png",
+    src: "./assets/img/YST/HR-Modernization-LEAF-and-human-resources.png",
     tags: ["healthcare"]
   },
 
@@ -335,7 +335,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190513-Graphics2/First-50-days-of-AMA-updated.png",
+    src: "./assets/img/YST/First-50-days-of-AMA-2.png",
     tags: ["ama"]
   },
 
@@ -357,7 +357,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190513-Graphics/Annie-5.png",
+    src: "./assets/img/YST/HC-Tech-Annie-App.png",
     tags: ["healthcare"]
   },
 
@@ -419,7 +419,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190510-Graphics/Prolonged-exposure-PE.png",
+    src: "./assets/img/YST/HC-Tech-PE-coach-app.png",
     tags: ["healthcare"]
   },
 
@@ -433,23 +433,18 @@ const data = [
 
   // Graphics 2
   {
-    src: "./assets/img/20190509-Graphics2/API.png",
+    src: "./assets/img/YST/API-Partnership.png",
     tags: ["apis"]
   },
 
   {
-    src: "./assets/img/20190509-Graphics2/Apple-Partners-with-VA.png",
+    src: "./assets/img/YST/Apple-Partners-with-VA.png",
     tags: ["partners", "apple"]
   },
 
   {
-    src: "./assets/img/20190509-Graphics2/CBCM.png",
+    src: "./assets/img/YST/CBMC-Wilkie-quote-revised.png",
     tags: ["cbcm"]
-  },
-
-  {
-    src: "./assets/img/20190509-Graphics2/GIS-Blog-2.jpg",
-    tags: ["gps"]
   },
 
   {
@@ -464,7 +459,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190509-Graphics1/Exoskeleton.png",
+    src: "./assets/img/YST/HC-Tech-Exoskeleton-baseball-pitch.png",
     tags: ["healthcare"]
   },
 
@@ -497,7 +492,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/AI-used-for-PTSD.png",
+    src: "./assets/img/YST/AI-PTSD.png",
     tags: ["healthcare", "ai"]
   },
 
@@ -953,7 +948,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-AMA-3.jpg",
+    src: "./assets/img/YST/RAMP-ending-AMA-available.png",
     tags: ["ama"]
   },
 
@@ -983,12 +978,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-GI-Bill-quote.jpg",
+    src: "./assets/img/YST/GI-bill-quote-from-AF-Vet-Rob.png",
     tags: ["education"]
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Home-loan-Juan-Palacios.jpg",
+    src: "./assets/img/YST/Home-loan-Juan-Palacios-quote.png",
     tags: ["loan"]
   },
 
@@ -1086,12 +1081,12 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-HomeLoanGuaranty-NicholeArmyVet.jpg",
+    src: "./assets/img/YST/Home-Loan-VA-makes-it-easy-vet-quote.png",
     tags: ["loan"]
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-purple-heart-priority.jpg",
+    src: "./assets/img/YST/auto-establish-Claims.png",
     tags: ["autoest"]
   },
 
@@ -1233,7 +1228,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-GIS.jpg",
+    src: "./assets/img/YST/GIS-Variant.png",
     tags: ["nca", "gps"]
   },
 
@@ -1394,7 +1389,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-RallyPoint-and-VA.jpg",
+    src: "./assets/img/YST/RallyPoint-and-VA-collaborate.png",
     tags: ["partners"]
   },
 
@@ -1409,7 +1404,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-VA_and_Tech Companies.png",
+    src: "./assets/img/YST/VA-tech-partnership-CaneRidge.png",
     tags: ["partners"]
   },
 
@@ -1419,7 +1414,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-Walmart.png",
+    src: "./assets/img/YST/VA-Walmart-telehealth-partnership.png",
     tags: ["partners"]
   },
   // end 2019-04-11 images
