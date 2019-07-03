@@ -7,6 +7,21 @@ const data = [
     src: "./assets/img/MC_GRAPHICS_1A/VA-Blind-Rehab-Program.png",
     tags: ["vocrehab"]
   },
+
+  {
+    src: "./assets/img/MC_3A/Bedsore-Treatment.png",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/MC_3A/CEHR.png",
+    tags: ["vha", "healthcare"]
+  },
+
+  {
+    src: "./assets/img/MC_3A/Crisis-Help.png",
+    tags: ["ncc"]
+  },
   // end 2019-07-02 images
 
   // begin 2019-06-17 images
@@ -159,7 +174,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190515-Graphics/TAP-GrobergQuote2.png",
+    src: "./assets/img/MC_3A/Be-an-example.png",
     tags: ["tap"]
   },
 
@@ -248,7 +263,7 @@ const data = [
 
   // begin 2019-05-13
   {
-    src: "./assets/img/20190513-Graphics/AI-precision-oncology.png",
+    src: "./assets/img/20190513-Graphics//AI-Precision-oncology.png",
     tags: ["ai", "healthcare"]
   },
 
@@ -295,7 +310,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190510-Graphics/AI-PTSD.png",
+    src: "./assets/img/MC_3A/AI-PTSD.png",
     tags: ["ai"]
   },
 
@@ -383,12 +398,12 @@ const data = [
 
   // begin 2019-05-06 images
   {
-    src: "./assets/img/20190506-Graphics/3D-Dental.png",
+    src: "./assets/img/MC_3A/3D-Dental.png",
     tags: ["healthcare"]
   },
 
   {
-    src: "./assets/img/20190506-Graphics/3D-Lung.png",
+    src: "./assets/img/MC_3A/3D-Lung.png",
     tags: ["healthcare"]
   },
 
@@ -435,12 +450,12 @@ const data = [
 
   // begin 2019-05-01 images
   {
-    src: "./assets/img/20190501-Graphics/20190501-AI1.jpg",
+    src: "./assets/img/MC_3A/3D-printing.png",
     tags: ["ai"]
   },
 
   {
-    src: "./assets/img/20190501-Graphics/20190501-AI4.jpg",
+    src: "./assets/img/MC_3A/AI-in-Action.png",
     tags: ["ai"]
   },
 
@@ -711,7 +726,7 @@ const data = [
 
   // begin 2019-04-29 images
   {
-    src: "./assets/img/20190429-Graphics/20190429-BDDQuote2.jpg",
+    src: "./assets/img/MC_3A/BDD-and-Wilkie-Quote.png",
     tags: ["predischarge"]
   },
 
@@ -864,7 +879,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-BDD.jpg",
+    src: "./assets/img/MC_3A/BDD-claims.png",
     tags: ["predischarge"]
   },
 
