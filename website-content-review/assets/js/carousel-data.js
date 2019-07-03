@@ -7,16 +7,36 @@ const data = [
     src: "./assets/img/MC_GRAPHICS_1A/VA-Blind-Rehab-Program.png",
     tags: ["vocrehab"]
   },
-  // end 2019-07-02 images
 
-  // begin 2019-06-17 images
   {
-    src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterview.png",
+    src: "./assets/img/MC_3A/Bedsore-Treatment.png",
     tags: ["vha"]
   },
 
   {
-    src: "./assets/img/20190617-Graphics/HealthCareSystemFNInterviewEsp.png",
+    src: "./assets/img/MC_3A/CEHR.png",
+    tags: ["vha", "healthcare"]
+  },
+
+  {
+    src: "./assets/img/MC_3A/Crisis-Help.png",
+    tags: ["ncc"]
+  },
+
+  {
+    src: "./assets/img/MC_3B/Dr-Spector-quote.png",
+    tags: ["ai"]
+  },
+  // end 2019-07-02 images
+
+  // begin 2019-06-17 images
+  {
+    src: "./assets/img/MC_3B/HealthCare-FN-Interview.png",
+    tags: ["vha"]
+  },
+
+  {
+    src: "./assets/img/MC_3B/HealthCare-FN-Interview-Esp.png",
     tags: ["vha", "spanish"]
   },
 
@@ -86,7 +106,7 @@ const data = [
   // begin 2019-05-30 images
 
   {
-    src: "./assets/img/20190530-Graphics/HealthcareTechAdv3DKidney.png",
+    src: "./assets/img/MC_3B/Dr-Ripley-3D-kidney.png",
     tags: ["healthcare"]
   },
   // end 2019-05-30 images
@@ -136,7 +156,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190517-Graphics/VA-Transformation.jpg",
+    src: "./assets/img/MC_3B/Feel-Welcome-Wilkie.png",
     tags: ["mod"]
   },
 
@@ -159,7 +179,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190515-Graphics/TAP-GrobergQuote2.png",
+    src: "./assets/img/MC_3A/Be-an-example.png",
     tags: ["tap"]
   },
 
@@ -208,7 +228,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190514-Graphics/NCCQuote.png",
+    src: "./assets/img/MC_3B/Crolwey-quote-on-NCC.png",
     tags: ["ncc"]
   },
 
@@ -248,7 +268,7 @@ const data = [
 
   // begin 2019-05-13
   {
-    src: "./assets/img/20190513-Graphics/AI-precision-oncology.png",
+    src: "./assets/img/MC_3A/AI-precision-oncology.png",
     tags: ["ai", "healthcare"]
   },
 
@@ -290,12 +310,12 @@ const data = [
 
   // begin 2019-05-10 images
   {
-    src: "./assets/img/20190510-Graphics/DrStone.png",
+    src: "./assets/img/MC_3B/Dr-Stone-Networked-VA.png",
     tags: ["healthcare"]
   },
 
   {
-    src: "./assets/img/20190510-Graphics/AI-PTSD.png",
+    src: "./assets/img/MC_3A/AI-PTSD.png",
     tags: ["ai"]
   },
 
@@ -355,7 +375,7 @@ const data = [
 
   // Graphics 1
   {
-    src: "./assets/img/20190509-Graphics1/Digital-transformation-Cussatt.png",
+    src: "./assets/img/MC_3B/Digital-Transformation-Cussatt-quote.png",
     tags: ["it"]
   },
 
@@ -383,12 +403,12 @@ const data = [
 
   // begin 2019-05-06 images
   {
-    src: "./assets/img/20190506-Graphics/3D-Dental.png",
+    src: "./assets/img/MC_3A/3D-Dental.png",
     tags: ["healthcare"]
   },
 
   {
-    src: "./assets/img/20190506-Graphics/3D-Lung.png",
+    src: "./assets/img/MC_3A/3D-Lung.png",
     tags: ["healthcare"]
   },
 
@@ -408,7 +428,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/IT-Modernization2.png",
+    src: "./assets/img/MC_3B/DoD-and-Scott-Blackburn-Quote.png",
     tags: ["bt", "it"]
   },
 
@@ -435,12 +455,12 @@ const data = [
 
   // begin 2019-05-01 images
   {
-    src: "./assets/img/20190501-Graphics/20190501-AI1.jpg",
+    src: "./assets/img/MC_3A/3D-printing.png",
     tags: ["ai"]
   },
 
   {
-    src: "./assets/img/20190501-Graphics/20190501-AI4.jpg",
+    src: "./assets/img/MC_3A/AI-in-Action.png",
     tags: ["ai"]
   },
 
@@ -711,7 +731,7 @@ const data = [
 
   // begin 2019-04-29 images
   {
-    src: "./assets/img/20190429-Graphics/20190429-BDDQuote2.jpg",
+    src: "./assets/img/MC_3A/BDD-and-Wilkie-Quote.png",
     tags: ["predischarge"]
   },
 
@@ -864,7 +884,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-BDD.jpg",
+    src: "./assets/img/MC_3A/BDD-claims.png",
     tags: ["predischarge"]
   },
 
@@ -977,7 +997,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-ForeverGiBillNG.jpg",
+    src: "./assets/img/MC_3B/GI-Bill-Natl-Guard-and-Reserves.png",
     tags: ["gibill"]
   },
 
@@ -1270,7 +1290,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-CuspRobotAssistedSurgery2.jpg",
+    src: "./assets/img/MC_3B/Cusp.png",
     tags: ["vha"]
   },
 
