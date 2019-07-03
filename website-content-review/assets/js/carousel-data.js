@@ -212,20 +212,12 @@ const data = [
     tags: ["vha"]
   },
 
-  {
-    src: "./assets/img/20190520-Graphics/VA-signal-Wilkie-quote.png",
-    tags: ["vsignals"]
-  },
 
   {
     src: "./assets/img/20190520-Graphics/Virta-and-VA-partnership.png",
     tags: ["partners"]
   },
 
-  {
-    src: "./assets/img/20190520-Graphics/Vsignals-real-time-service.png",
-    tags: ["vsignals"]
-  },
   // end 2019-05-20 images
 
   // begin 2019-05-17 images
@@ -252,10 +244,7 @@ const data = [
   // end 2019-05-17 image
 
   // begin 2019-05-15 images
-  {
-    src: "./assets/img/20190515-Graphics/TAP-graph.png",
-    tags: ["tap"]
-  },
+  
 
   {
     src: "./assets/img/MC_GRAPHICS_1A/TAP-Train-yourself.png",
@@ -277,15 +266,11 @@ const data = [
     tags: ["wartac"]
   },
 
-  {
-    src: "./assets/img/20190515-Graphics/TAP-WilkieQuote.png",
-    tags: ["tap"]
-  },
   // end 2019-05-15 images
 
   // new 2019-05-14 images
   {
-    src: "./assets/img/20190514-Graphics2/LEAF.png",
+    src: "./assets/img/YST/HR-Modernization-LEAF-and-human-resources.png",
     tags: ["healthcare"]
   },
 
@@ -335,19 +320,10 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190513-Graphics2/First-50-days-of-AMA-updated.png",
+    src: "./assets/img/YST/First-50-days-of-AMA-2.png",
     tags: ["ama"]
   },
 
-  {
-    src: "./assets/img/20190513-Graphics2/NWQ-graph-with-statistic-info-updated.png",
-    tags: ["nwq"]
-  },
-
-  {
-    src: "./assets/img/20190513-Graphics2/VBA-Hires-WARTAC-grads-updated.png",
-    tags: ["wartac"]
-  },
   // end updated imgs 2019-05-13
 
   // begin 2019-05-13
@@ -357,7 +333,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190513-Graphics/Annie-5.png",
+    src: "./assets/img/YST/HC-Tech-Annie-App.png",
     tags: ["healthcare"]
   },
 
@@ -419,7 +395,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190510-Graphics/Prolonged-exposure-PE.png",
+    src: "./assets/img/YST/HC-Tech-PE-coach-app.png",
     tags: ["healthcare"]
   },
 
@@ -433,29 +409,20 @@ const data = [
 
   // Graphics 2
   {
-    src: "./assets/img/20190509-Graphics2/API.png",
+    src: "./assets/img/YST/API-Partnership.png",
     tags: ["apis"]
   },
 
   {
-    src: "./assets/img/20190509-Graphics2/Apple-Partners-with-VA.png",
+    src: "./assets/img/YST/Apple-Partners-with-VA.png",
     tags: ["partners", "apple"]
   },
 
   {
-    src: "./assets/img/20190509-Graphics2/CBCM.png",
+    src: "./assets/img/YST/CBMC-Wilkie-quote-revised.png",
     tags: ["cbcm"]
   },
 
-  {
-    src: "./assets/img/20190509-Graphics2/GIS-Blog-2.jpg",
-    tags: ["gps"]
-  },
-
-  {
-    src: "./assets/img/20190509-Graphics2/Increased-Pension-1.jpg",
-    tags: ["pension"]
-  },
 
   // Graphics 1
   {
@@ -464,18 +431,13 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190509-Graphics1/Exoskeleton.png",
+    src: "./assets/img/YST/HC-Tech-Exoskeleton-baseball-pitch.png",
     tags: ["healthcare"]
   },
 
   {
     src: "./assets/img/MC_GRAPHICS_1A/Telehealth.png",
     tags: ["healthcare", "telehealth"]
-  },
-
-  {
-    src: "./assets/img/20190509-Graphics1/Robotic-cat.png",
-    tags: ["healthcare", "vha"]
   },
 
   {
@@ -497,7 +459,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190506-Graphics/AI-used-for-PTSD.png",
+    src: "./assets/img/YST/AI-PTSD.png",
     tags: ["healthcare", "ai"]
   },
 
@@ -579,10 +541,6 @@ const data = [
     tags: ["vsignals"]
   },
 
-  {
-    src: "./assets/img/20190501-Graphics/20190501-Vsignals-4.png",
-    tags: ["vsignals"]
-  },
 
   {
     src: "./assets/img/20190501-Graphics/20190501-Vtrust-quote-2.png",
@@ -897,23 +855,8 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190426-Graphics/20190426-Mobile-app-test-5.jpg",
-    tags: ["nca"]
-  },
-
-  {
     src: "./assets/img/MC_2A/National-quality-Conley-quote.png",
     tags: ["ncc"]
-  },
-
-  {
-    src: "./assets/img/20190426-Graphics/20190426-Pension-Burial-Claims-decreased.jpg",
-    tags: ["pension"]
-  },
-
-  {
-    src: "./assets/img/20190426-Graphics/20190426-Pension-James-2.png",
-    tags: ["pension"]
   },
 
   {
@@ -953,7 +896,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-AMA-3.jpg",
+    src: "./assets/img/YST/RAMP-ending-AMA-available.png",
     tags: ["ama"]
   },
 
@@ -983,18 +926,13 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-GI-Bill-quote.jpg",
+    src: "./assets/img/YST/GI-bill-quote-from-AF-Vet-Rob.png",
     tags: ["education"]
   },
 
   {
-    src: "./assets/img/20190424-Graphics/20190424-Home-loan-Juan-Palacios.jpg",
+    src: "./assets/img/YST/Home-loan-Juan-Palacios-quote.png",
     tags: ["loan"]
-  },
-
-  {
-    src: "./assets/img/20190424-Graphics/20190424-Pension-1.jpg",
-    tags: ["pension"]
   },
 
   {
@@ -1075,10 +1013,7 @@ const data = [
     tags: ["customer", "bt"]
   },
 
-  {
-    src: "./assets/img/20190422-Graphics/20190422-disabilities-rating-update.jpg",
-    tags: ["rating"]
-  },
+  
 
   {
     src: "./assets/img/MC_3B/GI-Bill-Natl-Guard-and-Reserves.png",
@@ -1086,19 +1021,16 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-HomeLoanGuaranty-NicholeArmyVet.jpg",
+    src: "./assets/img/YST/Home-Loan-VA-makes-it-easy-vet-quote.png",
     tags: ["loan"]
   },
 
   {
-    src: "./assets/img/20190422-Graphics/20190422-purple-heart-priority.jpg",
+    src: "./assets/img/YST/auto-establish-Claims.png",
     tags: ["autoest"]
   },
 
-  {
-    src: "./assets/img/20190422-Graphics/20190422-Rating-schedule-VASRD.jpg",
-    tags: ["rating"]
-  },
+
 
   {
     // updated 20190503
@@ -1233,7 +1165,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190417-Graphics/20190417-GIS.jpg",
+    src: "./assets/img/YST/GIS-Variant.png",
     tags: ["nca", "gps"]
   },
 
@@ -1394,7 +1326,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-RallyPoint-and-VA.jpg",
+    src: "./assets/img/YST/RallyPoint-and-VA-collaborate.png",
     tags: ["partners"]
   },
 
@@ -1409,7 +1341,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-VA_and_Tech Companies.png",
+    src: "./assets/img/YST/VA-tech-partnership-CaneRidge.png",
     tags: ["partners"]
   },
 
@@ -1419,7 +1351,7 @@ const data = [
   },
 
   {
-    src: "./assets/img/20190411-Graphics/20190411-Walmart.png",
+    src: "./assets/img/YST/VA-Walmart-telehealth-partnership.png",
     tags: ["partners"]
   },
   // end 2019-04-11 images
